@@ -22,9 +22,11 @@ main {
 }
 
 .community-two-column.parbase .retain{
- padding-left: 15px;
- padding-right: 15px;
- max-width: unset;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: unset;
 }
 
 .two-column-community .row .col-md-6:first-child {
@@ -53,8 +55,8 @@ main {
   padding: 0;
 }
 
-.community-map-wrapper {
-  padding-right: 0px;
+.reviews-community-wrapper .container {
+  padding: 0;
 }
 
 .community-map-wrapper>div {
@@ -66,24 +68,27 @@ main {
   padding: 0;
 }
 
+.closest-communities .retain {
+max-width: unset;
+}
+
 .closest-communities__item {
     min-width: unset;
     width: 30.66667%;
 }
 
-.closest-communities__list .closest-communities__item:first-of-type {
+.closest-communities__list .js-search-listing-0 {
   margin-left: 0;
 }
 
-.closest-communities__list .closest-communities__item:last-of-type {
+.closest-communities__list .js-search-listing-2 {
   margin-right: 0;
 }
 
-.video.js-video-player {
+.video-player .video {
     margin: 0;
     max-width: unset;
 }
-
 
 #return-to-top {
   display: none !important;
