@@ -88,6 +88,10 @@ main {
   max-width: unset;
 }
 
+.b-contactform__compliance {
+  width: auto;
+}
+
 /* End Form Styles */
 
 .community-description-wrapper {
