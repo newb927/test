@@ -2,7 +2,7 @@ header.ctcore-header .retain, .ctcore-header__row--second {
   max-width: unset;
 }
 
-.test-wrapper {
+#test-wrapper {
   background-color: #f9f9f9;
   margin-right: 20px;
 }
