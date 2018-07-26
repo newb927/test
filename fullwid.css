@@ -83,7 +83,7 @@ main {
   max-width: unset;
 }
 
-.b-contactform__contactinfo>.b-contactform__button input {
+#contact-form-submit {
   width: 100%;
 }
 
