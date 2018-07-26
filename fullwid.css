@@ -2,35 +2,31 @@ header.ctcore-header .retain, .ctcore-header__row--second {
   max-width: unset;
 }
 
-.test-row {
-  position: relative;
-  width: 100%;}
-
-.test-row::after {
-  content: "";
-  display: table;
-  clear: both; }
+.test-wrapper {
+  background-color: #f9f9f9;
+  margin-right: 20px;
+}
 
 main {
   width: 75%;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
+  background-color: #fff;
 }
 
 #test-aside {
   width: 25%;
-  padding-right: 20px;
   position: absolute;
   top: 130px;
   right: 0;
-  bottom: 0;
 }
 
 /* Form Syles */
 
 .b-contactform {
   padding-top: 30px;
+  margin-right: 20px;
 }
 
 .b-contactform .container {
@@ -43,7 +39,6 @@ main {
 }
 
 .b-contactform__form {
-  background: #f9f9f9;
   -ms-flex-direction: column;
   flex-direction: column;
 }
@@ -86,6 +81,10 @@ main {
 
 .b-contactform__contactinfo>.b-contactform__button {
   max-width: unset;
+}
+
+.b-contactform__contactinfo>.b-contactform__button input {
+  width: 100%;
 }
 
 .b-contactform__compliance {
