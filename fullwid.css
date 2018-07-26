@@ -20,12 +20,11 @@ main {
 
 #test-aside {
   width: 25%;
-  padding-left: 10px;
   padding-right: 20px;
   position: absolute;
   top: 130px;
   right: 0;
-  background-color: #f9f9f9;
+  bottom: 0;
 }
 
 /* Form Syles */
@@ -39,7 +38,8 @@ main {
   max-width: unset;
   margin-right: 0;
   margin-left: 0;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .b-contactform__form {
