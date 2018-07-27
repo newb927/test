@@ -113,6 +113,14 @@ main {
   max-width: unset;
 }
 
+.title-wrapper .title {
+    text-align: left;
+}
+
+.title-wrapper .title .headline2::before, .title-wrapper .title h2::before {
+ display: none; 
+}
+
 .two-column-community .row .col-md-6:first-child {
   padding-left: 0px;
 }
@@ -141,6 +149,11 @@ main {
 
 .reviews-community-wrapper .container {
   padding: 0;
+}
+
+.community-map-wrapper {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .community-map-wrapper>div {
@@ -196,3 +209,24 @@ footer.footer .contaienr {
 
 
 /* Additional CSS */
+
+.test-fill {
+   background-color: #f9f9f9;
+   width: 25%;
+   position: absolute;
+   height: 80px;
+   z-index: 2;
+   margin-right: 20px;
+   right: 0;
+}
+
+footer.footer .divider::before {
+  .divider:before {
+    background-image: linear-gradient(to right,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
+}
+
+footer.footer .divider::after {
+  background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
+}
+  
+ 
