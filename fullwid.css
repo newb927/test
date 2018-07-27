@@ -20,6 +20,7 @@ main {
   position: absolute;
   top: 130px;
   right: 0;
+  z-index: 3;
 }
 
 /* Form Syles */
@@ -38,6 +39,11 @@ main {
 body.header-revealed .b-contactform {
   transition: top .4s ease-in;
   top: 71px;
+}
+
+.b-contactform.fixed-2 {
+  top: unset !important;
+  bottom: 0;
 }
 
 .b-contactform .container {
@@ -223,7 +229,7 @@ max-width: unset;
 }
 
 .js-video-player p {
-  text-align: left;
+  margin-left: 0;
 }
 
 #return-to-top {
