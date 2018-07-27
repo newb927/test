@@ -203,6 +203,10 @@ max-width: unset;
     max-width: unset;
 }
 
+.js-video-player .video-cta {
+  padding-left: 100px;
+}
+
 .js-video-player h2, .js-video-player .video-btn {
   margin-right: auto;
 }
