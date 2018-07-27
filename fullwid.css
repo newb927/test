@@ -44,6 +44,7 @@ main {
 .b-contactform {
   padding-top: 30px;
   margin-right: 20px;
+  margin-left: 0px;
   transition: top .2s ease-in;
 }
 
