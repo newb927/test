@@ -20,15 +20,14 @@ main {
 #test-aside {
   width: 25%;
   float: left;
-  position: absolute;
   top: 130px;
   right: 0;
 }
 
-#test-aside.bottom {
+/*#test-aside.bottom {
   position: fixed;
   bottom: 0px;
-}
+}*/
 
 /* Form Syles */
 
@@ -48,10 +47,10 @@ body.header-revealed .b-contactform {
   top: 71px !important;
 }
 
-#test-aside.bottom .b-contactform {
+/*#test-aside.bottom .b-contactform {
   position: absolute !important;
   top: unset !important;
-}
+}*/
 
 .b-contactform .container {
   width: auto;
@@ -299,6 +298,7 @@ footer.footer .divider::after {
   background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
   width: 100%;
 }
+
 
 /* Additional Reviews CSS */
 
