@@ -21,6 +21,15 @@ main {
   width: 25%;
   float: left;
   top: 130px;
+}
+
+#test-fill {
+  background-color: #f9f9f9;
+  width: 25%;
+  position: absolute;
+  height: 80px;
+  margin-bottom: -80px;
+  z-index: 2;
   right: 0;
 }
 
@@ -59,6 +68,15 @@ body.header-revealed .b-contactform {
   margin-left: 0;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.b-contactform .container {
+    width: auto;
+    max-width: unset;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .b-contactform__form {
@@ -276,17 +294,6 @@ max-width: unset;
 
 footer.footer .contaienr {
   max-width: 1200px;
-}
-
-#test-fill {
-  background-color: #f9f9f9;
-  width: 25%;
-  position: absolute;
-  height: 79px;
-  z-index: 2;
-  margin-right: 20px;
-  right: 0;
-  border-left: 5px solid #fff;
 }
 
 footer.footer .divider::before {
