@@ -25,7 +25,7 @@ main {
 
 #test-aside.bottom {
   position: fixed;
-  bottom: 584px;
+  bottom: 0px;
 }
 
 /* Form Syles */
@@ -50,7 +50,7 @@ body.header-revealed .b-contactform {
 #test-aside.bottom .b-contactform {
   position: absolute !important;
   top: unset !important;
-  bottom: 20px !important;
+  bottom: 584px !important;
 }
 
 .b-contactform .container {
@@ -283,7 +283,7 @@ footer.footer .contaienr {
   background-color: #f9f9f9;
   width: 25%;
   position: absolute;
-  height: 80px;
+  height: 79px;
   z-index: 2;
   margin-right: 20px;
   right: 0;
