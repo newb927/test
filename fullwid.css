@@ -283,3 +283,11 @@ footer.footer .divider::after {
   position: fixed;
   top: 71px;
 }
+
+.b-contactform {
+  transition: top .2s ease-in;
+}
+
+body.header-revealed .b-contactform {
+  transition: top .4s ease-in;
+}
