@@ -147,6 +147,14 @@ main {
   padding: 0;
 }
 
+.downloads-wrapper .row div {
+  text-align: left;
+}
+
+.downloads-wrapper .headline2 {
+  margin-left: 6px;
+}
+
 #reviews, .reviews-community-wrapper .container {
   padding: 0;
 }
@@ -156,7 +164,7 @@ main {
 }
 
 .reviews-community-wrapper button {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 .community-map-wrapper {
@@ -211,6 +219,22 @@ max-width: unset;
   }
 }
 
+.cta.parbase .header-text {
+  width: auto;
+}
+
+.cta.parbase .header-text>div {
+  margin: 0;
+}
+
+.cta.parbase .text-center {
+  text-align: left;
+}
+
+.cta.parbase a.btn.btn-primary.hidden-xs.hidden-sm {
+  margin-left: 0;
+}
+
 footer.footer .contaienr {
   max-width: 1200px;
 }
@@ -218,7 +242,7 @@ footer.footer .contaienr {
 
 /* Additional CSS */
 
-.test-fill {
+#test-fill {
    background-color: #f9f9f9;
    width: 25%;
    position: absolute;
