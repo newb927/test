@@ -43,9 +43,9 @@ body.header-revealed .b-contactform {
 }
 
 .b-contactform.fixed-2 {
-  position: absolute;
-  top: unset;
-  bottom: 20px;
+  position: absolute !important;
+  top: unset !important;
+  bottom: 20px !important;
 }
 
 .b-contactform .container {
