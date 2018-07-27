@@ -254,12 +254,9 @@ footer.footer .contaienr {
 }
 
 footer.footer .divider::before {
-  .divider:before {
     background-image: linear-gradient(to right,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
 }
 
 footer.footer .divider::after {
   background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
 }
-  
- 
