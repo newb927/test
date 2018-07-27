@@ -49,7 +49,7 @@ main {
     margin-left: 0;
 }
 
-#test-aside.fixed-1 .b-contactform {
+#test-aside.fixed .b-contactform {
   position: fixed;
   margin-right: 20px;
   top: 0;
@@ -58,6 +58,12 @@ main {
 body.header-revealed .b-contactform {
   transition: top .4s ease-in;
   top: 71px !important;
+}
+
+.b-contactform.static {
+  position: absolute !important;
+  bottom: 0 !important;
+  top: unset !important;
 }
 
 /*#test-aside.bottom .b-contactform {
