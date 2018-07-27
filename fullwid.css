@@ -41,10 +41,9 @@ main {
   top: 0;
 }
 
-
 body.header-revealed .b-contactform {
   transition: top .4s ease-in;
-  top: 71px;
+  top: 71px !important;
 }
 
 #test-aside.bottom .b-contactform {
