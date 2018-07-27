@@ -20,7 +20,7 @@ main {
   position: absolute;
   top: 130px;
   right: 0;
-  z-index: 3;
+  /*z-index: 3;*/
 }
 
 #test-aside.bottom {
