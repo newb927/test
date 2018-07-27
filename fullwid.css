@@ -23,6 +23,11 @@ main {
   z-index: 3;
 }
 
+#test-aside.bottom {
+  position: fixed;
+  bottom: 584px;
+}
+
 /* Form Syles */
 
 .b-contactform {
@@ -31,7 +36,7 @@ main {
   transition: top .2s ease-in;
 }
 
-.b-contactform.fixed-1 {
+#test-aside.fixed-1 .b-contactform {
   position: fixed;
   top: 0;
 }
@@ -42,7 +47,7 @@ body.header-revealed .b-contactform {
   top: 71px;
 }
 
-.b-contactform.fixed-2 {
+#test-aside.bottom .b-contactform {
   position: absolute !important;
   top: unset !important;
   bottom: 20px !important;
