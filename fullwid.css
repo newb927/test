@@ -27,6 +27,17 @@ main {
 .b-contactform {
   padding-top: 30px;
   margin-right: 20px;
+  transition: top .2s ease-in;
+}
+
+.b-contactform.fixed-1 {
+  position: fixed;
+  top: 0;
+}
+
+body.header-revealed .b-contactform {
+  transition: top .4s ease-in;
+  top: 71px;
 }
 
 .b-contactform .container {
@@ -272,22 +283,4 @@ footer.footer .divider::before {
 footer.footer .divider::after {
   background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
   width: 100%;
-}
-
-.b-contactform.fixed-1 {
-  position: fixed;
-  top: 0;
-}
-
-.b-contactform.fixed-2 {
-  position: fixed;
-  top: 71px;
-}
-
-.b-contactform {
-  transition: top .2s ease-in;
-}
-
-body.header-revealed .b-contactform {
-  transition: top .4s ease-in;
 }
