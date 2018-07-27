@@ -273,3 +273,13 @@ footer.footer .divider::after {
   background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
   width: 100%;
 }
+
+.b-contactform.fixed-1 {
+  position: fixed;
+  top: 0;
+}
+
+.b-contactform.fixed-2 {
+  position: fixed;
+  top: 71px;
+}
