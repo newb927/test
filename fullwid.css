@@ -231,7 +231,7 @@ max-width: unset;
 }
 
 .js-video-player p {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 #return-to-top {
