@@ -147,8 +147,16 @@ main {
   padding: 0;
 }
 
-.reviews-community-wrapper .container {
+#reviews, .reviews-community-wrapper .container {
   padding: 0;
+}
+
+#reviews .text-center, #reviews p {
+  text-align: left;
+}
+
+.reviews-community-wrapper button {
+  margin-left: 0;
 }
 
 .community-map-wrapper {
