@@ -50,7 +50,6 @@ body.header-revealed .b-contactform {
 #test-aside.bottom .b-contactform {
   position: absolute !important;
   top: unset !important;
-  bottom: 584px !important;
 }
 
 .b-contactform .container {
