@@ -207,8 +207,6 @@ max-width: unset;
   display: none !important;
 }
 
-/* Possible Container Styles */
-
 .container {
   width: auto;
 }
@@ -239,9 +237,6 @@ max-width: unset;
 footer.footer .contaienr {
   max-width: 1200px;
 }
-
-
-/* Additional CSS */
 
 #test-fill {
    background-color: #f9f9f9;
