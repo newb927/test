@@ -229,6 +229,7 @@ max-width: unset;
 
 .cta.parbase .text-center {
   text-align: left;
+  padding: 0;
 }
 
 .cta.parbase a.btn.btn-primary.hidden-xs.hidden-sm {
