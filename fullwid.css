@@ -203,6 +203,14 @@ max-width: unset;
     max-width: unset;
 }
 
+.js-video-player h2, .js-video-player .video-btn {
+  margin-right: auto;
+}
+
+.js-video-player p {
+  text-align: left;
+}
+
 #return-to-top {
   display: none !important;
 }
@@ -228,6 +236,10 @@ max-width: unset;
 .cta.parbase .text-center {
   text-align: left;
   padding: 0;
+}
+
+.cta.parbase .headline2 {
+  margin-top: 20px;
 }
 
 .cta.parbase a.btn.btn-primary.hidden-xs.hidden-sm {
