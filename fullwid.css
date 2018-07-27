@@ -248,6 +248,7 @@ max-width: unset;
 
 .cta.parbase .header-text {
   width: auto;
+  margin-left: 0;
 }
 
 .cta.parbase .header-text>div {
