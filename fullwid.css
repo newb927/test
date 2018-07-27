@@ -290,3 +290,20 @@ footer.footer .divider::after {
   background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
   width: 100%;
 }
+
+
+/* Additional Reviews CSS */
+
+.fyre-reviews-breakdown {
+  width: 50%;
+  float: left;
+}
+
+.fyre-review-title {
+  padding-top: 30px;
+  margin-left: 0;
+}
+
+.fyre-comment-date {
+  left: 95px;
+}
