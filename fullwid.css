@@ -354,7 +354,7 @@ footer.footer .divider::after {
   opacity: 0;
   transition: opacty .15s linear;
   position: fixed;
-  z-index: 1040;
+  z-index: -1;
   top: 0;
   right: 0;
   bottom: 0;
@@ -362,6 +362,7 @@ footer.footer .divider::after {
 }
 
 .show-test-backdrop #test-backdrop {
+  z-index: 1040;
   opacity: .5;
 }
 
