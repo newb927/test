@@ -372,6 +372,9 @@ body.header-revealed #test-backdrop {
 
 .show-test-backdrop .b-contactform {
   z-index: 1041;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 .show-test-backdrop #nav-stripe, .show-test-backdrop .ctcore-header  {
@@ -395,7 +398,7 @@ body.header-revealed #stripe-backdrop {
   height: 75px;
 }
 
-#stripe-backdrop.test-show {
+.show-test-backdrop #stripe-backdrop {
   z-index: 1043;
   opacity: .5;
 }
