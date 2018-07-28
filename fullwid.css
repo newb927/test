@@ -229,6 +229,14 @@ body.header-revealed .b-contactform {
     margin-right: 0;
 }
 
+.map-proximity-overlay-container {
+  padding-left: 30px !important;
+}
+
+.map-proximity-overlay {
+  left: 0 !important;
+}
+
 .closest-communities {
   padding: 0;
 }
@@ -256,7 +264,7 @@ max-width: unset;
 }
 
 .js-video-player .video-cta {
-  padding-left: 100px;
+  padding-left: 100px !important;
 }
 
 .js-video-player h2, .js-video-player .video-btn {
@@ -265,6 +273,7 @@ max-width: unset;
 
 .js-video-player p {
   margin-left: 0 !important;
+  text-align: left;
 }
 
 #return-to-top {
@@ -339,3 +348,8 @@ footer.footer .divider::after {
 }
 
 /* End Reviews CSS*/
+
+#test-backdrop {
+  background-color: #000;
+  opacity: .5;
+}
