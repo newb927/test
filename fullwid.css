@@ -370,10 +370,23 @@ footer.footer .divider::after {
   z-index: 1041;
 }
 
-.show-test-backdrop .b-contactform {
-  z-index: 1041;
+.show-test-backdrop #nav-stripe, .show-test-backdrop .ctcore-header  {
+  z-index: 1042;
 }
 
-.show-test-backdrop #nav-stripe, .show-test-backdrop .ctcore-header  {
-  z-index: 1040;
+#stripe-backdrop {
+  background-color: #000;
+  opacity: 0;
+  transition: opacty .15s linear;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 71px;
+  left: 0;
+}
+
+#stripe-backdrop.test-show {
+  z-index: 1043;
+  opacity: .5;
 }
