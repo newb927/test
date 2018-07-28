@@ -361,7 +361,7 @@ footer.footer .divider::after {
   left: 0;
   -ms-transform: translateY(130px);
   transform: translateY(130px);
-  transition: transform .4s ease-in;
+  /*transition: transform .4s ease-in;*/
 }
 
 body.header-revealed #test-backdrop {
@@ -392,7 +392,7 @@ body.header-revealed #test-backdrop {
   left: 0;
   right: 0;
   height: 130px;
-  transition: height .4s ease-in;
+  /*transition: height .4s ease-in;*/
 }
 
 body.header-revealed #stripe-backdrop {
