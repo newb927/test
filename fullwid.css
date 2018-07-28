@@ -404,3 +404,34 @@ body.header-revealed #stripe-backdrop {
   opacity: .5;
 }
 
+/* Tweak Success and Failure Message CSS */
+
+.b-contactform--showingSuccess {
+  margin-left: 0;
+}
+
+.b-contactform--showingSuccess #is-b-contactform {
+  display: none;
+}
+
+.b-contactform--showingSuccess.fixed {
+  background-color: transparent;
+}
+
+.contact-us-success.success-message {
+  width: 100%;
+  position: unset;
+  margin-left: 0 !important;
+}
+
+.b-contactform--showingSuccess.fixed .contact-us-success.success-message p, .b-contactform--showingSuccess.fixed .contact-us-success.success-message h3 {
+  padding-right: 40px;
+}
+
+.b-contactform--showingSuccess .button-group div {
+  margin-left: -20px;
+}
+
+.b-contactform--showingSuccess .button-group a {
+  margin-left: -35px;
+}
