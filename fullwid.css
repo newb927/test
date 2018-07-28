@@ -412,6 +412,7 @@ body.header-revealed #stripe-backdrop {
 }
 
 .b-contactform--showingSuccess #is-b-contactform {
+  margin-left: 0 !important;
   display: none;
 }
 
@@ -424,12 +425,21 @@ body.header-revealed #stripe-backdrop {
   width: 100%;
   position: unset;
   margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.b-contactform--showingSuccess .button-group div {
-  margin-left: -20px;
+.b-contactform--showingSuccess.fixed .success-message p, .b-contactform--showingSuccess.fixed .success-message h3 {
+  padding-right: 5px;
+}
+
+.b-contactform--showingSuccess .success-message .button-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .b-contactform--showingSuccess .button-group button {
-   margin-left: 15px;
+    margin: 0 0 10px -10px;
 }
