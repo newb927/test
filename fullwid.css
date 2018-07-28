@@ -35,18 +35,12 @@ main {
   right: 0;
 }
 
-/*#test-aside.bottom {
-  position: fixed;
-  bottom: 0px;
-}*/
-
-/* Form Syles */
-
 .b-contactform {
-    padding-top: 30px;
-    margin-right: 0px;
-    transition: top .2s ease-in;
-    margin-left: 0;
+  padding-top: 30px;
+  margin-right: 0px;
+  transition: top .2s ease-in;
+  margin-left: 0;
+  position: relative;
 }
 
 .b-contactform.fixed {
@@ -67,27 +61,22 @@ body.header-revealed .b-contactform {
   top: unset !important;
 }
 
-/*#test-aside.bottom .b-contactform {
-  position: absolute !important;
-  top: unset !important;
-}*/
-
 .b-contactform .container {
-    width: auto;
-    max-width: unset;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+  width: auto;
+  max-width: unset;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .b-contactform .container {
-    width: auto;
-    max-width: unset;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+  width: auto;
+  max-width: unset;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .b-contactform__form {
@@ -96,7 +85,7 @@ body.header-revealed .b-contactform {
 }
 
 .b-contactform__reasons {
-    min-width: unset;
+  min-width: unset;
 }
 
 .b-contactform__prompt {
@@ -142,8 +131,6 @@ body.header-revealed .b-contactform {
 .b-contactform__compliance {
   width: auto;
 }
-
-/* End Form Styles */
 
 .community-description-wrapper {
   padding-left: 0;
@@ -225,8 +212,8 @@ body.header-revealed .b-contactform {
 }
 
 .community-map-wrapper>div {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .map-proximity-overlay-container {
@@ -242,12 +229,12 @@ body.header-revealed .b-contactform {
 }
 
 .closest-communities.retain {
-max-width: unset;
+  max-width: unset;
 }
 
 .closest-communities__item {
-    min-width: unset;
-    width: 30.66667%;
+  min-width: unset;
+  width: 30.66667%;
 }
 
 .closest-communities__list .js-search-listing-0 {
@@ -259,8 +246,8 @@ max-width: unset;
 }
 
 .video-player .video {
-    margin: 0;
-    max-width: unset;
+  margin: 0;
+  max-width: unset;
 }
 
 .js-video-player .video-cta {
@@ -313,7 +300,7 @@ footer.footer .contaienr {
 }
 
 footer.footer .divider::before {
-    background-image: linear-gradient(to right,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
+  background-image: linear-gradient(to right,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
   width: 100%;
 }
 
@@ -321,9 +308,6 @@ footer.footer .divider::after {
   background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
   width: 100%;
 }
-
-
-/* Additional Reviews CSS */
 
 .fyre-reviews-header {
   padding-top: 30px;
@@ -343,8 +327,6 @@ footer.footer .divider::after {
   left: 95px;
 }
 
-/* End Reviews CSS*/
-
 #test-backdrop {
   background-color: #000;
   opacity: 0;
@@ -357,7 +339,6 @@ footer.footer .divider::after {
   left: 0;
   -ms-transform: translateY(130px);
   transform: translateY(130px);
-  /*transition: transform .4s ease-in;*/
 }
 
 body.header-revealed #test-backdrop {
@@ -395,7 +376,6 @@ body.header-revealed #test-backdrop {
   left: 0;
   right: 0;
   height: 130px;
-  /*transition: height .4s ease-in;*/
 }
 
 body.header-revealed #stripe-backdrop {
@@ -406,8 +386,6 @@ body.header-revealed #stripe-backdrop {
   z-index: 1042;
   opacity: .5;
 }
-
-/* Tweak Success and Failure Message CSS */
 
 .b-contactform--showingSuccess {
   margin-left: 0;
@@ -441,12 +419,12 @@ body.header-revealed #stripe-backdrop {
 }
 
 .b-contactform--showingSuccess .success-message .button-group {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .b-contactform--showingSuccess .button-group button {
-    margin: 0 0 10px -10px;
+  margin: 0 0 10px -10px;
 }
