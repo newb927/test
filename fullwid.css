@@ -366,7 +366,7 @@ body.header-revealed #test-backdrop {
 }
 
 .show-test-backdrop #test-backdrop {
-  z-index: 1043;
+  z-index: 1040;
   opacity: .5;
 }
 
@@ -377,7 +377,7 @@ body.header-revealed #test-backdrop {
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
-.static-form .show-test-backdrop .b-contactform {
+.static-form.show-test-backdrop .b-contactform {
   z-index: 1041;
 }
 
