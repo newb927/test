@@ -381,9 +381,9 @@ footer.footer .divider::after {
   position: fixed;
   z-index: -1;
   top: 0;
-  right: 0;
-  bottom: 71px;
   left: 0;
+  right: 0;
+  height: 75px;
 }
 
 #stripe-backdrop.test-show {
