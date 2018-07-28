@@ -60,7 +60,7 @@ body.header-revealed .b-contactform {
   top: 71px;
 }
 
-.b-contactform.static {
+.static-form .b-contactform {
   position: absolute !important;
   bottom: 0 !important;
   margin-right: 0px !important;
@@ -366,15 +366,19 @@ body.header-revealed #test-backdrop {
 }
 
 .show-test-backdrop #test-backdrop {
-  z-index: 1040;
+  z-index: 1043;
   opacity: .5;
 }
 
 .show-test-backdrop .b-contactform {
-  z-index: 1041;
+  z-index: 1043;
   border: 1px solid #999;
   border: 1px solid rgba(0,0,0,.2);
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.static-form .show-test-backdrop .b-contactform {
+  z-index: 1041;
 }
 
 .show-test-backdrop #nav-stripe, .show-test-backdrop .ctcore-header  {
@@ -399,7 +403,7 @@ body.header-revealed #stripe-backdrop {
 }
 
 .show-test-backdrop #stripe-backdrop {
-  z-index: 1043;
+  z-index: 1042;
   opacity: .5;
 }
 
@@ -432,7 +436,7 @@ body.header-revealed #stripe-backdrop {
   padding-right: 5px;
 }
 
-.b-contactform--showingSuccess.static .success-message p, .b-contactform--showingSuccess.static .success-message h3 {
+.static-form .b-contactform--showingSuccess. .success-message p, .static-form .b-contactform--showingSuccess. .success-message h3 {
   padding-right: 0px !important;
 }
 
