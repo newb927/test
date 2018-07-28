@@ -276,10 +276,6 @@ max-width: unset;
   text-align: left;
 }
 
-#return-to-top {
-  display: none !important;
-}
-
 .container {
   width: auto;
 }
@@ -421,7 +417,7 @@ body.header-revealed #stripe-backdrop {
   width: 25%;
 }
 
-.contact-us-success.success-message {
+.contact-us-success.success-message, .contact-us-success.success-message {
   width: 100%;
   position: unset;
   margin-left: 0 !important;
