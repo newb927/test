@@ -408,6 +408,7 @@ body.header-revealed #stripe-backdrop {
 
 .b-contactform--showingSuccess {
   margin-left: 0;
+  width: 100%;
 }
 
 .b-contactform--showingSuccess #is-b-contactform {
@@ -416,6 +417,7 @@ body.header-revealed #stripe-backdrop {
 
 .b-contactform--showingSuccess.fixed {
   background-color: transparent;
+  width: 25%;
 }
 
 .contact-us-success.success-message {
@@ -424,14 +426,10 @@ body.header-revealed #stripe-backdrop {
   margin-left: 0 !important;
 }
 
-.b-contactform--showingSuccess.fixed .contact-us-success.success-message p, .b-contactform--showingSuccess.fixed .contact-us-success.success-message h3 {
-  padding-right: 40px;
-}
-
 .b-contactform--showingSuccess .button-group div {
   margin-left: -20px;
 }
 
-.b-contactform--showingSuccess .button-group a {
-  margin-left: -35px;
+.b-contactform--showingSuccess .button-group button {
+   margin-left: 15px;
 }
