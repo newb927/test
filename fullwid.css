@@ -359,10 +359,13 @@ footer.footer .divider::after {
   right: 0;
   bottom: 0;
   left: 0;
+  -ms-transform: translateY(130px);
+  transform: translateY(130px);
   transition: transform .4s ease-in;
 }
 
 body.header-revealed #test-backdrop {
+  -ms-transform: translateY(75px);
   transform: translateY(75px);
 }
 
