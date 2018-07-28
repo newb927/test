@@ -433,6 +433,10 @@ body.header-revealed #stripe-backdrop {
   padding-right: 5px;
 }
 
+.b-contactform--showingSuccess.static .success-message p, .b-contactform--showingSuccess.static .success-message h3 {
+  padding-right: 0px !important;
+}
+
 .b-contactform--showingSuccess .success-message .button-group {
     display: -ms-flexbox;
     display: flex;
