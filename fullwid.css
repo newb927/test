@@ -361,6 +361,10 @@ footer.footer .divider::after {
   left: 0;
 }
 
+body.header-revealed #test-backdrop {
+  top: 75px;
+}
+
 .show-test-backdrop #test-backdrop {
   z-index: 1040;
   opacity: .5;
@@ -383,6 +387,10 @@ footer.footer .divider::after {
   top: 0;
   left: 0;
   right: 0;
+  height: 130px;
+}
+
+body.header-revealed #stripe-backdrop {
   height: 75px;
 }
 
