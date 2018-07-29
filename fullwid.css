@@ -51,7 +51,7 @@ main {
 
 body.header-revealed .b-contactform {
   transition: top .4s ease-in;
-  top: 71px;
+  top: 75px;
 }
 
 .static-form .b-contactform {
