@@ -178,6 +178,11 @@ body.header-revealed .b-contactform {
   padding: 0;
 }
 
+.photo-gallery-wrapper .slider-thumbs .thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #events-menu-container {
   padding: 0;
 }
