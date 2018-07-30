@@ -231,8 +231,12 @@ body.header-revealed .b-contactform {
   text-align: left;
 }
 
-.downloads-wrapper .headline2 {
-  margin-left: 6px;
+.downloads-wrapper .title-wrapper {
+    padding-left: 15px;
+}
+
+.downloads-wrapper .btn-group {
+    padding-left: 15px;
 }
 
 #reviews, .reviews-community-wrapper .container {
