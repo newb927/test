@@ -50,6 +50,7 @@ main {
   transition: top .2s ease-in;
   margin-left: 0;
   position: relative;
+  border: 1px solid #f9f9f9;
 }
 
 .b-contactform.fixed {
@@ -169,6 +170,16 @@ body.header-revealed .b-contactform {
 
 .community-two-column .row {
   margin: 0;
+}
+
+.bkd-community-details .richtext .full-width-text, .bkd-community-details .richtext .retain, .bkd-community-details .amenities_list, .bkd-community-details .amenities-list-wrapper,  {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bkd-community-details .amenitiesList {
+  margin-left: 10px;
+  padding-right: 0px;
 }
 
 .title-wrapper .title {
