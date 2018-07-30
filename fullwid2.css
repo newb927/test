@@ -14,7 +14,7 @@
 #test-wrapper {
   position: relative;
   background-color: #f9f9f9;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 main {
@@ -54,7 +54,7 @@ main {
 
 .b-contactform.fixed {
   position: fixed;
-  margin-right: 20px;
+  margin-right: 40px;
   top: 0;
 }
 
