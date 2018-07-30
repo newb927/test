@@ -139,11 +139,6 @@ body.header-revealed .b-contactform {
 
 .b-contactform__compliance {
   width: auto;
-  margin-bottom: 0;
-}
-
-.b-contactform__compliance p {
-  margin-bottom: 0;
 }
 
 .community-description-wrapper {
@@ -164,12 +159,16 @@ body.header-revealed .b-contactform {
   max-width: unset;
 }
 
-.community-two-column.parbase .retain{
-  padding-left: 15px;
-  padding-right: 15px;
+.community-two-column .retain {
+  padding-left: 0px;
+  padding-right: 0px;
   margin-left: 0;
   margin-right: 0;
   max-width: unset;
+}
+
+.community-two-column .row {
+  margin: 0;
 }
 
 .title-wrapper .title {
@@ -192,6 +191,10 @@ body.header-revealed .b-contactform {
 .two-column-community .row .col-md-6 ul {
     margin-left: 10px;
   }
+}
+
+.communityAmenities {
+  padding-left: 15px;
 }
 
 #photo-gallery-container {
