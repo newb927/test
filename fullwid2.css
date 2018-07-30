@@ -39,7 +39,7 @@ main {
   position: absolute;
   bottom: 0;
   height: 80px;
-  margin-bottom: -80px;
+  margin-bottom: -79px;
   z-index: 2;
   right: 0;
 }
