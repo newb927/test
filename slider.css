@@ -1,4 +1,41 @@
-#myCarousel {
-  height: 600px;
-  background: #f4f4f4;
+.photo-gallery-wrapper .test-slider-thumbs ul {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.photo-gallery-wrapper .test-slider-thumbs li {
+    display: none;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.photo-gallery-wrapper .test-slider-thumbs .thumbnail {
+    position: relative;
+    width: 195px;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0;
+    border: 5px solid #f5f5f5;
+    cursor: pointer;
+}
+
+.photo-gallery-wrapper .test-slider-thumbs .thumbnail .thumbnail-overlay {
+    position: absolute;
+    z-index: 5;
+    background: #555;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    content: '';
+}
+
+.photo-gallery-wrapper .test-slider-thumbs .thumbnail img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
