@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.photo-gallery-wrapper .slider-thumbs .thumbnail.active {
+.photo-gallery-wrapper .test-slider-thumbs .thumbnail.active {
     border: 5px solid #fba31a;
 }
 
