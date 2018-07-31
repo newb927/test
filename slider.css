@@ -74,7 +74,7 @@
     cursor: pointer;
 }
 
-.photo-gallery-wrapper .slider-thumbs .test-thumbnail.active .thumbnail-overlay, .photo-gallery-wrapper .slider-thumbs .test-thumbnail:hover .thumbnail-overlay {
+.photo-gallery-wrapper .test-slider-thumbs .test-thumbnail.active .thumbnail-overlay, .photo-gallery-wrapper .test-slider-thumbs .test-thumbnail:hover .thumbnail-overlay {
     display: none;
 }
 
