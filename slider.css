@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.photo-gallery-wrapper .slider-thumbs .thumbnail.active {
+    border: 5px solid #fba31a;
+}
+
 .photo-gallery-wrapper .test-slider-thumbs .thumbnail .thumbnail-overlay {
     position: absolute;
     z-index: 5;
