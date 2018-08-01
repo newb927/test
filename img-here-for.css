@@ -1,0 +1,48 @@
+.mc-related-container .card-content {
+    /*min-height: 272px;*/
+    background: #f3f3f3;
+    height: auto;
+    margin-bottom: 30px;
+}
+.mc-related-container .cards .card-content .address {
+    height: auto;
+}
+.mc-related-container .btn {
+    white-space: normal;
+}
+.mc-related-container .card-title{
+    margin-top: 0px; 
+    margin-bottom: 9px; 
+    text-align: center;
+}
+.mc-related-container .card-btn-container{
+    text-align: center;
+    padding: 15px 5px;
+    border: 2px solid #e5e5e5;
+}
+
+.card {
+    max-width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex.center {
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+#test-container .flex.mobile-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  }
+}
