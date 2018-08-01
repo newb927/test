@@ -1,0 +1,95 @@
+#test-personal {
+  margin-top: 40px;
+}
+
+#test-personal a:hover, #test-personal a:focus {
+  background-color: #f9f9f9;
+}
+
+.test-self {
+  display: inline-block;
+  padding: 50px 50px 30px 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+.test-loved-one {
+  display: inline-block;
+  padding: 50px 50px 30px 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+#test-personal h3 {
+  font-weight: 300;
+  margin: 25px 0 0 0;
+  color: #333;
+}
+
+@media (max-width: 991px) {
+  #test-personal h3 {
+    font-size: 24px;
+  }
+}
+.test-icon, .test-plus {
+  display: inline-block;
+}
+
+.test-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.test-icon.user {
+  font-size: 60px;
+}
+
+.test-icon.heart {
+   font-size: 35px;
+   position: relative;
+   bottom: 40px;
+}
+
+.test-icon.plus {
+  font-size: 40px; 
+  margin: 0 5px;
+}
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex.center {
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.test-self {
+    margin-right: 10px;
+  }
+  .test-loved-one {
+    margin-left: 10px;
+  }
+
+@media (max-width: 640px) {
+#test-container .flex.mobile-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  }
+  .test-self {
+    margin-right: 0;
+    margin-bottom: 20px;
+    min-width: 275px;
+  }
+  .test-loved-one {
+    margin-left: 0;
+    min-width: 275px;
+  }
+  #test-personal {
+    margin-top: 30px;
+  }
+}
