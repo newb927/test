@@ -101,6 +101,10 @@
   width: 150px;
 }
 
+.test-business-hours {
+  font-size: 12px;
+}
+
 
 @media screen and (max-width: 735px) {
 .ty-part-1, [class^=progress-line] {
