@@ -122,6 +122,13 @@
   .pulse-icon, .test-person-icon {
     bottom: 0;
   }
+  .b-contactform--showingSuccess {
+    height: auto;
+  }
+  .b-contactform__success {
+    display: block;
+    position: unset;
+  }
 }
 
 @media (max-width: 735px) {
@@ -134,4 +141,36 @@
 
 .b-contactform__success .row {
   display: none !important;
+}
+
+.ionicons {
+  display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ionicons:before {
+  display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ion-ribbon-b:before {
+    content: "\f349";
 }
