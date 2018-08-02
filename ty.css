@@ -117,6 +117,9 @@
  .ty-part-3, [class^="ty-part-"] p {
     margin-top: 16px !important;
   }
+  .test-h1 {
+    padding-top: 30px;
+  }
   .pulse-icon {
   bottom: 0;
   }
