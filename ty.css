@@ -1,0 +1,123 @@
+#test-container {
+  background: #f9f9f9;
+  padding: 32px 0 16px;
+}
+
+.test-h1 {
+  padding-bottom: 32px;
+}
+
+.ty-section {
+  margin-bottom: 32px;
+}
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex.center {
+  align-items: center;
+  -ms-flex-pack: center;
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+
+.flex.space-around {
+  justify-content: space-around;
+}
+
+.fa.test {
+  font-size: 45px;
+  color: #fb6418;
+}
+
+.fa-user.test {
+  color: rgb(140, 140, 139);
+}
+
+.pulse-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #1073a5;
+  position: relative;
+  margin: 0 auto;
+  bottom: 7px;
+}
+
+.pulse-icon:before, .pulse-icon:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #1073a5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation: pulse-me 3s linear infinite;
+    animation: pulse-me 3s linear infinite;
+}
+
+-webkit-animation:pulse-me 3s linear infinite;animation:pulse-me 3s linear infinite}.pulse-icon:after{-webkit-animation-delay:3s;animation-delay:3s}.pulse-icon svg{background:#fff;border-radius:50%;padding:5px;margin:1px;z-index:1;position:absolute;left:0}@-webkit-keyframes pulse-me{0%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}50%{opacity:.1}70%{opacity:.09}to{-webkit-transform:scale(5);transform:scale(5);opacity:0}}@keyframes pulse-me{0%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}50%{opacity:.1}70%{opacity:.09}to{-webkit-transform:scale(5);transform:scale(5);opacity:0}}
+
+[class^="ty-part-"] {
+  text-align: center;
+  max-width: 145px;
+  margin: auto;
+}
+
+[class^="ty-part-"] > div {
+
+}
+
+[class^="ty-part-"] p {
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.ty-part-2 p {
+  margin-bottom: 12px;
+}
+
+.progress-line {
+  border-bottom: 2px solid #0072a7;
+}
+
+.progress-line-dotted {
+   border-bottom: 2px dotted #8c8c8b;
+}
+
+[class^=progress-line] {
+  height: 30px;
+  width: 145px;
+}
+
+
+@media screen and (max-width: 735px) {
+.ty-part-1, [class^=progress-line] {
+    display: none;
+  }
+ .ty-part-3, [class^="ty-part-"] p {
+    margin-top: 16px !important;
+  }
+}
+
+@media (max-width: 735px) {
+  .flex.mobile-column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
