@@ -32,15 +32,6 @@
   justify-content: space-around;
 }
 
-.fa.test {
-  font-size: 45px;
-  color: #fb6418;
-}
-
-.fa-user.test {
-  color: rgb(140, 140, 139);
-}
-
 .pulse-icon {
   width: 50px;
   height: 50px;
@@ -48,7 +39,7 @@
   background: #1073a5;
   position: relative;
   margin: 0 auto;
-  bottom: 15px;
+  bottom: 10px;
 }
 
 .pulse-icon:before, .pulse-icon:after {
@@ -72,6 +63,11 @@
 }
 
 -webkit-animation:pulse-me 3s linear infinite;animation:pulse-me 3s linear infinite}.pulse-icon:after{-webkit-animation-delay:3s;animation-delay:3s}.pulse-icon svg{background:#fff;border-radius:50%;padding:5px;margin:1px;z-index:1;position:absolute;left:0}@-webkit-keyframes pulse-me{0%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}50%{opacity:.1}70%{opacity:.09}to{-webkit-transform:scale(5);transform:scale(5);opacity:0}}@keyframes pulse-me{0%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}50%{opacity:.1}70%{opacity:.09}to{-webkit-transform:scale(5);transform:scale(5);opacity:0}}
+
+.test-person-icon {
+  position: relative;
+  bottom: -7px;
+}
 
 [class^="ty-part-"] {
   text-align: center;
@@ -116,8 +112,11 @@
   .test-h1 {
     padding-top: 30px;
   }
-  .pulse-icon {
-  bottom: 0;
+  .ty-part-2 {
+    margin-bottom: 22px;
+  }
+  .pulse-icon, .test-person-icon {
+    bottom: 0;
   }
 }
 
