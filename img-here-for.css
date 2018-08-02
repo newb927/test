@@ -1,30 +1,47 @@
 .mc-related-container .card-content {
-    /*min-height: 272px;*/
-    background: #f3f3f3;
-    height: auto;
-    margin-bottom: 30px;
+  min-height: 272px;
+  background: #f3f3f3;
+  height: auto;
+  margin-bottom: 30px;
 }
 .mc-related-container .cards .card-content .address {
-    height: auto;
+  height: auto;
 }
 .mc-related-container .btn {
-    white-space: normal;
+  white-space: normal;
 }
-.mc-related-container .card-title{
-    margin-top: 0px; 
-    margin-bottom: 9px; 
-    text-align: center;
+.mc-related-container .card-title {
+  margin-top: 0px;
+  margin-bottom: 9px;
+  text-align: center;
 }
-.mc-related-container .card-btn-container{
-    text-align: center;
-    padding: 15px 5px;
-    border: 2px solid #e5e5e5;
+.mc-related-container .card-btn-container {
+  text-align: center;
+  padding: 15px 5px;
+  border: 2px solid #e5e5e5;
+}
+
+#test-container {
+  padding-top: 20px;
+  padding-bottom: 90px;
 }
 
 .card {
-    max-width: 400px;
-    padding-left: 15px;
-    padding-right: 15px;
+  max-width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mc-related-container .card-content {
+  min-height: unset;
+}
+
+.card.left {
+  padding-left: 0;
+}
+
+.card.right {
+  padding-right: 0;
 }
 
 .flex {
@@ -41,8 +58,14 @@
 }
 
 @media (max-width: 640px) {
-#test-container .flex.mobile-column {
-  -ms-flex-direction: column;
-  flex-direction: column;
+  #test-container .flex.mobile-column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .card.left {
+    padding-left: 15px;
+  }
+  .card.right {
+    padding-right: 15px;
   }
 }
