@@ -123,11 +123,11 @@
     bottom: 0;
   }
   .b-contactform--showingSuccess {
-    height: auto;
+    height: auto !important;
   }
   .b-contactform__success {
-    display: block;
-    position: unset;
+    display: block !important;
+    position: unset !important;
   }
 }
 
