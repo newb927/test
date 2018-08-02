@@ -1,0 +1,18 @@
+@media (max-width: 1092px) {
+  body {
+    margin-top: 60px;
+  }
+  .ctcore-header__row.ctcore-header__row--first
+    + .ctcore-header__row.ctcore-header__row--first {
+    /* 2nd one */
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+  }
+  .progressive-bar {
+    top: 60px;
+  }
+}
