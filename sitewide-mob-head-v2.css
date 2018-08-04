@@ -16,6 +16,11 @@
   }
 }
 
+.test-header-phone-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .test-header-phone-text {
     font-size: 10px;
     line-height: 1.2;
