@@ -1,0 +1,180 @@
+#test-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.test-table {
+  width: 100%;
+  /*border: 1px solid black;*/
+  font-size: 14px;
+  margin: 0 0 15px 0;
+}
+
+.test-table.start,
+.test-table.end {
+  margin: 30px 0 0 0;
+}
+
+.test-table .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 11px;
+}
+
+.test-table .flex-row:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.test-table.start .flex-row {
+  background-color: #e5f8e5;
+  align-items: center;
+  min-height: 53px;
+}
+
+.test-table.end .flex-row {
+  background-color: #fff;
+  align-items: flex-end;
+}
+
+.test-table.start .flex-row {
+  align-items: flex-end;
+}
+
+.test-table.start .flex-row,
+.test-table.end .flex-row,
+.test-table .item-3 {
+  color: #0a6535;
+}
+
+.test-table .item-1 {
+  width: 50%;
+}
+
+.test-table.end .item-1 {
+  text-align: right;
+}
+
+.test-table .item-2 {
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#test-savings {
+  padding: 0;
+  border-bottom: 1px solid #333;
+}
+
+.test-table .item-3 {
+  width: 25%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.test-table.start [class^="item-"] {
+  font-weight: 500;
+}
+
+.test-table input {
+  width: 100%;
+  background: transparent;
+  height: 35px;
+  padding: 0 5px;
+  margin: 0;
+}
+
+#return-savings {
+  border-bottom: 1px solid #333;
+  padding-left: 25px !important;
+  font-weight: 400;
+  color: #333;
+  min-height: 21px;
+}
+
+.test-table.end {
+  font-weight: 400;
+}
+
+.test-table.end .item-1.mobile-only {
+  text-align: center;
+}
+
+.test-table .item-2 {
+  position: relative;
+}
+
+.test-table .item-2 > i {
+  position: absolute;
+  display: block;
+  transform: translate(0, -50%);
+  top: 50%;
+  pointer-events: none;
+  width: 25px;
+  text-align: center;
+  font-style: normal;
+  color: #6c757d;
+  font-weight: 100;
+}
+
+.test-table.end .item-2 > i {
+  transform: translate(0, -60%);
+}
+
+.item-2 > input {
+  padding-left: 25px;
+  padding-right: 0;
+}
+
+@media (max-width: 767px) {
+  .test-table .item-2 {
+    width: 45%;
+  }
+  .item-2 > input {
+    padding-left: 20px;
+  }
+  .test-table .tab-desk-only {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .test-table {
+    font-size: 15px;
+  }
+  .test-table .item-1 {
+    width: 40%;
+  }
+  .test-table .item-3 {
+    text-align: center;
+  }
+  .test-table.start {
+    font-size: 16px;
+  }
+  .test-table .mobile-only {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .test-table {
+    font-size: 16px;
+  }
+  .test-table.start {
+    font-size: 18px;
+  }
+  .test-table.start .flex-row {
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .test-table input {
+    height: 25px;
+  }
+  .test-table .item-2 > i {
+    transform: translate(0, -55%);
+  }
+}
