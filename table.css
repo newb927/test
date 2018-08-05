@@ -147,7 +147,7 @@
   }
 }
 
-@media and (min-width: 420px) {
+@media (min-width: 420px) {
   .test-table.start .item-3 {
     text-align: center;
   }
