@@ -2,6 +2,11 @@
     padding-top: 80px;
 }
 
+#test-benefits-container .headline2 {
+    font-size: 36px;
+    margin: 0;
+}
+
 #test-benefits .callout__number-text {
     color: #007845 !important;
     border: 6px dashed #007845 !important;
