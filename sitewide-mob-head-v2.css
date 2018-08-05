@@ -2,10 +2,13 @@
   body {
     margin-top: 60px;
   }
+  #nav-stripe + .ctcore-header {
+   z-index: 8; 
+  }
   #nav-stripe + .ctcore-header .ctcore-header__row.ctcore-header__row--first {
     /* 2nd one */
     top: 0;
-    z-index: 8;
+    z-index: 1;
     position: fixed;
     left: 0;
     right: 0;
