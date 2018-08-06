@@ -106,7 +106,8 @@ body.header-revealed .b-contactform {
 }
 
 .b-contactform__reasons>* {
-    padding-right: 0;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 .b-contactform .control {
