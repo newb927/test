@@ -74,7 +74,6 @@ body.header-revealed .b-contactform {
 .static-form .b-contactform {
   position: absolute !important;
   bottom: 0 !important;
-  margin-right: 0px !important;
   top: unset !important;
 }
 
