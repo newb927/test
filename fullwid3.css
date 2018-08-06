@@ -30,11 +30,10 @@ main {
 }
 
 #test-aside {
-  width: 25%;
-  float: left;
-  background-color: #fff;
-  padding-top: 30px;
-}
+    width: 25%;
+    float: left;
+    background-color: #fff;
+  }
 
 #test-fill {
   background-color: #f9f9f9;
