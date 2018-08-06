@@ -1,0 +1,482 @@
+.ctcore-header .retain, .ctcore-header__row--second {
+  max-width: unset;
+}
+
+.ctcore-header__row--first, .ctcore-header__row--second {
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.ctcore-header__phone {
+  padding-right: 0;
+}
+
+#test-wrapper {
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main {
+  width: 75%;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  background-color: #fff;
+}
+
+#test-aside {
+  width: 25%;
+  float: left;
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+#test-fill {
+  background-color: #f9f9f9;
+  width: 25%;
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  margin-bottom: -79px;
+  z-index: 2;
+  right: 0;
+}
+
+.b-contactform {
+  padding-top: 30px;
+  margin-right: 0px;
+  transition: top .2s ease-in;
+  margin-left: 0;
+  position: relative;
+  border: 1px solid #f9f9f9;
+}
+
+.b-contactform.fixed {
+  position: fixed;
+  margin-right: 40px;
+  top: 0;
+}
+
+body.header-revealed .b-contactform {
+  transition: top .4s ease-in;
+  top: 75px;
+}
+
+.static-form .b-contactform {
+  position: absolute !important;
+  bottom: 0 !important;
+  margin-right: 0px !important;
+  top: unset !important;
+}
+
+.b-contactform .container {
+  width: auto;
+  max-width: unset;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.b-contactform .container {
+  width: auto;
+  max-width: unset;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.b-contactform__form {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.b-contactform__reasons {
+  min-width: unset;
+}
+
+.b-contactform__prompt {
+  margin-bottom: 15px;
+}
+
+.b-contactform__prompt:after, .b-contactform__prompt:before {
+  display: none;
+}
+
+.b-contactform__pricing, .b-contactform__schedule {
+  border-right: none;
+}
+
+.b-contactform .control {
+  margin: 5px 0;
+}
+
+.b-contactform__contactinfo, .b-contactform__reasons {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.b-contactform__contactinfo>* {
+    width: auto;
+}
+
+.communityform .communityform__item {
+  margin-bottom: 15px;
+  margin-right: 0px;
+}
+
+.b-contactform__contactinfo>.b-contactform__button {
+  max-width: unset;
+}
+
+#contact-form-submit {
+  width: 100%;
+}
+
+.b-contactform__compliance {
+  width: auto;
+}
+
+.community-description-wrapper {
+  padding-left: 0;
+  padding-right: 20px;
+  text-align: left;
+}
+
+@media (min-width: 1200px) {
+.community-details-intro-wrapper .inner-wrapper {
+    width: auto;
+  }
+}
+
+.content-break.parbase .divider.2 {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: unset;
+}
+
+.community-two-column .retain {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: unset;
+}
+
+.community-two-column .row {
+  margin: 0;
+}
+
+.bkd-community-details .richtext .full-width-text, .bkd-community-details .richtext .retain, .bkd-community-details .amenities_list, .bkd-community-details .amenities-list-wrapper,  {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bkd-community-details .amenitiesList {
+  margin-left: 10px;
+  padding-right: 0px;
+}
+
+.title-wrapper .title {
+    text-align: left;
+}
+
+.title-wrapper .title .headline2::before, .title-wrapper .title h2::before {
+ display: none; 
+}
+
+.two-column-community .row .col-md-6:first-child {
+  padding-left: 0px;
+}
+
+.two-column-community .row .col-md-6:last-child {
+  padding-right: 1px;
+}
+
+@media (min-width: 992px) {
+.two-column-community .row .col-md-6 ul {
+    margin-left: 10px;
+  }
+}
+
+.communityAmenities {
+  padding-left: 15px;
+}
+
+#photo-gallery-container {
+  padding: 0;
+}
+
+.photo-gallery-wrapper .slider-thumbs .thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 195px;
+}
+
+#events-menu-container {
+  padding: 0;
+}
+
+.downloads.ajax.parbase .container {
+  padding: 0;
+}
+
+.downloads-wrapper .row div {
+  text-align: left;
+}
+
+.downloads-wrapper .title-wrapper {
+    padding-left: 15px;
+}
+
+.downloads-wrapper .btn-group {
+    padding-left: 15px;
+}
+
+#reviews, .reviews-community-wrapper .container {
+  padding: 0;
+}
+
+#reviews .text-center, #reviews p {
+  text-align: left;
+}
+
+#reviews .no-reviews p {
+margin-bottom: -60px !important;
+}
+
+.reviews-community-wrapper button {
+  margin-left: 0 !important;
+}
+
+.fyre-reviews-header {
+  padding-top: 30px;
+}
+
+.fyre-reviews-breakdown {
+  width: 50%;
+  float: left;
+}
+
+.fyre-review-title {
+  padding-top: 30px;
+  margin-left: 0;
+}
+
+.fyre-comment-date {
+  left: 95px;
+}
+
+.community-map-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.community-map-wrapper>div {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.map-proximity-overlay-container {
+  padding-left: 30px !important;
+}
+
+.map-proximity-overlay {
+  left: 0 !important;
+}
+
+.closest-communities {
+  padding: 0;
+}
+
+.closest-communities.retain {
+  max-width: unset;
+}
+
+.closest-communities__item {
+  min-width: unset;
+  width: 30.66667%;
+}
+
+.closest-communities__list .js-search-listing-0 {
+  margin-left: 0;
+}
+
+.closest-communities__list .js-search-listing-2 {
+  margin-right: 0;
+}
+
+.video-player .video {
+  margin: 0;
+  max-width: unset;
+}
+
+.js-video-player .video-cta {
+  padding-left: 100px !important;
+}
+
+.js-video-player h2, .js-video-player .video-btn {
+  margin-right: auto;
+}
+
+.js-video-player p {
+  margin-left: 0 !important;
+  text-align: left;
+}
+
+.container {
+  width: auto;
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: unset;
+  }
+}
+
+.cta.parbase .header-text {
+  width: auto;
+  margin-left: 0;
+}
+
+.cta.parbase .header-text>div {
+  margin: 0;
+}
+
+.cta.parbase .text-center {
+  text-align: left;
+  padding: 0;
+}
+
+.cta.parbase .headline2 {
+  margin-top: 20px;
+}
+
+.cta.parbase a.btn.btn-primary.hidden-xs.hidden-sm {
+  margin-left: 0;
+}
+
+footer.footer .contaienr {
+  max-width: 1200px;
+}
+
+footer.footer .divider::before {
+  background-image: linear-gradient(to right,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
+  width: 100%;
+}
+
+footer.footer .divider::after {
+  background-image: linear-gradient(to left,rgba(213,213,213,.5) 0,rgba(213,213,213,.5) 100%);
+  width: 100%;
+}
+
+#test-backdrop {
+  background-color: #000;
+  opacity: 0;
+  transition: opacty .15s linear;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -ms-transform: translateY(130px);
+  transform: translateY(130px);
+}
+
+body.header-revealed #test-backdrop {
+  -ms-transform: translateY(75px);
+  transform: translateY(75px);
+}
+
+.show-test-backdrop #test-backdrop {
+  z-index: 1040;
+  opacity: .5;
+}
+
+.show-test-backdrop .b-contactform {
+  z-index: 1043;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  border-radius: 6px;
+}
+
+.static-form.show-test-backdrop .b-contactform {
+  z-index: 1041;
+}
+
+.show-test-backdrop #nav-stripe, .show-test-backdrop .ctcore-header  {
+  z-index: 1042;
+}
+
+#stripe-backdrop {
+  background-color: #000;
+  opacity: 0;
+  transition: opacty .15s linear;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+}
+
+body.header-revealed #stripe-backdrop {
+  height: 75px;
+}
+
+.show-test-backdrop #stripe-backdrop {
+  z-index: 1042;
+  opacity: .5;
+}
+
+.b-contactform--showingSuccess {
+  margin-left: 0;
+  width: 100%;
+}
+
+.b-contactform--showingSuccess #is-b-contactform {
+  margin-left: 0 !important;
+  display: none;
+}
+
+.b-contactform--showingSuccess.fixed {
+  background-color: transparent;
+  width: 25%;
+}
+
+.contact-us-success.success-message, .contact-us-success.success-message {
+  width: 100%;
+  position: unset;
+  margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.b-contactform--showingSuccess.fixed .success-message p, .b-contactform--showingSuccess.fixed .success-message h3 {
+  padding-right: 5px;
+}
+
+.static-form .b-contactform--showingSuccess. .success-message p, .static-form .b-contactform--showingSuccess. .success-message h3 {
+  padding-right: 0px !important;
+}
+
+.b-contactform--showingSuccess .success-message .button-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.b-contactform--showingSuccess .button-group button {
+  margin: 0 0 10px -10px;
+}
