@@ -12,11 +12,13 @@
 }
 
 #test-wrapper {
+  position: relative:
   max-width: 1700px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
 }
 
 main {
