@@ -50,11 +50,13 @@ main {
 .b-contactform {
     padding-top: 30px;
     transition: top .2s ease-in;
-    margin-left: 0;
     position: relative;
     border: 1px solid #f9f9f9;
-    max-width: 418px;
+    max-width: 410px;
     padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .b-contactform.fixed {
