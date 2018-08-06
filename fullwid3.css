@@ -58,8 +58,8 @@ main {
 }
 
 .b-contactform.fixed {
-  position: fixed;
-  top: 0;
+    position: fixed;
+    top: 0;
 }
 
 body.header-revealed .b-contactform {
