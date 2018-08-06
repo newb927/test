@@ -57,7 +57,6 @@ main {
 
 .b-contactform.fixed {
   position: fixed;
-  margin-right: 40px;
   top: 0;
 }
 
@@ -479,4 +478,8 @@ body.header-revealed #stripe-backdrop {
 
 .b-contactform--showingSuccess .button-group button {
   margin: 0 0 10px -10px;
+}
+
+.compare-flyout-wrapper {
+  width: 75%;
 }
