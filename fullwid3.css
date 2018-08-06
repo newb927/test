@@ -60,6 +60,7 @@ main {
 .b-contactform.fixed {
     position: fixed;
     top: 0;
+    margin-right: 20px;
 }
 
 body.header-revealed .b-contactform {
