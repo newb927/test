@@ -213,6 +213,24 @@ body.header-revealed .b-contactform {
   max-width: 195px;
 }
 
+@media (min-width: 1200px) and (max-width: 1470px) {
+  .photo-gallery-wrapper .slider-thumbs .thumbnail {
+   height: 102px; 
+  }
+}
+
+@media (min-width: 1320px) and (max-width: 1469px)*/ {
+  .photo-gallery-wrapper .slider-thumbs .thumbnail {
+   height: 115px; 
+  }
+}
+
+@media (min-width: 1471px) {
+  .photo-gallery-wrapper .slider-thumbs .thumbnail {
+   height: 130px; 
+  }
+}
+
 #events-menu-container {
   padding: 0;
 }
