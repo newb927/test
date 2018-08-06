@@ -5,6 +5,7 @@
 
 .test-table {
   width: 100%;
+  /*border: 1px solid black;*/
   font-size: 14px;
   margin: 0 0 15px 0;
 }
@@ -69,16 +70,8 @@
 
 .test-table .item-3 {
   width: 25%;
-  text-align: right;
-  font-weight: 600;
-}
-
-.test-table.start .item-3 {
-  text-align: left;
-}
-
-.test-table.end .item-3 {
   text-align: center;
+  font-weight: 600;
 }
 
 .test-table.start [class^="item-"] {
@@ -144,12 +137,6 @@
   }
   .test-table .tab-desk-only {
     display: none;
-  }
-}
-
-@media (min-width: 420px) {
-  .test-table.start .item-3 {
-    text-align: center;
   }
 }
 
