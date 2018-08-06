@@ -20,12 +20,13 @@
 }
 
 main {
+  main {
   width: 75%;
   float: left;
-  padding-left: 40px;
-  padding-right: 40px;
   padding-top: 30px;
   background-color: #fff;
+  padding-left: 22px;
+  padding-right: 40px;
 }
 
 #test-aside {
