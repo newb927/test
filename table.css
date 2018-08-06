@@ -3,9 +3,12 @@
   padding-bottom: 70px;
 }
 
+.test-calc-heading {
+  margin-top: 0;
+}
+
 .test-table {
   width: 100%;
-  /*border: 1px solid black;*/
   font-size: 14px;
   margin: 0 0 15px 0;
 }
