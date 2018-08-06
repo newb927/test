@@ -44,6 +44,8 @@ main {
   margin-bottom: -79px;
   z-index: 2;
   right: 0;
+  margin-right: 25px;
+  border-left: 15px solid #fff;
 }
 
 .b-contactform {
