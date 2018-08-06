@@ -82,15 +82,6 @@ body.header-revealed .b-contactform {
   padding: 0;
 }
 
-.b-contactform .container {
-  width: auto;
-  max-width: unset;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .b-contactform__form {
   -ms-flex-direction: column;
   flex-direction: column;
