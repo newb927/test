@@ -7,9 +7,13 @@
   padding-right: 20px;
 }
 
-/*max-width: unset;
-padding-left: 0;
-padding-right: 0;*/
+.ctcore-header__logo {
+  margin-left: 0;
+}
+
+.ctcore-header__phone {
+  padding-right: 0;
+}
 
 #test-wrapper {
   position: relative;
@@ -52,7 +56,8 @@ main {
     transition: top .2s ease-in;
     position: relative;
     border: 1px solid #f9f9f9;
-    max-width: 410px;
+    /*max-width: 410px;*/
+  max-width: 410px;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 0;
