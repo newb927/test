@@ -85,7 +85,6 @@
   .b-contactform.fixed {
     position: fixed;
     top: 0;
-    border-right: 20px solid white;
   }
 
   body.header-revealed .b-contactform {
@@ -107,8 +106,9 @@
     background-color: #f9f9f9;
 }
   
-  .b-contactform.fixed .container {
-   margin-right: 20px; 
+  .b-contactform fixed .container {
+   margin-right: 20px;
+   max-width: 420px;
   }
 
   .b-contactform__form {
@@ -629,4 +629,8 @@
     width: 100% !important;
     height: auto !important;
   }
+}
+
+@media (min-width: 1092px) and (max-width: 1650px) {
+ 
 }
