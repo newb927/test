@@ -1,8 +1,5 @@
 .ctcore-header .retain {
   max-width: 1700px;
-}
-
-.ctcore-header__row--first, .ctcore-header__row--second {
   padding-left: 20px;
   padding-right: 20px;
 }
