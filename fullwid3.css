@@ -220,7 +220,7 @@ body.header-revealed .b-contactform {
   padding-bottom: 40px;
 }
 
-#photo-gallery-wrapper {
+.photo-gallery-wrapper {
   height: auto !important;
   margin-top: 0px;
 }
