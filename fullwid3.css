@@ -579,8 +579,44 @@
   .b-contactform--showingSuccess .button-group button {
     margin: 0 0 10px -10px;
   }
-
-  .compare-flyout-wrapper {
-    width: 75%;
+  
+  .compare-trigger .container {
+   padding: 0; 
   }
+
+.compare-flyout-wrapper img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+  
+.compare-flyout-wrapper.compare-open .close-container {
+top: -54px;
+left: unset;
+right: 0;
+position: absolute;
+display: inline-block;
+}
+
+compare-flyout-wrapper .compare-flyout-wrapper.compare-trigger {
+margin-top: 0;
+}
+
+compare-flyout-wrapper.compare-open .compare-flyout-wrapper.compare-trigger {
+margin-top: -40px;
+}
+
+.compare-flyout-wrapper.compare-open {
+height: auto;
+padding-bottom: 20px;
+}
+
+.compare-flyout-wrapper img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+  
 }
