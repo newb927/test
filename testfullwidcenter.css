@@ -538,11 +538,6 @@
     margin-bottom: 0;
   }
 
-  .b-contactform--showingSuccess.fixed .success-message p,
-  .b-contactform--showingSuccess.fixed .success-message h3 {
-    padding-right: 5px;
-  }
-
   .static-form .b-contactform--showingSuccess. .success-message p,
   .static-form .b-contactform--showingSuccess. .success-message h3 {
     padding-right: 0px !important;
@@ -599,4 +594,11 @@
     width: 100% !important;
     height: auto !important;
   }
+}
+
+@media (min-width: 1092px) and (max-width: 1700px) {
+  .b-contactform--showingSuccess.fixed .success-message p,
+  .b-contactform--showingSuccess.fixed .success-message h3 {
+    padding-right: 5px;
+  } 
 }
