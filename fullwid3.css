@@ -217,6 +217,23 @@ body.header-revealed .b-contactform {
   padding: 0;
 }
 
+
+
+.carousel-image {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  position: unset;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  height: unset;
+}
+
+.carousel-control {
+  height: unset;
+  bottom: 110px;
+}
+
 .photo-gallery-wrapper .slider-thumbs .thumbnail {
   margin-left: auto;
   margin-right: auto;
