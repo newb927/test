@@ -222,7 +222,7 @@ body.header-revealed .b-contactform {
 }
 
 #photo-gallery-wrapper {
-    height: auto;
+    /*height: auto;*/
 }
 
 .photo-gallery-wrapper .carousel {
