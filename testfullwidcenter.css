@@ -368,7 +368,7 @@
     min-width: 245px;
   }
   
-  .proximityFormLabel {
+  #proximityFormLabel {
     padding: 0;
   }
 
@@ -592,7 +592,7 @@
  .map-proximity-overlay {
     min-width: 275px;
   }
-  .proximityFormLabel {
+  #proximityFormLabel {
     padding: 0 15px;
   }
 }
