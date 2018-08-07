@@ -171,7 +171,6 @@
   .community-description-wrapper {
     padding-left: 0;
     padding-right: 20px;
-    text-align: left;
   }
 
   .community-details-intro-wrapper .inner-wrapper {
@@ -207,10 +206,6 @@
   .bkd-community-details .amenitiesList {
     margin-left: 10px;
     padding-right: 0px;
-  }
-
-  .title-wrapper .title {
-    text-align: left;
   }
 
   .title-wrapper .title .headline2::before,
@@ -320,10 +315,6 @@
     padding: 0;
   }
 
-  .downloads-wrapper .row div {
-    text-align: left;
-  }
-
   .downloads-wrapper .title-wrapper {
     padding-left: 15px;
   }
@@ -335,11 +326,6 @@
   #reviews,
   .reviews-community-wrapper .container {
     padding: 0;
-  }
-
-  #reviews .text-center,
-  #reviews p {
-    text-align: left;
   }
 
   #reviews .no-reviews p {
@@ -421,11 +407,6 @@
     margin-right: auto;
   }
 
-  .js-video-player p {
-    margin-left: 0 !important;
-    text-align: left;
-  }
-
   .container {
     width: auto;
     max-width: 1700px;
@@ -443,8 +424,7 @@
   }
 
   .cta.parbase .text-center {
-    text-align: left;
-    padding: 0;
+    /*padding: 0;*/
   }
 
   .cta.parbase .headline2 {
