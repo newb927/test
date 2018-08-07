@@ -228,6 +228,7 @@ body.header-revealed .b-contactform {
 .photo-gallery-wrapper {
   height: auto !important;
   margin-top: 0px;
+  margin-bottom: 0px !important;
 }
 
 .photo-gallery-wrapper .col-md-7 {
