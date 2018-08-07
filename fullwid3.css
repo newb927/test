@@ -217,9 +217,12 @@ body.header-revealed .b-contactform {
   padding: 0;
 }
 
+#photo-gallery-container .title {
+  background-color: #fff;
+}
+
 #photo-gallery-wrapper {
     height: auto;
-    min-height: 511px;
 }
 
 .photo-gallery-wrapper .carousel {
@@ -249,7 +252,7 @@ body.header-revealed .b-contactform {
 }
   
 .photo-gallery-wrapper .slider-thumbs ul {
-    margin-top: 10px !important;
+     margin-top: -5px !important;
   }
 
 .photo-gallery-wrapper .slider-thumbs .thumbnail {
@@ -262,9 +265,15 @@ body.header-revealed .b-contactform {
 }
   
   .photo-gallery-wrapper .photo-btn-container {
-    position: unset;
     padding-left: 0;
     padding-right: 0;
+    height: auto;
+    position: absolute;
+    top: unset;
+    bottom: 0;
+    width: unset;
+    left: 15px;
+    right: 15px;
   }
   
 .photo-gallery-wrapper .slider-thumbs .thumbnail img {
