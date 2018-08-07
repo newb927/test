@@ -217,6 +217,11 @@ body.header-revealed .b-contactform {
   padding: 0;
 }
 
+#photo-gallery-wrapper {
+    height: auto;
+    min-height: 511px;
+}
+
 .photo-gallery-wrapper .carousel-inner .item { 
   min-width: unset !important;
 }
