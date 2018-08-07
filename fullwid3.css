@@ -603,6 +603,10 @@ margin-top: 0;
 compare-flyout-wrapper.compare-open .compare-flyout-wrapper.compare-trigger {
 margin-top: 0;
 }
+  
+.compare-flyout-wrapper .compare-row .compare {
+   padding: 0 20px; 
+ }
 
 .compare-flyout-wrapper.compare-open {
 height: auto;
