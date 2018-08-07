@@ -247,6 +247,10 @@ body.header-revealed .b-contactform {
   height: unset !important;
   bottom: 110px;
 }
+  
+.photo-gallery-wrapper .slider-thumbs ul {
+    margin-top: 10px !important;
+  }
 
 .photo-gallery-wrapper .slider-thumbs .thumbnail {
   margin-left: auto;
