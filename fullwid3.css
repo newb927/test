@@ -230,6 +230,10 @@ body.header-revealed .b-contactform {
   margin-top: 0px;
 }
 
+.photo-gallery-wrapper .col-md-7 {
+  padding-bottom: 40px;
+}
+
 .photo-gallery-wrapper .carousel {
   height: auto !important;
 }
