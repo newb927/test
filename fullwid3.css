@@ -261,6 +261,12 @@ body.header-revealed .b-contactform {
   width: 100%;
 }
   
+  .photo-gallery-wrapper .photo-btn-container {
+    position: unset;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
 .photo-gallery-wrapper .slider-thumbs .thumbnail img {
   position: unset !important;
   transform: translateY(0%) !important;
