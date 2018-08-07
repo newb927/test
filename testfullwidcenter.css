@@ -562,11 +562,7 @@
     display: inline-block;
   }
 
-  compare-flyout-wrapper .compare-flyout-wrapper.compare-trigger {
-    margin-top: 0;
-  }
-
-  compare-flyout-wrapper.compare-open .compare-flyout-wrapper.compare-trigger {
+  .compare-flyout-wrapper.compare-open .compare-flyout-wrapper.compare-trigger {
     margin-top: 0;
   }
 
