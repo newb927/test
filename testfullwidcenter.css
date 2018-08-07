@@ -84,6 +84,7 @@
   .b-contactform.fixed {
     position: fixed;
     top: 0;
+    margin-right: 20px;
   }
 
   body.header-revealed .b-contactform {
@@ -103,10 +104,6 @@
     margin: 0;
     padding: 30px;
     background-color: #f9f9f9;
-}
-  
-  .b-contactform.fixed .container {
-   margin-right: 20px;
   }
 
   .b-contactform__form {
