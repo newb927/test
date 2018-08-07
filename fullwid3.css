@@ -213,6 +213,7 @@ body.header-revealed .b-contactform {
 #photo-gallery-container {
   padding: 0;
   background-color: #f4f4f4;
+  margin-bottom: 40px;
 }
 
 #photo-gallery-container .title-wrapper {
