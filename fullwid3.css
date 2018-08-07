@@ -220,6 +220,10 @@ body.header-revealed .b-contactform {
   padding-bottom: 40px;
 }
 
+#photo-gallery-container .title {
+  margin-bottom: 0;
+}
+
 .photo-gallery-wrapper {
   height: auto !important;
   margin-top: 0px;
