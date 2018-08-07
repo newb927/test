@@ -67,9 +67,11 @@ main {
     margin-right: 20px;
 }
 
+@media (min-width: 1092px) {
 body.header-revealed .b-contactform {
   transition: top .4s ease-in;
   top: 75px;
+}
 }
 
 .static-form .b-contactform {
