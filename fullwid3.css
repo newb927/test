@@ -592,10 +592,7 @@
 }
   
 .compare-flyout-wrapper.compare-open .close-container {
-top: -54px;
-left: unset;
-right: 0;
-position: absolute;
+left: calc(100% - 120px);
 display: inline-block;
 }
 
