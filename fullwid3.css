@@ -3,7 +3,12 @@
     display: none;
   }
 }
+
 @media (min-width: 1098px) {
+
+  #test-aside, #test-backdrop, #test-fill, #stripe-backdrop {
+    display: block;
+  }
 
 .ctcore-header .retain {
   max-width: 1700px;
