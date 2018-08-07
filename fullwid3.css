@@ -217,16 +217,14 @@ body.header-revealed .b-contactform {
   padding: 0;
 }
 
-
-
 .carousel-image {
-  display: block;
+  display: block !important;
   max-width: 100%;
   width: 100%;
-  position: unset;
+  position: unset !important;
   transform: translate3d(0,0,0);
   -webkit-transform: translate3d(0,0,0);
-  height: unset;
+  height: unset !important;
 }
 
 .carousel-control {
