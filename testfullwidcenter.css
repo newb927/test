@@ -397,11 +397,6 @@
     padding-left: 100px !important;
   }
 
-  .js-video-player h2,
-  .js-video-player .video-btn {
-    margin-right: auto;
-  }
-
   .container {
     width: auto;
     max-width: 1700px;
@@ -416,10 +411,6 @@
 
   .cta.parbase .header-text > div {
     margin: 0;
-  }
-
-  .cta.parbase .text-center {
-    /*padding: 0;*/
   }
 
   .cta.parbase .headline2 {
