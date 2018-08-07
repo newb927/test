@@ -215,14 +215,17 @@ body.header-revealed .b-contactform {
 
 #photo-gallery-container {
   padding: 0;
+  background-color: #f4f4f4;
 }
 
-#photo-gallery-container .title {
+#photo-gallery-container .title-wrapper {
   background-color: #fff;
+  padding-bottom: 40px;
 }
 
 #photo-gallery-wrapper {
-    /*height: auto;*/
+  height: auto !important;
+  margin-top: 0px;
 }
 
 .photo-gallery-wrapper .carousel {
