@@ -4,7 +4,7 @@
   }
 }
 
-@media (min-width: 1098px) {
+@media (min-width: 1092px) {
 
   #test-aside, #test-backdrop, #test-fill, #stripe-backdrop {
     display: block;
@@ -556,9 +556,5 @@ body.header-revealed #stripe-backdrop {
 .compare-flyout-wrapper {
   width: 75%;
 }
-  
-}
-
-@media (max-width: 1091px) {
   
 }
