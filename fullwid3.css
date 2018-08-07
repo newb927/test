@@ -264,17 +264,6 @@ body.header-revealed .b-contactform {
   width: 100%;
 }
   
-  .photo-gallery-wrapper .photo-btn-container {
-    padding-left: 0;
-    padding-right: 0;
-    height: auto;
-    position: absolute;
-    top: unset;
-    bottom: 0;
-    width: unset;
-    left: 15px;
-    right: 15px;
-  }
   
 .photo-gallery-wrapper .slider-thumbs .thumbnail img {
   position: unset !important;
