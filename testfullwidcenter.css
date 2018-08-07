@@ -96,13 +96,14 @@
     bottom: 0 !important;
     top: unset !important;
   }
-
+  
   .b-contactform .container {
     width: auto;
     max-width: unset;
     margin: 0;
-    padding: 0;
-  }
+    padding: 30px;
+    background-color: #f9f9f9;
+}
 
   .b-contactform__form {
     -ms-flex-direction: column;
