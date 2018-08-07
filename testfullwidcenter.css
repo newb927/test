@@ -208,11 +208,6 @@
     padding-right: 0px;
   }
 
-  .title-wrapper .title .headline2::before,
-  .title-wrapper .title h2::before {
-    display: none;
-  }
-
   .two-column-community .row .col-md-6:first-child {
     padding-left: 0px;
   }
