@@ -583,13 +583,13 @@
   .compare-trigger .container {
     padding: 0;
   }
-  
+
   .compare-trigger .compare-title {
-   padding-right: 50px !important;
+    padding-right: 50px !important;
     margin-right: 20px !important;
     text-align: center;
     width: 75%;
-    padding-left: 20px !important; 
+    padding-left: 20px !important;
   }
 
   .compare-flyout-wrapper img {
