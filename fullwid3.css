@@ -227,6 +227,7 @@ body.header-revealed .b-contactform {
 
 .photo-gallery-wrapper .carousel {
   height: auto !important;
+}
 
 .photo-gallery-wrapper .carousel-inner .item { 
   min-width: unset !important;
@@ -254,14 +255,14 @@ body.header-revealed .b-contactform {
 .photo-gallery-wrapper .slider-thumbs ul {
      margin-top: -5px !important;
   }
-
-.photo-gallery-wrapper .slider-thumbs .thumbnail {
-  margin-left: auto;
-  margin-right: auto;
-  height: auto !important;
-  display: block;
-  max-width: 100%;
-  width: 100%;
+  
+ .photo-gallery-wrapper .slider-thumbs .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto !important;
+    display: block;
+    max-width: 100%;
+    width: 100%;
 }
   
   
