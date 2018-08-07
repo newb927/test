@@ -34,7 +34,8 @@
     max-width: 1700px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 20px;
+    padding-right: 0;
+    padding-left: 0;
     margin-top: 30px;
     background-color: #f9f9f9;
   }
@@ -70,14 +71,14 @@
     padding-top: 30px;
     transition: top 0.2s ease-in;
     position: relative;
-    border: 1px solid #f9f9f9;
-    /*max-width: 410px;*/
-    max-width: 410px;
+    max-width: 425px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 20px !important;
     margin-left: 0;
     margin-right: 0;
-  }
+    padding: 0;
+    border: none;
+}
 
   .b-contactform.fixed {
     position: fixed;
