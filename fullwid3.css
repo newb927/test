@@ -276,10 +276,16 @@ body.header-revealed .b-contactform {
     width: 100%;
 }
   
-  
 .photo-gallery-wrapper .slider-thumbs .thumbnail img {
   position: unset !important;
   transform: translateY(0%) !important;
+}
+
+.photo-gallery-wrapper .photo-btn-container {
+   top: unset;
+   margin-left: 58.33333%;
+   width: 41.66667%;
+   bottom: 20px;
 }
 
 @media (min-width: 1200px) and (max-width: 1470px) {
