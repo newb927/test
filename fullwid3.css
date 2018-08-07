@@ -605,7 +605,7 @@
   }
 
   .compare-flyout-wrapper .compare-row .compare {
-    padding: 0 20px;
+    padding: 0 20px !important;
   }
 
   .compare-flyout-wrapper.compare-open {
