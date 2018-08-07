@@ -38,6 +38,7 @@
     padding-left: 0;
     margin-top: 30px;
     background-color: #f9f9f9;
+    border-right: 20px solid #fff;
   }
 
   main {
@@ -73,17 +74,18 @@
     position: relative;
     max-width: 425px;
     padding-left: 30px;
-    padding-right: 20px !important;
+    padding-right: 0;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
     border: none;
+    background-color: #fff;
 }
 
   .b-contactform.fixed {
     position: fixed;
     top: 0;
-    margin-right: 20px;
+    border-right: 20px solid white;
   }
 
   body.header-revealed .b-contactform {
@@ -104,6 +106,10 @@
     padding: 30px;
     background-color: #f9f9f9;
 }
+  
+  .b-contactform.fixed .container {
+   margin-right: 20px; 
+  }
 
   .b-contactform__form {
     -ms-flex-direction: column;
