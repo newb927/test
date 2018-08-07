@@ -218,7 +218,7 @@ body.header-revealed .b-contactform {
 }
 
 .photo-gallery-wrapper .carousel-inner .item { 
-  min-width: unset;
+  min-width: unset !important;
 }
 
 .carousel-image {
@@ -235,7 +235,7 @@ body.header-revealed .b-contactform {
 }
 
 .carousel-control {
-  height: unset;
+  height: unset !important;
   bottom: 110px;
 }
 
