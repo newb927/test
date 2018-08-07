@@ -597,8 +597,7 @@
 }
 
 @media (min-width: 1092px) and (max-width: 1700px) {
-  .b-contactform--showingSuccess.fixed .success-message p,
-  .b-contactform--showingSuccess.fixed .success-message h3 {
+ .b-contactform--showingSuccess.fixed {
     padding-right: 5px;
   } 
 }
