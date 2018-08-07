@@ -255,8 +255,15 @@ body.header-revealed .b-contactform {
 .photo-gallery-wrapper .slider-thumbs .thumbnail {
   margin-left: auto;
   margin-right: auto;
+  height: auto !important;
+  display: block;
+  max-width: 100%;
   width: 100%;
-  max-width: 195px;
+}
+  
+.photo-gallery-wrapper .slider-thumbs .thumbnail img {
+  position: unset !important;
+  transform: translateY(0%) !important;
 }
 
 @media (min-width: 1200px) and (max-width: 1470px) {
