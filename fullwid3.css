@@ -1,8 +1,7 @@
 @media (max-width: 1091px) {
   #test-aside,
   #test-backdrop,
-  #test-fill,
-  #stripe-backdrop {
+  #test-fill {
     display: none;
   }
 }
@@ -10,8 +9,7 @@
 @media (min-width: 1092px) {
   #test-aside,
   #test-backdrop,
-  #test-fill,
-  #stripe-backdrop {
+  #test-fill {
     display: block;
   }
 
@@ -446,7 +444,7 @@
     width: 100%;
   }
 
-  #test-backdrop {
+  /*#test-backdrop {
     background-color: #000;
     opacity: 0;
     transition: opacty 0.15s linear;
@@ -485,28 +483,24 @@
   .show-test-backdrop #nav-stripe,
   .show-test-backdrop .ctcore-header {
     z-index: 1042;
-  }
+  }*/
+  
+  #test-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
 
-  #stripe-backdrop {
-    background-color: #000;
-    opacity: 0;
-    transition: opacty 0.15s linear;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 130px;
-  }
-
-  body.header-revealed #stripe-backdrop {
-    height: 75px;
-  }
-
-  .show-test-backdrop #stripe-backdrop {
-    z-index: 1042;
-    opacity: 0.5;
-  }
+.show-test-backdrop #test-backdrop {
+  z-index: 1040;
+  opacity: 0.5;
+}
 
   .b-contactform--showingSuccess {
     margin-left: 0;
