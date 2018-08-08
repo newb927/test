@@ -1,0 +1,36 @@
+.test-view-all-nearby-comms {
+  text-align: center;
+  margin-bottom: 44px;
+  margin-top: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media (max-width: something) {
+  .test-view-all-nearby-comms {
+    margin-bottom: 0; 
+    margin-top: 0;
+  }
+}
+
+.test-view-all-nearby-comms label {
+  display: none;
+}
+
+.test-view-all-nearby-comms button {
+  width: 100%;
+  max-width: 340px;
+  background-color: #00539B;
+}
+
+@media (max-width: 918px) {
+  #closestCommunities .js-closest-communities-results {
+    margin-bottom: 40px;
+  }
+  #closestCommunities .js-search-listing-2 {
+    margin-bottom: 0;
+  }
+  .test-view-all-nearby-comms {
+    margin-top: 0;
+  }
+}
