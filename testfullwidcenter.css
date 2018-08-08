@@ -382,10 +382,6 @@
   .static-form.show-test-backdrop .b-contactform {
     z-index: 1041;
   }
-  .show-test-backdrop #nav-stripe,
-  .show-test-backdrop .ctcore-header {
-    z-index: 1042;
-  }
   .b-contactform--showingSuccess {
     margin-left: 0;
     width: 100%;
