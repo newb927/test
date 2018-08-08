@@ -379,9 +379,6 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
   }
-  .static-form.show-test-backdrop .b-contactform {
-    z-index: 1041;
-  }
   .b-contactform--showingSuccess {
     margin-left: 0;
     width: 100%;
