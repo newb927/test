@@ -1,16 +1,14 @@
 @media (max-width: 1091px) {
   #test-aside,
   #test-backdrop,
-  #test-fill,
-  #stripe-backdrop {
+  #test-fill {
     display: none;
   }
 }
 @media (min-width: 1092px) {
   #test-aside,
   #test-backdrop,
-  #test-fill,
-  #stripe-backdrop {
+  #test-fill {
     display: block;
   }
   .ctcore-header .retain {
@@ -360,21 +358,15 @@
     width: 50%;
   }
   #test-backdrop {
-    background-color: #000;
-    opacity: 0;
-    transition: opacty 0.15s linear;
     position: fixed;
-    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    -ms-transform: translateY(130px);
-    transform: translateY(130px);
-  }
-  body.header-revealed #test-backdrop {
-    -ms-transform: translateY(75px);
-    transform: translateY(75px);
+    z-index: -1;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity .15s linear;
   }
   .show-test-backdrop #test-backdrop {
     z-index: 1040;
@@ -393,24 +385,6 @@
   .show-test-backdrop #nav-stripe,
   .show-test-backdrop .ctcore-header {
     z-index: 1042;
-  }
-  #stripe-backdrop {
-    background-color: #000;
-    opacity: 0;
-    transition: opacty 0.15s linear;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 130px;
-  }
-  body.header-revealed #stripe-backdrop {
-    height: 75px;
-  }
-  .show-test-backdrop #stripe-backdrop {
-    z-index: 1042;
-    opacity: 0.5;
   }
   .b-contactform--showingSuccess {
     margin-left: 0;
