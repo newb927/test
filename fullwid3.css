@@ -443,47 +443,6 @@
     );
     width: 100%;
   }
-
-  /*#test-backdrop {
-    background-color: #000;
-    opacity: 0;
-    transition: opacty 0.15s linear;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    -ms-transform: translateY(130px);
-    transform: translateY(130px);
-  }
-
-  body.header-revealed #test-backdrop {
-    -ms-transform: translateY(75px);
-    transform: translateY(75px);
-  }
-
-  .show-test-backdrop #test-backdrop {
-    z-index: 1040;
-    opacity: 0.5;
-  }
-
-  .show-test-backdrop .b-contactform {
-    z-index: 1043;
-    border: 1px solid #999;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    border-radius: 6px;
-  }
-
-  .static-form.show-test-backdrop .b-contactform {
-    z-index: 1041;
-  }
-
-  .show-test-backdrop #nav-stripe,
-  .show-test-backdrop .ctcore-header {
-    z-index: 1042;
-  }*/
   
   #test-backdrop {
   position: fixed;
