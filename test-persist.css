@@ -70,6 +70,10 @@ background-size: 100%;
  margin: 0 0 5px 0; 
 }
 
+.mobile-options .row--hybrid svg {
+  display: none;
+}
+
 #persistent-footer li:last-of-type {
   max-width: 69px;
 }
@@ -98,6 +102,109 @@ background-size: 100%;
 
 #persistent-footer ul li a:focus span[class$="-icon"] {
   color: #fb6418;
+}
+
+/*** Begin Test Contact Modal Styles ***/
+
+header.ctcore-header {
+ background: #fff; 
+}
+
+#testContactModal {
+  height: 100%;
+  top: -100%;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  #testContactModal {
+    overflow-y: auto;
+  }
+}
+
+.modal-dialog.test {
+  transform: translate(0,-25%);
+  transition: transform .3s ease-out;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog.test {
+    width: auto !important;
+    margin: 0px auto !important;
+  }
+}
+
+.test-modal-active {
+  top: 0 !important;
+}
+
+.test-modal-active .modal-dialog.test {
+  transform: translate(0,0);
+}
+  
+.b-contactform {
+  background-color: #fff;
+  display: block !important;
+}
+
+#testContactModal .b-contactform__prompt {
+  display: none;
+}
+
+#testContactModal .modal-header {
+  text-align: center;
+}
+
+#testContactModal .modal-header .close {
+  font-weight: 100;
+  font-size: 40px;
+  /*margin-left: -100px;*/
+  opacity: 1;
+  color: #7d7d7d;
+}
+
+#testContactModal .modal-title {
+  line-height: 1.92857em;
+}
+
+#testContactModal .b-contactform__form {
+  padding-top: 0;
+  margin-left: 0;
+  height: auto;
+}
+
+#testContactModal .b-contactform__reasons {
+  padding: 0;
+  margin: 0;
+}
+
+#testContactModal .modal-body {
+  padding: 20px 25px 30px;
+}
+
+#testContactModal .b-contactform__contactinfo input[type="text"],
+#testContactModal .b-contactform__contactinfo input[type="tel"],
+#testContactModal .b-contactform__contactinfo input[type="email"] {
+  width: 100%;
+  margin-right: 0;
+}
+
+@media (max-width: 1040px) {
+  #testContactModal .b-contactform__contactinfo input[type="submit"] {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+#testContactModal .b-contactform__compliance,
+#testContactModal .b-contactform__compliance > * {
+  width: auto;
+}
+
+/*** End Test Contact Modal Styles ***/
+
+.row--hybrid svg {
+  display: none;
 }
 
 #persistent-footer .community-options.unpinned {
