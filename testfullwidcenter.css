@@ -80,12 +80,12 @@
   .static-form .b-contactform {
     position: absolute !important;
     bottom: 0 !important;
-    top: unset !important;
+    top: auto !important;
     margin-right: 0 !important;
   }
   .b-contactform .container {
     width: auto;
-    max-width: unset;
+    max-width: auto;
     margin: 0;
     padding: 30px;
     background-color: #f9f9f9;
@@ -95,7 +95,7 @@
     flex-direction: column;
   }
   .b-contactform__reasons {
-    min-width: unset;
+    min-width: auto !important;
   }
   .b-contactform__reasons > * {
     padding-right: 0;
@@ -131,7 +131,7 @@
     margin-right: 0;
   }
   .b-contactform__contactinfo > .b-contactform__button {
-    max-width: unset;
+    max-width: auto;
   }
   #contact-form-submit {
     width: 100%;
@@ -149,14 +149,14 @@
   .content-break.parbase .divider.2 {
     margin-left: 0;
     margin-right: 0;
-    max-width: unset;
+    max-width: auto;
   }
   .community-two-column .retain {
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    max-width: unset;
+    max-width: auto;
   }
   .community-two-column .row {
     margin: 0;
@@ -209,22 +209,22 @@
     height: auto !important;
   }
   .photo-gallery-wrapper .carousel-inner .item {
-    min-width: unset !important;
+    min-width: auto !important;
   }
   .carousel-image {
-    height: unset !important;
+    height: auto !important;
   }
   .carousel-image img {
     display: block !important;
     max-width: 100%;
     width: 100%;
-    height: unset !important;
-    position: unset !important;
+    height: auto !important;
+    position: static !important;
     transform: translate3d(0, 0, 0) !important;
     -webkit-transform: translate3d(0, 0, 0) !important;
   }
   .carousel-control {
-    height: unset !important;
+    height: auto !important;
     bottom: 110px;
   }
   .photo-gallery-wrapper .slider-thumbs ul {
@@ -239,11 +239,11 @@
     width: 100%;
   }
   .photo-gallery-wrapper .slider-thumbs .thumbnail img {
-    position: unset !important;
+    position: static !important;
     transform: translateY(0%) !important;
   }
   .photo-gallery-wrapper .photo-btn-container {
-    top: unset;
+    top: auto;
     margin-left: 58.33333%;
     width: 41.66667%;
     bottom: 20px;
@@ -303,10 +303,10 @@
     padding: 0;
   }
   .closest-communities.retain {
-    max-width: unset;
+    max-width: auto;
   }
   .closest-communities__item {
-    min-width: unset;
+    min-width: auto;
     width: 30.66667%;
   }
   .closest-communities__list .js-search-listing-0 {
@@ -317,7 +317,7 @@
   }
   .video-player .video {
     margin: 0;
-    max-width: unset;
+    max-width: auto;
   }
   .js-video-player .video-cta {
     padding-left: 100px !important;
@@ -366,7 +366,7 @@
     z-index: -1;
     background-color: #000;
     opacity: 0;
-    transition: opacity .15s linear;
+    transition: opacity 0.15s linear;
   }
   .show-test-backdrop #test-backdrop {
     z-index: 1040;
@@ -393,7 +393,7 @@
   }
   .contact-us-success.success-message {
     width: 100%;
-    position: unset;
+    position: auto;
     margin-left: 0 !important;
     margin-top: 0;
     margin-bottom: 0;
