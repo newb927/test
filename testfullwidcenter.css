@@ -178,11 +178,14 @@
   .two-column-community .row .col-md-6:last-child {
     padding-right: 1px;
   }
-  ul[name="amenitiesList"] {
+  .bkd-community ul[name="amenitiesList"], .bkd-skilled-nursing .two-column-community ul {
     margin-left: 10px;
   }
+  .bkd-community-details ul[name="amenitiesList"] {
+    margin-left: 13px;
+  }
   .bkd-community-details ul[name="amenitiesList"] li {
-    padding-right: 30px;
+    padding-right: 30px !important;
   }
   .communityAmenities {
     padding-left: 15px;
