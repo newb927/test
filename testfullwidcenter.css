@@ -85,7 +85,7 @@
   }
   .b-contactform .container {
     width: auto;
-    max-width: none;
+    max-width: auto;
     margin: 0;
     padding: 30px;
     background-color: #f9f9f9;
@@ -95,7 +95,7 @@
     flex-direction: column;
   }
   .b-contactform__reasons {
-    min-width: initial !important;
+    min-width: auto !important;
   }
   .b-contactform__reasons > * {
     padding-right: 0;
@@ -131,7 +131,7 @@
     margin-right: 0;
   }
   .b-contactform__contactinfo > .b-contactform__button {
-    max-width: none;
+    max-width: auto;
   }
   #contact-form-submit {
     width: 100%;
@@ -149,18 +149,20 @@
   .content-break.parbase .divider.2 {
     margin-left: 0;
     margin-right: 0;
-    max-width: none;
+    max-width: auto;
   }
-  .community-two-column .retain {
+  .community-two-column .retain, .ammenities-list-wrapper {
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    max-width: none;
+    max-width: auto;
   }
-  .community-two-column .row {
+  .community-two-column .row,  {
     margin: 0;
   }
+  
+  .
   .bkd-community-details .richtext .full-width-text,
   .bkd-community-details .richtext .retain,
   .bkd-community-details .amenities_list,
@@ -178,8 +180,11 @@
   .two-column-community .row .col-md-6:last-child {
     padding-right: 1px;
   }
-  .two-column-community .row .col-md-6 ul {
+  ul[name="amenitiesList"] {
     margin-left: 10px;
+  }
+  .bkd-community-details ul[name="amenitiesList"] li {
+    padding-right: 30px;
   }
   .communityAmenities {
     padding-left: 15px;
@@ -209,7 +214,7 @@
     height: auto !important;
   }
   .photo-gallery-wrapper .carousel-inner .item {
-    min-width: initial !important;
+    min-width: auto !important;
   }
   .carousel-image {
     height: auto !important;
@@ -303,10 +308,10 @@
     padding: 0;
   }
   .closest-communities.retain {
-    max-width: none;
+    max-width: auto;
   }
   .closest-communities__item {
-    min-width: initial;
+    min-width: auto;
     width: 30.66667%;
   }
   .closest-communities__list .js-search-listing-0 {
@@ -317,7 +322,7 @@
   }
   .video-player .video {
     margin: 0;
-    max-width: none;
+    max-width: auto;
   }
   .js-video-player .video-cta {
     padding-left: 100px !important;
@@ -357,6 +362,10 @@
     );
     width: 50%;
   }
+  footer.footer .row {
+    margin: 0 !important;
+    padding: 0 50px;
+  }
   #test-backdrop {
     position: fixed;
     top: 0;
@@ -393,7 +402,7 @@
   }
   .contact-us-success.success-message {
     width: 100%;
-    position: initial;
+    position: auto;
     margin-left: 0 !important;
     margin-top: 0;
     margin-bottom: 0;
