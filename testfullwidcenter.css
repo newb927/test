@@ -85,7 +85,7 @@
   }
   .b-contactform .container {
     width: auto;
-    max-width: auto;
+    max-width: none;
     margin: 0;
     padding: 30px;
     background-color: #f9f9f9;
@@ -95,7 +95,7 @@
     flex-direction: column;
   }
   .b-contactform__reasons {
-    min-width: auto !important;
+    min-width: unset !important;
   }
   .b-contactform__reasons > * {
     padding-right: 0;
@@ -131,7 +131,7 @@
     margin-right: 0;
   }
   .b-contactform__contactinfo > .b-contactform__button {
-    max-width: auto;
+    max-width: none;
   }
   #contact-form-submit {
     width: 100%;
@@ -149,14 +149,14 @@
   .content-break.parbase .divider.2 {
     margin-left: 0;
     margin-right: 0;
-    max-width: auto;
+    max-width: none;
   }
   .community-two-column .retain, .ammenities-list-wrapper {
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    max-width: auto;
+    max-width: none;
   }
   .community-two-column .row,  {
     margin: 0;
@@ -214,7 +214,7 @@
     height: auto !important;
   }
   .photo-gallery-wrapper .carousel-inner .item {
-    min-width: auto !important;
+    min-width: unset !important;
   }
   .carousel-image {
     height: auto !important;
@@ -308,10 +308,10 @@
     padding: 0;
   }
   .closest-communities.retain {
-    max-width: auto;
+    max-width: none;
   }
   .closest-communities__item {
-    min-width: auto;
+    min-width: unset;
     width: 30.66667%;
   }
   .closest-communities__list .js-search-listing-0 {
@@ -322,7 +322,7 @@
   }
   .video-player .video {
     margin: 0;
-    max-width: auto;
+    max-width: none;
   }
   .js-video-player .video-cta {
     padding-left: 100px !important;
@@ -402,7 +402,7 @@
   }
   .contact-us-success.success-message {
     width: 100%;
-    position: auto;
+    position: initial;
     margin-left: 0 !important;
     margin-top: 0;
     margin-bottom: 0;
