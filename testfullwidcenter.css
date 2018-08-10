@@ -168,15 +168,11 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .bkd-community-details .amenitiesList {
-    margin-left: 10px;
-    padding-right: 0;
-  }
   .two-column-community .row .col-md-6:first-child {
     padding-left: 0;
   }
   .two-column-community .row .col-md-6:last-child {
-    padding-right: 1px;
+    padding-right: 0;
   }
   .bkd-community ul[name="amenitiesList"], .bkd-skilled-nursing .two-column-community ul {
     margin-left: 10px;
