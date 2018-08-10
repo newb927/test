@@ -22,7 +22,7 @@
   .ctcore-header__phone {
     padding-right: 0;
   }
-  #test-wrapper {
+  /*#test-wrapper {
     position: relative;
     max-width: 1700px;
     margin-left: auto;
@@ -32,12 +32,31 @@
     margin-top: 30px;
     background-color: #f9f9f9;
     border-right: 20px solid #fff;
+  }*/
+  
+  body {
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  padding-left: 0;
   }
   main {
     width: 75%;
     background-color: #fff;
     padding-right: 40px;
     padding-left: 20px;
+    /*position: relative;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;*/
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 30px;
+    background-color: #fff;
+    padding-right: 40px;
+    padding-left: 20px;
+    border-right: 20px solid #fff;
   }
   .main:after, .main:before {
     content: " ";
