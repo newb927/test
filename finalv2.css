@@ -11,12 +11,6 @@
   #test-fill {
     display: block;
   }
-  body {
-    background: #f9f9f9;
-  }
-  header {
-   background: #fff; 
-  }
   .ctcore-header .retain {
     max-width: 1700px;
     padding-left: 20px;
@@ -28,26 +22,37 @@
   .ctcore-header__phone {
     padding-right: 0;
   }
+  #test-wrapper {
+    position: relative;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #f9f9f9;
+    border-right: 20px solid #fff;
+  }
   main {
     display: inline-block;
     width: 75%;
     background-color: #fff;
     padding: 30px 30px 0 20px;
+    border-bottom: 5px solid #fff;
   }
   #test-aside {
     display: inline-block;
     vertical-align: top;
     width: 25%;
-    background-color: #fff;
     padding-top: 30px;
+    background-color: #fff;
   }
   #test-fill {
     background-color: #f9f9f9;
     width: 25%;
     position: absolute;
     bottom: 0;
-    height: 80px;
-    margin-bottom: -79px;
+    height: 85px;
+    margin-bottom: -80px;
     z-index: 2;
     right: 0;
   }
@@ -57,7 +62,7 @@
     position: relative;
     max-width: 420px;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 0;
     padding: 0;
     border: none;
     background-color: #fff;
@@ -65,19 +70,17 @@
   .b-contactform.fixed {
     position: fixed;
     top: 0;
-    margin-right: 0;
-    border-right: 20px solid #fff;
+    margin-right: 20px;
   }
   body.header-revealed .b-contactform {
     transition: top 0.4s ease-in;
     top: 74px;
   }
   .static-form .b-contactform {
-    /*position: absolute !important;
+    position: absolute !important;
     bottom: 0 !important;
     top: auto !important;
-    margin-right: 0 !important;*/
-    background-color: red;
+    margin-right: 0 !important;
   }
   .b-contactform .container {
     width: auto;
@@ -85,6 +88,11 @@
     margin: 0;
     padding: 20px;
     background-color: #f9f9f9;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+  }
+  .b-contactform.loaded .container {
+    opacity: 1;
   }
   .b-contactform__form {
     -ms-flex-direction: column;
@@ -136,6 +144,7 @@
   }
   .b-contactform__compliance {
     width: auto;
+    margin-bottom: 0;
   }
   .community-description-wrapper {
     padding-left: 0;
@@ -143,8 +152,11 @@
   }
   .community-intro-wrapper .community-hero:before {
     height: auto !important;
-    bottom: 90px;
+    bottom: 0;
     right: 0;
+  }
+  .community-hero .community-details {
+    padding-right: 100px;
   }
   .community-details-intro-wrapper .inner-wrapper {
     width: auto;
@@ -390,6 +402,9 @@
     border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+  }
+  .show-test-backdrop .b-contactform .container {
     border-radius: 6px;
   }
   .b-contactform--showingSuccess {
