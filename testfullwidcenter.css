@@ -73,7 +73,7 @@
   }
   body.header-revealed .b-contactform {
     transition: top 0.4s ease-in;
-    top: 75px;
+    top: 70px;
   }
   .static-form .b-contactform {
     position: absolute !important;
