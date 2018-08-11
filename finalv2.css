@@ -65,7 +65,8 @@
   .b-contactform.fixed {
     position: fixed;
     top: 0;
-    margin-right: 20px;
+    margin-right: 0;
+    border-right: 20px solid #fff;
   }
   body.header-revealed .b-contactform {
     transition: top 0.4s ease-in;
