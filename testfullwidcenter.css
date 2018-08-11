@@ -60,6 +60,8 @@
     transition: top 0.2s ease-in;
     position: relative;
     max-width: 420px;
+    padding-left: 30px;
+    padding-right: 0;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
@@ -73,7 +75,7 @@
   }
   body.header-revealed .b-contactform {
     transition: top 0.4s ease-in;
-    top: 70px;
+    top: 75px;
   }
   .static-form .b-contactform {
     position: absolute !important;
@@ -121,7 +123,7 @@
     padding-bottom: 10px;
   }
   .b-contactform__reasons {
-  padding-top: 15px;
+    padding-top: 15px;
   }
   .b-contactform__contactinfo > * {
     width: auto;
@@ -143,6 +145,11 @@
     padding-left: 0;
     padding-right: 20px;
   }
+  .community-intro-wrapper .community-hero:before {
+    height: auto !important;
+    bottom: 90px;
+    right: 0;
+  }
   .community-details-intro-wrapper .inner-wrapper {
     width: auto;
   }
@@ -151,14 +158,16 @@
     margin-right: 0;
     max-width: none;
   }
-  .community-two-column .retain, .ammenities-list-wrapper, .bkd-community-details .retain--padded {
+  .community-two-column .retain,
+  .ammenities-list-wrapper,
+  .bkd-community-details .retain--padded {
     padding-left: 0;
     padding-right: 0;
     margin-left: 0 !important;
     margin-right: 0 !important;
     max-width: none;
   }
-  .community-two-column .row  {
+  .community-two-column .row {
     margin: 0;
   }
   .bkd-community-details .richtext .full-width-text,
@@ -175,7 +184,8 @@
   .two-column-community .row .col-md-6:last-child {
     padding-right: 0;
   }
-  .bkd-community ul[name="amenitiesList"], .bkd-skilled-nursing .two-column-community ul {
+  .bkd-community ul[name="amenitiesList"],
+  .bkd-skilled-nursing .two-column-community ul {
     margin-left: 10px;
   }
   .bkd-community-details ul[name="amenitiesList"] {
