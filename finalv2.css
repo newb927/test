@@ -35,8 +35,8 @@
     padding: 30px 30px 0 20px;
   }
   #test-aside {
-    position: absolute;
     display: inline-block;
+    vertical-align: top;
     width: 25%;
     background-color: #fff;
     padding-top: 30px;
