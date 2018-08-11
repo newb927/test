@@ -65,7 +65,8 @@
     margin-right: 0;
     padding: 0;
     border: none;
-    background-color: #fff;
+    overflow: hidden;
+    visibility: hidden;
   }
   .b-contactform.fixed {
     position: fixed;
@@ -91,6 +92,9 @@
     opacity: 0;
     transition: opacity 0.4s ease-in;
   }
+  .b-contactform.loaded {
+    visibility: visible;
+  }
   .b-contactform.loaded .container {
     opacity: 1;
   }
@@ -99,7 +103,7 @@
     flex-direction: column;
   }
   .b-contactform__reasons {
-    min-width: unset !important;
+    min-width: auto !important;
   }
   .b-contactform__reasons > * {
     padding-right: 0;
@@ -230,7 +234,7 @@
     height: auto !important;
   }
   .photo-gallery-wrapper .carousel-inner .item {
-    min-width: unset !important;
+    min-width: auto !important;
   }
   .carousel-image {
     height: auto !important;
@@ -327,7 +331,7 @@
     max-width: none;
   }
   .closest-communities__item {
-    min-width: unset;
+    min-width: auto;
     width: 30.66667%;
   }
   .closest-communities__list .js-search-listing-0 {
@@ -426,8 +430,8 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .static-form .b-contactform--showingSuccess. .success-message p,
-  .static-form .b-contactform--showingSuccess. .success-message h3 {
+  .static-form .b-contactform--showingSuccess .success-message p,
+  .static-form .b-contactform--showingSuccess .success-message h3 {
     padding-right: 0px !important;
   }
   .b-contactform--showingSuccess .success-message .button-group {
