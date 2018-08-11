@@ -11,6 +11,9 @@
   #test-fill {
     display: block;
   }
+  body {
+    background-color: #f9f9f9;
+  }
   .ctcore-header .retain {
     max-width: 1700px;
     padding-left: 20px;
