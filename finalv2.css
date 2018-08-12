@@ -66,7 +66,7 @@
     padding: 0;
     border: none;
     overflow: hidden;
-    visibility: hidden;
+    opacity: 0;
   }
   .b-contactform.fixed {
     position: fixed;
@@ -90,10 +90,9 @@
     padding: 20px;
     background-color: #f9f9f9;
     opacity: 0;
-    transition: opacity 0.4s ease-in;
   }
   .b-contactform.loaded {
-    visibility: visible;
+    opacity: 1;
   }
   .b-contactform.loaded .container {
     opacity: 1;
@@ -160,7 +159,7 @@
     right: 0;
   }
   .community-hero .community-details {
-    padding-right: 100px;
+    padding-right: 100px !important;
   }
   .community-details-intro-wrapper .inner-wrapper {
     width: auto;
@@ -189,6 +188,12 @@
   .bkd-community-details .amenities-list-wrapper {
     padding-left: 0;
     padding-right: 0;
+  }
+  .title-wrapper .title .headline2.small,
+  .title-wrapper .title h2.small {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center !important;
   }
   .two-column-community .row .col-md-6:first-child {
     padding-left: 0;
@@ -251,6 +256,7 @@
   .carousel-control {
     height: auto !important;
     bottom: 110px;
+    cursor: pointer;
   }
   .photo-gallery-wrapper .slider-thumbs ul {
     margin-top: 15px !important;
@@ -344,8 +350,11 @@
     margin: 0;
     max-width: none;
   }
-  .js-video-player .video-cta {
-    padding-left: 100px !important;
+  .video-player .video-close {
+    width: auto !important;
+    margin-left: auto !important;
+    top: 15px !important;
+    right: 20px;
   }
   .container {
     width: auto;
