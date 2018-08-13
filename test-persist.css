@@ -58,6 +58,17 @@
   width: 14px;
 }
 
+#persistent-footer ul li > a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#persistent-footer ul li > a > a, #persistent-footer ul li > a > a:active, #persistent-footer ul li > a > a:hover, #persistent-footer ul li > a > a:link, #persistent-footer ul li > a > a:visited {
+color: #333;
+}
+
 #persistent-footer ul li span.test-phone-icon {
 content: "";
 width: 20px;
