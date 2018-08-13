@@ -19,7 +19,7 @@
   }
 }
 
-.js-header__phonenumber a, .js-header__phonenumber a, .test-header-phone a {
+.js-header__phonenumber a, .test-header-phone a {
   text-indent: -9999px;
   overflow:hidden;
 }
