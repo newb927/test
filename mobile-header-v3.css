@@ -14,10 +14,6 @@
     right: 0;
     background: #fff;
   }
-  #nav-stripe + .ctcore-header .ctcore-header__row.ctcore-header__row--first .ctcore-header__logo {
-    max-width: 130px;
-    min-width: 130px;
-  }
   .progressive-bar {
     top: 60px;
   }
