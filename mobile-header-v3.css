@@ -33,8 +33,11 @@
    margin-left: 3px;
    display: none;
   }
+  .test-no-show {
+   display: none !important; 
+  }
   .test-show {
-   display: block; 
+   display: block !important; 
   }
   /* end may not need */
   .test-header-phone {
