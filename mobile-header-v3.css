@@ -36,9 +36,6 @@
   .test-show {
    display: block !important; 
   }
-  .test-no-show {
-   display: none !important; 
-  }
   /* end may not need */
   .test-header-phone {
     content: "";
