@@ -19,6 +19,12 @@
   .ct-icon--search {
     display: none;
   }
+  .test-phone-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    align-items: center;
+  }
   .test-header-phone {
     content: "";
     width: 25px;
