@@ -19,7 +19,7 @@
   }
 }
 
-.js-header__phonenumber a a, .test-header-phone a a {
+.js-header__phonenumber a a, .test-header-phone a {
   display: none;
 }
 
