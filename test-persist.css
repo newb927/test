@@ -211,12 +211,7 @@ header.ctcore-header {
   transform: translateY(0%);
 }
 
-.test-static-footer {
-  position: relative !important;
-  margin-top: 20px;
-}
-
-.test-static-footer .community-options {
-  border-bottom: 1px solid #ccc;
+footer.footer {
+  margin-bottom: 70px
 }
   
