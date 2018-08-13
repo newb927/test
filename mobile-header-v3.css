@@ -19,7 +19,6 @@
   .ct-icon--search {
     display: none;
   }
-  /* may not need */
   .test-phone-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -27,19 +26,24 @@
     align-items: center;
   }
   .test-phone-text {
-   color: #333;
-   font-size: 14px;
-   font-weight: bold;
-   margin-left: 3px;
-   display: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+    display: none;
+  }
+  .test-phone-text:active,
+  .test-phone-text:hover,
+  .test-phone-text:link,
+  .test-phone-text:visited {
+    color: #333;
   }
   .test-no-show {
-   display: none !important; 
+    display: none !important;
   }
   .test-show {
-   display: block !important; 
+    display: block !important;
   }
-  /* end may not need */
   .test-header-phone {
     content: "";
     width: 25px;
@@ -54,7 +58,7 @@
 }
 
 @media (max-width: 639px) {
- .test-phone-text {
-   display: none !important;
+  .test-phone-text {
+    display: none !important;
   }
 }
