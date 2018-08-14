@@ -1,4 +1,3 @@
-
 #persistent-footer {
   position: fixed;
   left: 0;
@@ -16,7 +15,7 @@
   display: block;
   overflow-y: hidden;
   transform: translateY(100%);
-  transition: transform .5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 #persistent-footer ul {
@@ -50,35 +49,42 @@
   margin: 0 8px 0 0;
 }
 
-#persistent-footer ul li span.contact-icon>span {
-  width: 20px; 
+#persistent-footer ul li span.contact-icon > span {
+  width: 20px;
 }
 
-#persistent-footer ul li span.contact-icon>span:last-child {
+#persistent-footer ul li span.contact-icon > span:last-child {
   width: 14px;
 }
 
 #persistent-footer ul li > a {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
-#persistent-footer ul li > a > a, #persistent-footer ul li > a > a:active, #persistent-footer ul li > a > a:hover, #persistent-footer ul li > a > a:link, #persistent-footer ul li > a > a:visited {
-color: #333;
+#persistent-footer ul li > a > a,
+#persistent-footer ul li > a > a:active,
+#persistent-footer ul li > a > a:hover,
+#persistent-footer ul li > a > a:link,
+#persistent-footer ul li > a > a:visited {
+  color: #333;
 }
 
 #persistent-footer ul li span.test-phone-icon {
-content: "";
-width: 20px;
-height: 20px;
-background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 25'><path fill='%2372a9bd' d='M19.51 14.65A2 2 0 0 0 18.3 14l-5.06-.88a2.07 2.07 0 0 0-2.3 1.29 15.2 15.2 0 0 1-3.33-2.69 14.22 14.22 0 0 1-2.08-2.87A2 2 0 0 0 7 6.68l-.64-4.94A1.9 1.9 0 0 0 5.78.6 2.07 2.07 0 0 0 4.06 0L2 .26A2.06 2.06 0 0 0 .26 1.83c-.89 3.74.62 8.56 4.31 12.49C8 18 12.38 20 16.22 20a9.78 9.78 0 0 0 1.73-.15 2 2 0 0 0 1.66-1.6l.36-2a1.93 1.93 0 0 0-.46-1.6z'/></svg>") 0px 0px no-repeat #fff;
-background-size: 100%;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 25'><path fill='%2372a9bd' d='M19.51 14.65A2 2 0 0 0 18.3 14l-5.06-.88a2.07 2.07 0 0 0-2.3 1.29 15.2 15.2 0 0 1-3.33-2.69 14.22 14.22 0 0 1-2.08-2.87A2 2 0 0 0 7 6.68l-.64-4.94A1.9 1.9 0 0 0 5.78.6 2.07 2.07 0 0 0 4.06 0L2 .26A2.06 2.06 0 0 0 .26 1.83c-.89 3.74.62 8.56 4.31 12.49C8 18 12.38 20 16.22 20a9.78 9.78 0 0 0 1.73-.15 2 2 0 0 0 1.66-1.6l.36-2a1.93 1.93 0 0 0-.46-1.6z'/></svg>")
+    0px 0px no-repeat #fff;
+  background-size: 100%;
 }
 
 #persistent-footer ul li span.save-icon {
- margin: 0 0 5px 0; 
+  margin: 0 0 5px 0;
 }
 
 .mobile-options .row--hybrid svg {
@@ -91,24 +97,25 @@ background-size: 100%;
 
 @media (min-width: 421px) {
   #persistent-footer li:last-of-type {
-  max-width: 200px;
+    max-width: 200px;
   }
 }
 
 @media (max-width: 420px) {
-#persistent-footer ul li span.save-icon-text {
- display: none; 
+  #persistent-footer ul li span.save-icon-text {
+    display: none;
   }
 }
 
 @media (min-width: 421px) {
-#persistent-footer ul li span.save-icon {
- margin: 0 8px 5px 0;
+  #persistent-footer ul li span.save-icon {
+    margin: 0 8px 5px 0;
   }
 }
 
-#persistent-footer ul li a, #persistent-footer ul li a:focus {
-    color: #333;
+#persistent-footer ul li a,
+#persistent-footer ul li a:focus {
+  color: #333;
 }
 
 #persistent-footer ul li a:focus span[class$="-icon"] {
@@ -118,7 +125,7 @@ background-size: 100%;
 /*** Begin Test Contact Modal Styles ***/
 
 header.ctcore-header {
- background: #fff; 
+  background: #fff;
 }
 
 #testContactModal {
@@ -134,8 +141,8 @@ header.ctcore-header {
 }
 
 .modal-dialog.test {
-  transform: translate(0,-25%);
-  transition: transform .3s ease-out;
+  transform: translate(0, -25%);
+  transition: transform 0.3s ease-out;
 }
 
 @media (min-width: 768px) {
@@ -150,9 +157,9 @@ header.ctcore-header {
 }
 
 .test-modal-active .modal-dialog.test {
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
-  
+
 .b-contactform {
   background-color: #fff;
   display: block !important;
@@ -225,4 +232,3 @@ header.ctcore-header {
 footer.footer {
   margin-bottom: 70px;
 }
-  
