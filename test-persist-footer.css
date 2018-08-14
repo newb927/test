@@ -5,19 +5,18 @@
   width: 100%;
   z-index: 15;
 }
-
 #persistent-footer .community-options {
   background: #fff;
   width: 100%;
   color: #333;
   border-top: 1px solid #ccc;
   top: unset;
+  height: 60px;
   display: block;
   overflow-y: hidden;
   transform: translateY(100%);
   transition: transform 0.5s ease-in-out;
 }
-
 #persistent-footer ul {
   width: 100%;
   display: -ms-inline-flexbox;
@@ -26,7 +25,6 @@
   margin: 0;
   padding: 0;
 }
-
 #persistent-footer ul li {
   width: auto;
   font-size: 12px;
@@ -40,23 +38,18 @@
   -webkit-justify-content: center;
   justify-content: center;
 }
-
 #persistent-footer ul li.compare-action {
   display: none;
 }
-
 #persistent-footer ul li span[class$="-icon"] {
   margin: 0 8px 0 0;
 }
-
 #persistent-footer ul li span.contact-icon > span {
   width: 20px;
 }
-
 #persistent-footer ul li span.contact-icon > span:last-child {
   width: 14px;
 }
-
 #persistent-footer ul li > a {
   width: 100%;
   display: flex;
@@ -65,7 +58,6 @@
   -webkit-justify-content: center;
   justify-content: center;
 }
-
 #persistent-footer ul li > a > a,
 #persistent-footer ul li > a > a:active,
 #persistent-footer ul li > a > a:hover,
@@ -73,162 +65,127 @@
 #persistent-footer ul li > a > a:visited {
   color: #333;
 }
-
 #persistent-footer ul li span.test-phone-icon {
   content: "";
   width: 20px;
   height: 20px;
   background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 25'><path fill='%2372a9bd' d='M19.51 14.65A2 2 0 0 0 18.3 14l-5.06-.88a2.07 2.07 0 0 0-2.3 1.29 15.2 15.2 0 0 1-3.33-2.69 14.22 14.22 0 0 1-2.08-2.87A2 2 0 0 0 7 6.68l-.64-4.94A1.9 1.9 0 0 0 5.78.6 2.07 2.07 0 0 0 4.06 0L2 .26A2.06 2.06 0 0 0 .26 1.83c-.89 3.74.62 8.56 4.31 12.49C8 18 12.38 20 16.22 20a9.78 9.78 0 0 0 1.73-.15 2 2 0 0 0 1.66-1.6l.36-2a1.93 1.93 0 0 0-.46-1.6z'/></svg>")
-    0px 0px no-repeat #fff;
+    0 0 no-repeat #fff;
   background-size: 100%;
 }
-
 #persistent-footer ul li span.save-icon {
   margin: 0 0 5px 0;
 }
-
 .mobile-options .row--hybrid svg {
   display: none;
 }
-
 #persistent-footer li:last-of-type {
   max-width: 69px;
 }
-
 @media (min-width: 421px) {
   #persistent-footer li:last-of-type {
     max-width: 200px;
   }
 }
-
 @media (max-width: 420px) {
   #persistent-footer ul li span.save-icon-text {
     display: none;
   }
 }
-
 @media (min-width: 421px) {
   #persistent-footer ul li span.save-icon {
     margin: 0 8px 5px 0;
   }
 }
-
 #persistent-footer ul li a,
 #persistent-footer ul li a:focus {
   color: #333;
 }
-
 #persistent-footer ul li a:focus span[class$="-icon"] {
   color: #fb6418;
 }
-
-/*** Begin Test Contact Modal Styles ***/
-
 header.ctcore-header {
   background: #fff;
 }
-
 #testContactModal {
   height: 100%;
   top: -100%;
   display: block;
 }
-
 @media (max-width: 991px) {
   #testContactModal {
     overflow-y: auto;
   }
 }
-
 .modal-dialog.test {
   transform: translate(0, -25%);
   transition: transform 0.3s ease-out;
 }
-
 @media (min-width: 768px) {
   .modal-dialog.test {
     width: auto !important;
-    margin: 0px auto !important;
+    margin: 0 auto !important;
   }
 }
-
 .test-modal-active {
   top: 0 !important;
 }
-
 .test-modal-active .modal-dialog.test {
   transform: translate(0, 0);
 }
-
 .b-contactform {
   background-color: #fff;
   display: block !important;
 }
-
 #testContactModal .b-contactform__prompt {
   display: none;
 }
-
 #testContactModal .modal-header {
   text-align: center;
 }
-
 #testContactModal .modal-header .close {
   font-weight: 100;
   font-size: 40px;
-  /*margin-left: -100px;*/
   opacity: 1;
   color: #7d7d7d;
 }
-
 #testContactModal .modal-title {
   line-height: 1.92857em;
 }
-
 #testContactModal .b-contactform__form {
   padding-top: 0;
   margin-left: 0;
   height: auto;
 }
-
 #testContactModal .b-contactform__reasons {
   padding: 0;
   margin: 0;
 }
-
 #testContactModal .modal-body {
   padding: 20px 25px 30px;
 }
-
 #testContactModal .b-contactform__contactinfo input[type="text"],
 #testContactModal .b-contactform__contactinfo input[type="tel"],
 #testContactModal .b-contactform__contactinfo input[type="email"] {
   width: 100%;
   margin-right: 0;
 }
-
 @media (max-width: 1040px) {
   #testContactModal .b-contactform__contactinfo input[type="submit"] {
     max-width: 100%;
     width: 100%;
   }
 }
-
 #testContactModal .b-contactform__compliance,
 #testContactModal .b-contactform__compliance > * {
   width: auto;
 }
-
-/*** End Test Contact Modal Styles ***/
-
 .row--hybrid svg {
   display: none;
 }
-
 #persistent-footer .community-options.unpinned {
   transform: translateY(0%);
 }
-
 footer.footer {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
