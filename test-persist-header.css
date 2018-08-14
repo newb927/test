@@ -1,7 +1,7 @@
 #persistent-footer {
   position: fixed;
   left: 0;
-  top: 70px;
+  top: 60px;
   width: 100%;
   z-index: 15;
 }
@@ -11,6 +11,7 @@
   color: #333;
   border-bottom: 1px solid #ccc;
   top: unset;
+  height: 60px;
   display: block;
   overflow-y: hidden;
   transform: translateY(-100%);
@@ -185,13 +186,10 @@ header.ctcore-header {
 #persistent-footer .community-options.unpinned {
   transform: translateY(0%);
 }
-footer.footer {
-  margin-bottom: 70px;
-}
 .progressive-bar {
- transform: translateY(0%);
- transition: transform .5s ease-in-out;
+  transform: translateY(0%);
+  transition: transform 0.5s ease-in-out;
 }
- .progressive-bar.test-active {
- transform: translateY(70px);
+.progressive-bar.test-active {
+  transform: translateY(60px);
 }
