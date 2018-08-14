@@ -65,7 +65,10 @@
 #persistent-footer ul li > a > a:visited {
   color: #333;
 }
-#persistent-footer ul li span.test-phone-icon {
+#persistent-footer ul li > a:hover span {
+  color: #fb6418;
+}
+#persistent-footer ul li .test-phone-icon {
   content: "";
   width: 20px;
   height: 20px;
