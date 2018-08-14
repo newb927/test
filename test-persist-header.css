@@ -188,3 +188,10 @@ header.ctcore-header {
 footer.footer {
   margin-bottom: 70px;
 }
+.progressive-bar {
+ transform: translateY(0%);
+ transition: transform .5s ease-in-out;
+}
+ .progressive-bar.test-active {
+ transform: translateY(70px);
+}
