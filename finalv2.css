@@ -333,9 +333,13 @@
   .closest-communities.retain {
     max-width: none;
   }
+  .closest-communities__list {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
   .closest-communities__item {
-    min-width: auto;
-    width: 30.66667%;
+    width: auto !important;
+    margin: 0 10px 40px 10px;
   }
   .closest-communities__list .js-search-listing-0 {
     margin-left: 0;
@@ -361,7 +365,7 @@
   }
   .cta.parbase .header-text {
     width: auto;
-    margin-left: 0;
+    margin-left: auto;
   }
   .cta.parbase .header-text > div {
     margin: 0;
@@ -430,7 +434,29 @@
     background-color: transparent;
     width: 25%;
   }
-  .contact-us-success.success-message {
+  
+.b-contactform__response-steps {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.b-contactform__response-step {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.b-contactform__response-icon--computer {
+    width: 56px;
+}
+
+.b-contactform__response-icon--headset {
+    width: 38px;
+}
+
+.b-contactform__response-icon--headset {
+    width: 38px;
+}
+  /*.contact-us-success.success-message {
     width: 100%;
     position: initial;
     margin-left: 0 !important;
@@ -449,7 +475,7 @@
   }
   .b-contactform--showingSuccess .button-group button {
     margin: 0 0 10px -10px;
-  }
+  }*/
   .compare-trigger .container {
     padding: 0;
   }
@@ -490,6 +516,9 @@
   .test-form-completed #test-aside,
   .test-form-completed #test-fill {
     display: none;
+  }
+  .test-form-completed .community-description-wrapper {
+    padding: 0 65px;
   }
   .test-form-completed .two-column-community .row .col-md-6 {
     text-align: right;
