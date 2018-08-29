@@ -59,67 +59,6 @@
   }
   .b-contactform {
     padding-top: 30px;
-    transition: top 0.2s ease-in;@media (max-width: 1091px) {
-  #test-aside,
-  #test-backdrop,
-  #test-fill,
-  .photo-gallery-wrapper .photo-btn-container {
-    display: none !important;
-  }
-}
-@media (min-width: 1092px) {
-  #test-aside,
-  #test-backdrop,
-  #test-fill {
-    display: block;
-  }
-  .ctcore-header .retain {
-    max-width: 1700px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .ctcore-header__logo {
-    margin-left: 0;
-  }
-  .ctcore-header__phone {
-    padding-right: 0;
-  }
-  #test-wrapper {
-    position: relative;
-    max-width: 1700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-    padding-left: 0;
-    background-color: #f9f9f9;
-    border-right: 20px solid #fff;
-  }
-  main {
-    display: inline-block;
-    width: 75%;
-    background-color: #fff;
-    padding: 30px 30px 0 20px;
-    border-bottom: 5px solid #fff;
-  }
-  #test-aside {
-    display: inline-block;
-    vertical-align: top;
-    width: 25%;
-    padding-top: 30px;
-    background-color: #fff;
-  }
-  #test-fill {
-    background-color: #f9f9f9;
-    width: 25%;
-    position: absolute;
-    bottom: 0;
-    height: 85px;
-    margin-bottom: -79px;
-    z-index: 2;
-    right: 0;
-  }
-  .b-contactform {
-    padding-top: 30px;
     transition: top 0.2s ease-in;
     position: relative;
     max-width: 420px;
@@ -485,15 +424,7 @@
   .b-contactform--showingSuccess {
     margin-left: 0;
     width: 100%;
-    /*height: auto !important;*/
-  }
-  .b-contactform--showingSuccess .b-contactform__response--success,
-  .b-contactform--showingFail .b-contactform__response--fail {
-    left: 15px;
-    right: 15px;
-  }
-  .b-contactform--showingFail #is-b-contactform {
-    visibility: hidden;
+    height: auto !important;
   }
   .b-contactform--showingSuccess #is-b-contactform {
     margin-left: 0 !important;
@@ -503,41 +434,7 @@
     background-color: transparent;
     width: 25%;
   }
-
-  .b-contactform__response-steps {
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .b-contactform__response-step {
-    max-width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .b-contactform__response-icon--computer {
-    width: 56px;
-    min-width: 44px;
-  }
-
-  .b-contactform__response-icon--headset {
-    width: 38px;
-    min-width: 38px;
-  }
-
-  .b-contactform__response-links {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-  .b-contactform__response-links a {
-    display: block;
-    border-right: 0;
-    margin: 0 0 10px 0;
-    padding: 0;
-  }
-  /*.contact-us-success.success-message {
+  .contact-us-success.success-message {
     width: 100%;
     position: initial;
     margin-left: 0 !important;
@@ -556,7 +453,7 @@
   }
   .b-contactform--showingSuccess .button-group button {
     margin: 0 0 10px -10px;
-  }*/
+  }
   .compare-trigger .container {
     padding: 0;
   }
