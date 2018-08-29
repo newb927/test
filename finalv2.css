@@ -434,6 +434,26 @@
     background-color: transparent;
     width: 25%;
   }
+  .b-contactform__response-steps {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .b-contactform__response-step {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .b-contactform__response-icon--computer {
+    width: 56px;
+    min-width: 44px;
+  }
+
+  .b-contactform__response-icon--headset {
+    width: 38px;
+    min-width: 32px;
+  }
+
   .contact-us-success.success-message {
     width: 100%;
     position: initial;
