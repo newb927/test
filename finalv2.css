@@ -424,7 +424,7 @@
   .b-contactform--showingSuccess {
     margin-left: 0;
     width: 100%;
-    height: auto !important;
+    /*height: auto !important;*/
   }
   .b-contactform--showingSuccess #is-b-contactform {
     margin-left: 0 !important;
