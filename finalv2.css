@@ -83,6 +83,7 @@
     bottom: 0 !important;
     top: auto !important;
     margin-right: 0 !important;
+    padding: 0 !important;
   }
   .b-contactform .container {
     width: auto;
@@ -424,10 +425,9 @@
   .b-contactform--showingSuccess {
     margin-left: 0;
     width: 100%;
-    /*height: auto !important;*/
+    height: auto !important;
   }
-  .b-contactform--showingSuccess .b-contactform__response--success,
-  .b-contactform--showingFail .b-contactform__response--fail {
+  .b-contactform__response--success, .b-contactform__response--fail {
     width: 100%;
     position: initial;
     margin-top: 0;
@@ -461,10 +461,6 @@
     min-width: 32px;
   }
   .b-contactform__response-links {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
     margin-top: 20px;
   }
   .b-contactform__response-links a {
