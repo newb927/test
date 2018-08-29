@@ -432,6 +432,7 @@
     position: initial !important;
     margin-top: 0;
     margin-bottom: 0;
+    display: none;
   }
   .b-contactform--showingSuccess #is-b-contactform {
     margin-left: 0 !important;
