@@ -449,16 +449,25 @@
   .b-contactform__response-step {
     max-width: 100%;
     margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  
+  .b-contactform__response-step--active {
+    padding-left: 0 !important;
   }
 
   .b-contactform__response-icon--computer {
     width: 56px;
     min-width: 44px;
   }
+  
+  .b-contactform__response-icon--phone {
+    min-width: 60px;
+  }
 
   .b-contactform__response-icon--headset {
     width: 38px;
-    min-width: 32px;
+    min-width: 38px;
   }
   .b-contactform__response-links {
     margin-top: 20px;
