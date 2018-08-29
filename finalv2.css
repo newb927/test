@@ -560,3 +560,8 @@
     margin-bottom: 20px !important;
   }
 }
+@media (min-width: 1092px) and (max-width: 1550px) {
+  .b-contactform__response-step--active .b-contactform__response-icon--number {
+    margin-right: 0 !important;
+  }
+}
