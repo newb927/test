@@ -524,9 +524,6 @@
     min-width: 38px;
   }
 
-  .b-contactform__response-icon--headset {
-    width: 38px;
-  }
   .b-contactform__response-links {
     display: -ms-flexbox;
     display: flex;
