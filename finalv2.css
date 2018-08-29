@@ -428,8 +428,10 @@
   }
   .b-contactform--showingSuccess .b-contactform__response--success,
   .b-contactform--showingFail .b-contactform__response--fail {
-    left: 15px;
-    right: 15px;
+    width: 100%;
+    position: initial;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .b-contactform--showingSuccess #is-b-contactform {
     margin-left: 0 !important;
@@ -470,26 +472,6 @@
     border-right: 0;
     margin: 0 0 10px 0;
     padding: 0;
-  }
-  .contact-us-success.success-message {
-    width: 100%;
-    position: initial;
-    margin-left: 0 !important;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .static-form .b-contactform--showingSuccess .success-message p,
-  .static-form .b-contactform--showingSuccess .success-message h3 {
-    padding-right: 0px !important;
-  }
-  .b-contactform--showingSuccess .success-message .button-group {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .b-contactform--showingSuccess .button-group button {
-    margin: 0 0 10px -10px;
   }
   .compare-trigger .container {
     padding: 0;
