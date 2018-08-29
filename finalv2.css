@@ -521,11 +521,24 @@
 
   .b-contactform__response-icon--headset {
     width: 38px;
-    min-width: 32px;
+    min-width: 38px;
   }
 
   .b-contactform__response-icon--headset {
     width: 38px;
+  }
+  .b-contactform__response-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .b-contactform__response-links a {
+    display: block;
+    border-right: 0;
+    margin: 0 0 10px 0;
+    padding: 0;
   }
   /*.contact-us-success.success-message {
     width: 100%;
