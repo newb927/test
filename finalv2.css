@@ -552,22 +552,17 @@
 }
 @media (min-width: 1092px) and (max-width: 1380px) {
   .b-contactform__response-txt {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 @media (min-width: 1381px) and (max-width: 1420px) {
   .b-contactform__response-txt {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }
 @media (min-width: 1421px) and (max-width: 1520px) {
   .b-contactform__response-txt {
-    font-size: 19px;
-  }
-}
-@media (min-width: 1521px) {
-  .b-contactform__response-txt {
-    font-size: 20px;
+    font-size: 19px !important;
   }
 }
 @media (min-width: 1092px) and (max-width: 1520px) {
