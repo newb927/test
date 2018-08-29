@@ -429,7 +429,7 @@
   }
   .b-contactform__response--success, .b-contactform__response--fail {
     width: 100%;
-    position: initial;
+    position: initial !important;
     margin-top: 0;
     margin-bottom: 0;
   }
