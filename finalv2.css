@@ -424,7 +424,12 @@
   .b-contactform--showingSuccess {
     margin-left: 0;
     width: 100%;
-    height: auto !important;
+    /*height: auto !important;*/
+  }
+  .b-contactform--showingSuccess .b-contactform__response--success,
+  .b-contactform--showingFail .b-contactform__response--fail {
+    left: 15px;
+    right: 15px;
   }
   .b-contactform--showingSuccess #is-b-contactform {
     margin-left: 0 !important;
