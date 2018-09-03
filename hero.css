@@ -12,7 +12,7 @@ body.bkd-skilled-nursing .community-hero>.community-details>div>div {
 
 body.bkd-skilled-nursing .community-hero .phone-detail {    
     font-weight: 300;
-    font-size: 24px;
+    font-size: 24px !important;
     text-shadow: 0 0 10px #000;
     text-transform: capitalize;
     margin-top: 9px;
