@@ -23,7 +23,7 @@ body.bkd-skilled-nursing .community-hero .phone-detail a {
 }
 
 @media (max-width: 991px) {
-  body.bkd-skilled-nursing .community-hero {
+  body.bkd-skilled-nursing .community-hero, .extra.second {
     display: none;
   }
   body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
@@ -32,7 +32,7 @@ body.bkd-skilled-nursing .community-hero .phone-detail a {
 }
 
 @media (min-width: 992px) {
-  body.bkd-skilled-nursing .community-hero {
+  body.bkd-skilled-nursing .community-hero, .extra.second {
     display: block;
   }
   body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
