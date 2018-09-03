@@ -36,12 +36,20 @@
   /*margin-left: -20px;*/
 }
 
-.extra.second a:before {
+/*.extra.second a:before {
   font-family: FontAwesome;
   font-style: normal;
   content: "\f104";
   font-weight: 400;
   padding-right: 12px;
+}*/
+
+.extra.second a:after {
+  font-family: FontAwesome;
+  font-style: normal;
+  content: "\f103";
+  font-weight: 400;
+  padding: 0 12px;
 }
 
 @media (max-width: 991px) {
