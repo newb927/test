@@ -10,7 +10,7 @@ body.bkd-skilled-nursing .community-hero>.community-details>div>div {
   float: none !important;
 }
 
-body.bkd-skilled-nursing .hero-image .phone-detail {    
+body.bkd-skilled-nursing .community-hero .phone-detail {    
     font-weight: 300;
     font-size: 24px;
     text-shadow: 0 0 10px #000;
@@ -18,7 +18,7 @@ body.bkd-skilled-nursing .hero-image .phone-detail {
     margin-top: 9px;
 }
 
-body.bkd-skilled-nursing .hero-image .phone-detail a {
+body.bkd-skilled-nursing .community-hero .phone-detail a {
   color: #fff;
 }
 
