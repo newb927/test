@@ -1,4 +1,4 @@
-body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
+.community-details-intro-wrapper .inner-wrapper {
   margin-right: auto !important;
   margin-left: auto !important;
   padding-left: 15px !important;
@@ -6,11 +6,11 @@ body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
   width: auto !important;
 }
 
-body.bkd-skilled-nursing .community-hero>.community-details>div>div {
+.community-hero>.community-details>div>div {
   float: none !important;
 }
 
-body.bkd-skilled-nursing .community-hero .phone-detail {    
+.community-hero .phone-detail {    
     font-weight: 300;
     font-size: 24px !important;
     text-shadow: 0 0 10px #000;
@@ -18,7 +18,7 @@ body.bkd-skilled-nursing .community-hero .phone-detail {
     margin-top: 9px;
 }
 
-body.bkd-skilled-nursing .community-hero .phone-detail a {
+.community-hero .phone-detail a {
   color: #fff;
 }
 
@@ -44,19 +44,19 @@ body.bkd-skilled-nursing .community-hero .phone-detail a {
 }
 
 @media (max-width: 991px) {
-  body.bkd-skilled-nursing .community-hero, .extra.second {
+  .community-hero, .extra.second {
     display: none;
   }
-  body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
+  .community-details-intro-wrapper .inner-wrapper {
     display: block;
   }
 }
 
 @media (min-width: 992px) {
-  body.bkd-skilled-nursing .community-hero, .extra.second {
+  .community-hero, .extra.second {
     display: block;
   }
-  body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
+  .community-details-intro-wrapper .inner-wrapper {
     display: none;
   }
 }
