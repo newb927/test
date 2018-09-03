@@ -29,6 +29,7 @@ body.bkd-skilled-nursing .community-hero .phone-detail a {
 .extra.second {
  padding: 20px 20px 0 20px;
  font-weight: 500;
+ margin-left: -20px;
 }
 
 .extra.second a:before {
