@@ -1,0 +1,43 @@
+body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  width: auto !important;
+}
+
+body.bkd-skilled-nursing .community-hero>.community-details>div>div {
+  float: none !important;
+}
+
+body.bkd-skilled-nursing .hero-image .phone-detail {    
+    font-weight: 300;
+    font-size: 24px;
+    text-shadow: 0 0 10px #000;
+    text-transform: capitalize;
+    margin-top: 9px;
+}
+
+body.bkd-skilled-nursing .hero-image .phone-detail a {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  body.bkd-skilled-nursing .hero-image {
+    display: none;
+  }
+  body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  body.bkd-skilled-nursing .hero-image {
+    display: block;
+  }
+  body.bkd-skilled-nursing .community-details-intro-wrapper .inner-wrapper {
+    display: none;
+  }
+}
+
+body {opacity: 0;}
