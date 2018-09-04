@@ -2,7 +2,7 @@ body {
   opacity: 0;
 }
 
-#test-load {
+#test-load, .video.parbase {
   display: none;
 }
 
