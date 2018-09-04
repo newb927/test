@@ -11,3 +11,12 @@ body {
   margin-top: 25px;
   }
 }
+
+.text-image h3 {
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.b-faqs .panel-group {
+  margin-bottom: 65px;
+}
