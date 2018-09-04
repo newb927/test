@@ -1,0 +1,13 @@
+body {
+  opacity: 0;
+}
+
+#test-load {
+  display: none;
+}
+
+@media (min-width: 992px) {
+.text-image-content img { 
+  margin-top: 90px;
+  }
+}
