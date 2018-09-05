@@ -17,6 +17,10 @@ body {
   padding-bottom: 20px;
 }
 
+#at-dynamic-content h3 br {
+  display: none;
+}
+
 .b-faqs .panel-group {
   margin-bottom: 65px;
 }
