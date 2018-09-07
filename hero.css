@@ -71,7 +71,7 @@
 }*/
 
 @media (max-width: 991px) {
-  .community-hero .extra.second,
+  .extra.second,
   .community-intro-wrapper .community-hero > .community-details {
     display: none;
   }
