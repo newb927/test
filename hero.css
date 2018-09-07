@@ -1,21 +1,32 @@
 .community-details-intro-wrapper .inner-wrapper {
   margin-right: auto !important;
   margin-left: auto !important;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
   width: auto !important;
 }
 
-.community-hero>.community-details>div>div {
+@media (min-width: 992px) {
+  .community-details-intro-wrapper .inner-wrapper {
+    padding: 0 15px !important;
+  }
+}
+
+.community-hero > .community-details > div > div {
   float: none !important;
 }
 
-.community-hero .phone-detail {    
-    font-weight: 300;
-    font-size: 24px !important;
-    text-shadow: 0 0 10px #000;
-    text-transform: capitalize;
-    margin-top: 9px;
+@media (min-width: 992px) {
+  .cd-city-state {
+    display: block;
+    margin-top: 6px;
+  }
+}
+
+.community-hero .phone-detail {
+  font-weight: 300;
+  font-size: 24px !important;
+  text-shadow: 0 0 10px #000;
+  text-transform: capitalize;
+  margin-top: 6px;
 }
 
 .community-hero .phone-detail a {
@@ -27,10 +38,10 @@
 }
 
 .extra.second {
- /*padding: 20px 20px 0 20px;*/
- /*padding: 20px 0;*/
- padding: 20px 0 40px 0;
- font-weight: 500;
+  /*padding: 20px 20px 0 20px;*/
+  /*padding: 20px 0;*/
+  padding: 20px 0 40px 0;
+  font-weight: 500;
 }
 
 .extra.second a {
@@ -54,7 +65,8 @@
 }
 
 @media (max-width: 991px) {
-  .community-hero, .extra.second {
+  .community-hero,
+  .extra.second {
     display: none;
   }
   .community-details-intro-wrapper .inner-wrapper {
@@ -63,7 +75,8 @@
 }
 
 @media (min-width: 992px) {
-  .community-hero, .extra.second {
+  .community-hero,
+  .extra.second {
     display: block;
   }
   .community-details-intro-wrapper .inner-wrapper {
@@ -71,4 +84,6 @@
   }
 }
 
-body {opacity: 0;}
+body {
+  opacity: 0;
+}
