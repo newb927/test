@@ -50,9 +50,6 @@
     width: 115px;
     height: 70px;
   }
-  .photo-gallery-wrapper .slider-thumbs {
-    max-width: 220px;
-  }
   .photo-gallery-wrapper .photo-btn-container .col-xs-6 {
     width: 100%;
     text-align: center; 
