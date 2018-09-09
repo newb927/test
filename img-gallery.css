@@ -63,5 +63,7 @@
 
 #carousel-custom .thumbnail {
   margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
 }
 
