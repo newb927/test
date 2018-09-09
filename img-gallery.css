@@ -23,7 +23,7 @@
     width: auto;
     max-width: 120px;
 }
-#carousel-custom .carousel-indicators li.active {
+#carousel-custom .carousel-indicators .active {
     border: 5px solid #fba31a;
 }
 #carousel-custom .carousel-indicators li img {
