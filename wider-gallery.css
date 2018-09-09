@@ -35,14 +35,20 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  
   .photo-gallery-wrapper .slider-thumbs {
     height: 100%;
     width: 100%;
-    max-width: 220px;
+    max-width: 250px;
+  }
+  .photo-gallery-wrapper .slider-thumbs li {
+    float: none;
+    width: 100%;
+    padding: 0;
   }
   .photo-gallery-wrapper .slider-thumbs .thumbnail {
     width: 115px;
-    height: 66px;
+    height: 70px;
   }
   .photo-gallery-wrapper .slider-thumbs {
     max-width: 220px;
