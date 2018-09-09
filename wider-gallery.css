@@ -19,8 +19,6 @@
     position: absolute;
     left: 20px;
     right: 20px;
-    bottom: 128px;
-    /* bottom: 129px; */
   }
   
   .photo-gallery-wrapper .slider-thumbs .thumbnail {
@@ -40,6 +38,9 @@
     height: 100%;
     width: 100%;
     max-width: 250px;
+  }
+  .photo-gallery-wrapper .slider-thumbs ul {
+    bottom: 130px;
   }
   .photo-gallery-wrapper .slider-thumbs li {
     float: none;
@@ -68,6 +69,7 @@
     flex-wrap: wrap;
     -ms-flex-pack:justify;
     justify-content: space-between;
+    bottom: 125px;
   }
   .photo-gallery-wrapper .slider-thumbs .thumbnail {
     width: 180px;
@@ -77,5 +79,5 @@
   .photo-gallery-wrapper .slider-thumbs {
     max-width: 450px;
   }
-  
+ 
 }
