@@ -30,7 +30,7 @@
     height: auto;
     max-width: 100%;
 }
-#carousel-custom .carousel-indicators li.active img {
+#carousel-custom .carousel-indicators .active img {
     opacity: 1 !important;
 }
 #carousel-custom .carousel-indicators li:hover img {
