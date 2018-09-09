@@ -23,6 +23,9 @@
     width: auto;
     max-width: 120px;
 }
+#carousel-custom .carousel-indicators li.active {
+    border: 5px solid #fba31a;
+}
 #carousel-custom .carousel-indicators li img {
     display: block;
     opacity: 0.5;
@@ -65,5 +68,10 @@
   margin: 0 !important;
   width: auto !important;
   height: auto !important;
+  padding: 0;
+}
+
+#carousel-custom a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border: 0;
 }
 
