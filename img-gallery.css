@@ -24,9 +24,6 @@
     max-width: 120px;
     border: 0;
 }
-#carousel-custom .carousel-indicators .active {
-    border: 5px solid #fba31a;
-}
 #carousel-custom .carousel-indicators li img {
     display: block;
     opacity: 0.5;
@@ -34,7 +31,7 @@
     max-width: 100%;
 }
 #carousel-custom .carousel-indicators li.active img {
-    opacity: 1;
+    opacity: 1 !important;
 }
 #carousel-custom .carousel-indicators li:hover img {
     opacity: 0.75;
