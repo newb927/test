@@ -11,12 +11,13 @@
     text-align: left;
     white-space: nowrap;
     width: 100%;
+    padding: 0 !important;
 }
 #carousel-custom .carousel-indicators li {
     background-color: transparent;
     -webkit-border-radius: 0;
     border-radius: 0;
-    display: inline-block;
+    display: inline-block !important;
     height: auto;
     margin: 0 !important;
     width: auto;
@@ -59,3 +60,8 @@
   font-size: 16px;
   color: #585858;
 }
+
+#carousel-custom .thumbnail {
+  margin: 0 !important;
+}
+
