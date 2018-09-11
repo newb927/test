@@ -1,6 +1,7 @@
 @media (min-width: 992px) {
   .container {
-    padding: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   .photo-gallery-wrapper .col-md-7 {
@@ -77,7 +78,7 @@
   }
   
   .photo-gallery-wrapper .slider-thumbs {
-    max-width: 450px;
+    max-width: 420px;
   }
  
 }
