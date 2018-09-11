@@ -38,12 +38,6 @@
   .test-phone-text:visited {
     color: #333;
   }
-  .test-no-show {
-    display: none !important;
-  }
-  .test-show {
-    display: block !important;
-  }
   .test-header-phone {
     content: "";
     width: 25px;
