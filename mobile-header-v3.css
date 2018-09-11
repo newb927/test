@@ -1,11 +1,11 @@
 @media (max-width: 1091px) {
-  body {
+  main {
     margin-top: 60px;
   }
-  #nav-stripe + .ctcore-header {
+  body > header.ctcore-header {
     z-index: 8;
   }
-  #nav-stripe + .ctcore-header .ctcore-header__row.ctcore-header__row--first {
+  body > header.ctcore-header .ctcore-header__row.ctcore-header__row--first {
     top: 0;
     z-index: 1;
     position: fixed;
@@ -13,7 +13,7 @@
     right: 0;
     background: #fff;
   }
-  .progressive-bar {
+  .progressive-bar--mobile {
     top: 60px;
   }
   .ct-icon--search {
