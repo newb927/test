@@ -1,7 +1,9 @@
 @media (max-width: 1091px) {
-  main {
-    margin-top: 62px;
+  body { 
     opacity: 0;
+  }
+  main {
+    margin-top: 62px !important;
   }
   body > header.ctcore-header {
     z-index: 8;
