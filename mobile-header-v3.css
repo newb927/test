@@ -16,7 +16,8 @@
     border-bottom: 2px solid #ccc;
   }
   .progressive-bar--mobile {
-    top: 60px;
+    top: 60px !important;
+    display: block !important;
   }
   .ct-icon--search {
     display: none;
