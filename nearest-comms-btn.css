@@ -13,7 +13,7 @@
 .closest-communities__cta button {
   width: auto !important;
   background: #fff !important;
-  border: 4px solid #00539B !important;
+  border: 2px solid #00539B !important;
   color: #00539B !important;
   padding-left: 16px !important;
   padding-right: 16px !important;
@@ -22,7 +22,7 @@
 .closest-communities__cta button:after {
     font-family: FontAwesome;
     content: "\f105";
-    font-weight: 100;
+    font-weight: 700;
     padding-left: 8px;
     font-size: 20px;
     vertical-align: middle;
@@ -31,7 +31,7 @@
 
 .closest-communities__cta button:focus, .closest-communities__cta button:hover  {
   background: #00539B !important;
-  border: 4px solid #00539B !important;
+  border: 2px solid #00539B !important;
   color: #fff !important;
 }
 
