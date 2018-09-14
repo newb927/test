@@ -1,4 +1,4 @@
-.test-view-all-nearby-comms {
+.closest-communities__cta {
   text-align: center;
   margin-bottom: 44px;
   margin-top: 5px;
@@ -6,22 +6,21 @@
   padding-right: 2%;
 }
 
-.test-view-all-nearby-comms label {
+.closest-communities__cta label {
   display: none;
 }
 
-.test-view-all-nearby-comms button {
-  width: 100%;
-  max-width: 340px;
-  background: #00539B !important;
+.closest-communities__cta button {
+  width: auto !important;
+  background: #fff !important;
   border: 4px solid #00539B !important;
+  color: #00539B !important;
 }
 
-.test-view-all-nearby-comms button:focus, .test-view-all-nearby-comms button:hover  {
-  width: 100%;
-  max-width: 340px;
-  border: 4px solid #fb6418 !important;
-  background: #fb6418 !important;
+.closest-communities__cta button:focus, .closest-communities__cta button:hover  {
+  background: #00539B !important;
+  border: 4px solid #00539B !important;
+  color: #fff !important;
 }
 
 @media (max-width: 918px) {
@@ -31,7 +30,7 @@
   .js-closest-communities-results .js-search-listing-2 {
     margin-bottom: 0;
   }
-  .test-view-all-nearby-comms {
+  .closest-communities__cta {
     margin-top: 0;
   }
 }
