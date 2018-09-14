@@ -38,7 +38,7 @@
   color: #fff !important;
 }
 
-.closest-communities__cta button:hover:after {
+.closest-communities__cta button:hover:after, .closest-communities__cta button:focus:after {
   color: #fff;
 }
 
