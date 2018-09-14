@@ -16,6 +16,7 @@
   border: 2px solid #00539B !important;
   color: #00539B !important;
   font-weight: 500 !important;
+  font-size: 19px !important;
   padding-left: 16px !important;
   padding-right: 16px !important;
 }
@@ -23,9 +24,9 @@
 .closest-communities__cta button:after {
     font-family: FontAwesome;
     content: "\f105";
-    font-weight: 700;
-    padding-left: 8px;
-    font-size: 26px;
+    font-weight: 500;
+    padding-left: 12px;
+    font-size: 24px;
     vertical-align: middle;
     color: #00539B;
     line-height: 1.3em;
