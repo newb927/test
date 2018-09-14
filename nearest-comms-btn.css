@@ -11,7 +11,7 @@
 }
 
 .closest-communities__cta button {
-  width: auto !important;
+  width: auto;
   background: #fff !important;
   border: 2px solid #00539b !important;
   color: #00539b !important;
@@ -58,7 +58,7 @@
 
 @media (max-width: 480px) {
   .closest-communities__cta button {
-    white-space: pre;
+    width: 100%;
   }
   .closest-communities__cta button:after {
     display: none;
