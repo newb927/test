@@ -15,6 +15,7 @@
   background: #fff !important;
   border: 2px solid #00539B !important;
   color: #00539B !important;
+  font-weight: 500 !important;
   padding-left: 16px !important;
   padding-right: 16px !important;
 }
@@ -24,15 +25,20 @@
     content: "\f105";
     font-weight: 700;
     padding-left: 8px;
-    font-size: 20px;
+    font-size: 26px;
     vertical-align: middle;
-    color: #3f79ab;
+    color: #00539B;
+    line-height: 1.3em;
 }
 
 .closest-communities__cta button:focus, .closest-communities__cta button:hover  {
   background: #00539B !important;
   border: 2px solid #00539B !important;
   color: #fff !important;
+}
+
+.closest-communities__cta button:hover:after {
+  color: #fff;
 }
 
 @media (max-width: 918px) {
