@@ -55,9 +55,8 @@
 @media (max-width: 480px) {
   .closest-communities__cta a {
     width: 100%;
-    white-space: pre-wrap;
   }
-  .closest-communities__cta a:after {
+  .closest-communities__cta a br, .closest-communities__cta a:after {
     display: none;
   }
 }
