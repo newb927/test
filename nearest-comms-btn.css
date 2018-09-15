@@ -17,6 +17,10 @@
   padding-right: 16px !important;
 }
 
+.closest-communities__cta a br {
+    display: none;
+}
+
 .closest-communities__cta a:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -56,7 +60,10 @@
   .closest-communities__cta a {
     width: 100%;
   }
-  .closest-communities__cta a br, .closest-communities__cta a:after {
+  .closest-communities__cta a br {
+    display: block;
+  }
+  .closest-communities__cta a:after {
     display: none;
   }
 }
