@@ -61,7 +61,6 @@
 @media (max-width: 680px) {
   .closest-communities__cta a {
     width: 100%;
-    line-height: 1;
   }
   .closest-communities__cta a br {
     display: block;
