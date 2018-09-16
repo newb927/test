@@ -16,7 +16,7 @@
   padding-left: 16px !important;
   padding-right: 16px !important;
   white-space: normal !important;
-  line-height: 1.3em !important;
+  line-height: 1.3em;
 }
 
 .closest-communities__cta a br {
@@ -61,6 +61,7 @@
 @media (max-width: 680px) {
   .closest-communities__cta a {
     width: 100%;
+    line-height: 1;
   }
   .closest-communities__cta a br {
     display: block;
