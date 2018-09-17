@@ -18,6 +18,10 @@
     padding: 10px !important;
   }
   
+  .compare-community-wrapper tr.fixed tr {
+    width: 100%;
+  }
+  
   .compare-community-wrapper thead.fixed .feature-info {
     padding: 0 !important;
   }
