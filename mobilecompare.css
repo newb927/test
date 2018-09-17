@@ -96,4 +96,8 @@
     font-size: 13px;
     padding: 5px;
   }
+  .compare-community-wrapper .table thead {
+    top: 2px;
+    margin-right: 10px;
+  }
 }
