@@ -118,7 +118,8 @@
   }
   .compare-community-wrapper .table thead {
     top: 2px;
-    margin-right: 10px;
+    left: 10px;
+    right: 10px;
   }
   .compare-community-wrapper td.view-all {
     border: 0;
