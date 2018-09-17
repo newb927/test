@@ -24,6 +24,10 @@
   .compare-community-wrapper .table thead.fixed td {
     padding: 10px 10px 5px 10px;
   }
+  
+  .compare-community-wrapper .table thead.fixed li {
+    line-height: 1.3em;
+  }
 
   .compare-community-wrapper .table {
     min-width: unset;
