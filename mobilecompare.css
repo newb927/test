@@ -37,7 +37,8 @@
     td.add-community
     .no-saved-add
     p,
-  .compare-community-wrapper .table tbody td {
+  .compare-community-wrapper .table tbody td,
+  .compare-community-wrapper li {
     font-size: 12px;
   }
 
