@@ -13,15 +13,15 @@
   .compare-community-wrapper .table tbody tr.amenities-row table td {
     padding: 10px;
   }
-  
+
   .compare-community-wrapper .feature-info {
     padding: 10px !important;
   }
-  
+
   .compare-community-wrapper thead.fixed tr {
     width: 100%;
   }
-  
+
   .compare-community-wrapper thead.fixed .feature-info {
     padding: 0 !important;
   }
@@ -35,7 +35,7 @@
   .compare-community-wrapper .table thead.fixed td {
     padding: 10px 10px 5px 10px;
   }
-  
+
   .compare-community-wrapper .table thead.fixed li {
     line-height: 1.3em;
   }
@@ -72,7 +72,7 @@
     .no-saved-add
     p {
     text-align: center;
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .compare-community-wrapper
