@@ -16,7 +16,7 @@
     padding: 10px;
   }
   
-  .compare-community-wrapper .table thead td {
+  .compare-community-wrapper .table thead.fixed td {
     width: 33%;
     padding: 10px 10px 5px 10px;
   }
