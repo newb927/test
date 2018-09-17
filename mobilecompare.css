@@ -22,7 +22,7 @@
   .compare-community-wrapper .table tbody .feature-row .feature-item>div {
     padding: 10px 6px;
   }
-  .compare-community-wrapper .table tbody td ul li, .compare-community-wrapper .table tbody .feature-row td.add-community .no-saved-add p {
+  .compare-community-wrapper .table tbody td ul li, .compare-community-wrapper .table tbody .feature-row td.add-community .no-saved-add p, .compare-community-wrapper .table tbody td {
     font-size: 12px;
   }
   
