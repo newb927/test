@@ -102,6 +102,12 @@
     table-layout: fixed;
     width: 100%;
   }
+  
+  tr.amenities-row .view-all {
+    border: 0;
+    border-right: 1px solid #efefef;
+    background-color: #fff;
+  }
 
   .compare-community-wrapper .table tbody .remove-row td .btn,
   .compare-community-wrapper .table tbody .remove-row th .btn {
