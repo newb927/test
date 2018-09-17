@@ -11,6 +11,7 @@
   }
   .compare-community-wrapper .table tbody td {
     width: 33%;
+    padding: 10px;
   }
   .compare-community-wrapper .table {
     min-width: unset;
