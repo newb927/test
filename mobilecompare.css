@@ -10,7 +10,8 @@
     width: 0;
   }
   .compare-community-wrapper .table tbody td,
-  .compare-community-wrapper .table tbody tr.amenities-row table td {
+  .compare-community-wrapper .table tbody tr.amenities-row table td,
+  .compare-community-wrapper .table thead td {
     width: 33%;
     padding: 10px;
   }
