@@ -126,8 +126,8 @@
     right: 10px;
   }
   .compare-community-wrapper td.view-all {
-    border: 0;
-    border-right: 1px solid #efefef;
-    background-color: #fff;
+    border: 0 !important;
+    border-right: 1px solid #efefef !important;
+    background-color: #fff !important;
   }
 }
