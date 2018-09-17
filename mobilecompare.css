@@ -14,6 +14,10 @@
   .compare-community-wrapper .table tbody tr.amenities-row table td {
     padding: 10px;
   }
+  
+  .compare-community-wrapper thead.fixed .feature-info {
+    padding: 0;
+  }
 
   .compare-community-wrapper .table tbody td,
   .compare-community-wrapper .table tbody tr.amenities-row table td,
