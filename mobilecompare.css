@@ -120,10 +120,9 @@
     top: 2px;
     margin-right: 10px;
   }
-}
-
-tr.amenities-row .view-all {
-  border: 0;
-  border-right: 1px solid #efefef;
-  background-color: #fff;
+  .compare-community-wrapper td.view-all {
+    border: 0;
+    border-right: 1px solid #efefef;
+    background-color: #fff;
+  }
 }
