@@ -15,6 +15,9 @@
   .compare-community-wrapper .table {
     min-width: unset;
   }
+  .compare-community-wrapper .table tbody .feature-row .feature-item .feature-img {
+   height: 115px; 
+  }
   .compare-community-wrapper .table tbody .feature-row .feature-item>div {
     padding: 10px 6px;
   }
@@ -43,7 +46,7 @@
     background-color: #fff;
   }
   
-  .compare-community-wrapper .table tbody th {
+  .compare-community-wrapper th {
     font-size: 12px;
     display: none;
   }
