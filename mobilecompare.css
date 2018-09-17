@@ -15,10 +15,6 @@
   .compare-community-wrapper .table {
     min-width: unset;
   }
-  .compare-community-wrapper .table tbody .feature-row .feature-item {
-    margin: 0 0 0 10px;
-  }
-
   .compare-community-wrapper .table tbody .feature-row .feature-item>div {
     padding: 10px 6px;
   }
