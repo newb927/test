@@ -1,0 +1,28 @@
+.mobile-options>.row>div.phone {
+  text-align: center;
+}
+
+/* add classes to .mobile-options div.phone: .btn .btn-primary .btn-reverse */
+
+.mobile-options>.row>div.phone:before {
+      content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 14px;
+    display: block;
+    top: 8px;
+    position: absolute;
+    background: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2… 1.73-.15 2 2 0 0 0 1.66-1.6l.36-2a1.93 1.93 0 0 0-.46-1.6z'/%3E%3C/svg%3E) 7px 7px no-repeat #fff;
+    background-size: 55%;
+}
+
+.mobile-options div.phone {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mobile-options>.row>div.phone>div {
+  width: 100%;
+}
