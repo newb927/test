@@ -12,7 +12,7 @@
   display: none;
 }
 
-.mobile-options>.row>div.phone>div>span.phone {
+.mobile-options>.row>div.phone>div>span.phone:before {
   content: "";
     width: 30px;
     height: 30px;
