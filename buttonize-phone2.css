@@ -32,9 +32,9 @@
 }
 
 #test-phone-text {
-  font-size: 20px;
+  font-size: 24px;
 }
 
-.mobile-options>.row>div.phone {
+#bkd-mobile-menu .ctcore-header__phonenumber, .mobile-options>.row>div.phone {
   display: none;
 }
