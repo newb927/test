@@ -2,6 +2,10 @@
   padding: 14px 15px 15px 15px !important;
 }
 
+#bkd-mobile-menu .test-phone-container {
+  border-bottom: 1px solid #ccc;
+}
+
 .test-phone-container:before {
   display: none !important;
 }
