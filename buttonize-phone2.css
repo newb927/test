@@ -1,7 +1,17 @@
 .test-phone-container {
+  padding: 14px 15px 15px 15px;
+}
+
+.test-phone-container:before {
+  display: none;
+}
+
+#test-phone-link {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 60px;
 }
 
 .test-phone-icon {
@@ -14,6 +24,6 @@
     margin-right: 8px;
 }
 
-.test-phone-text {
+#test-phone-text {
   font-size: 24px;
 }
