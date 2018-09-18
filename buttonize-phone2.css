@@ -3,7 +3,7 @@
 }
 
 .test-phone-container:before {
-  display: none;
+  display: none !important;
 }
 
 #test-phone-link {
