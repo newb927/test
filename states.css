@@ -59,7 +59,7 @@
     -ms-transition: none;
     transition: none;
     position: absolute;
-    top: 2200px;
+    /*top: 2100px;*/
   }
 }
   
