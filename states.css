@@ -1,0 +1,268 @@
+.fullWidthText, .full-width-text, .raw_html {
+  display: none;
+}
+
+.state-filter {list-style: none; padding: 0;}
+
+.shop-by-state h2 {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 992px) {
+.shop-by-state h2, .shop-by-state p {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+}
+
+/* End Header CSS */
+
+.shop-by-state .state-filter {
+    font-size: 0;
+    margin: 24px 14px;
+    min-width: 240px;
+}
+
+@media screen and (min-width: 992px) {
+.shop-by-state .state-filter {
+    width: 200px;
+    border-right: 1px solid #A9B5BA;
+    float: left;
+    position: fixed;
+    /*-webkit-transition: -webkit-transform .4s ease;
+    -ms-transition: -ms-transform .4s ease-in;
+    transition: transform .4s ease-in;
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);*/
+    -webkit-transition: top .4s ease-in;
+    -ms-transition: top .4s ease-in;
+    transition: top .4s ease-in;
+    top: 0px;
+    position: static;
+  }
+  .shop-by-state .state-filter.fixed {
+    position: fixed;
+  }
+  body.js-header-revealed .shop-by-state .state-filter {
+    /*transform: translateY(71px);
+    -ms-transform: translateY(71px);
+    -webkit-transform: translateY(71px);*/
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+    top: 71px;
+    
+  }
+  .shop-by-state .state-filter.absolute {
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+    position: absolute;
+    top: 2200px;
+  }
+}
+  
+.shop-by-state .state-filter li {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    color: #8E9DA2;
+    cursor: pointer;
+    border: 1px solid #A9B5BA;
+    margin: -1px 0 0 -1px;
+}
+  
+@media screen and (min-width: 992px) {
+.shop-by-state .state-filter li {
+    width: 43px;
+    height: 43px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin: 0;
+  }
+}
+  
+.shop-by-state .state-filter li:hover {
+  background-color: #E9ECED; 
+}
+  
+@media screen and (min-width: 992px) {
+.shop-by-state .state-filter li[class*="all"] {
+    display: none !important;
+}
+}
+  
+.shop-by-state .state-list {
+    width: 100%;
+}
+  
+@media screen and (min-width: 992px) {
+.shop-by-state .state-list {
+    float: right;
+    margin-top: 20px;
+    /*margin-top: 30px;*/
+    /*padding-right: 10px;*/
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+  
+.shop-by-state .state-list ul li {
+    list-style-type: none;
+    /*margin-top: -10px;*/
+    margin: 0;
+}
+  
+.shop-by-state .state-section {
+    background: #E9ECED;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    color: #8E9DA2;
+}
+  
+@media screen and (min-width: 992px) {
+.shop-by-state .state-list ul ul {
+    /*padding: 15px 0 20px;*/
+    padding: 20px 0 20px;
+  }
+}
+  
+@media screen and (min-width: 992px) {
+.shop-by-state .state-list ul ul li {
+    width: 32%;
+    display: inline-block;
+    /*padding: 0 20px;*/
+    padding: 5px 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 992px) {
+.shop-by-state .state-list ul ul li i.fa {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .persistent-state-nav {
+    clear: both;
+    padding-top: 1px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-filter {
+    margin: 25px 6px 40px 6px;
+  }
+}
+  
+@media screen and (max-width: 991px) {
+.shop-by-state .state-filter li.active {
+    background-color: #00539b;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul li {
+    color: #00539b;
+    background-color: #F4F6F6;
+    border-bottom: 1px solid #D4DADC;
+    padding: 17px 5px 17px 20px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul li a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul li i.fa {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    margin-right: 7px;
+    /* For Chicago */
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    -ms-transition: -ms-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+  }
+}
+
+/* Extra Styles for Chicago */
+.shop-by-state .state-list ul ul li.include-city ul {
+  display: none;
+  }
+
+/* Don't need if using jQuery slideToggle
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul li.include-city.open {
+  display: block;
+  }
+}
+*/
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul li.include-city.open i.fa {
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul ul {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 5px;
+  /* if bottom border 
+  padding-right: 20px; */
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul ul li {
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.shop-by-state .state-list ul ul ul li:last-of-type {
+    padding: 0;
+    border-bottom: 0;
+  }
+}
