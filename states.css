@@ -44,7 +44,7 @@
   .shop-by-state .state-filter.fixed {
     position: fixed;
   }
-  body.js-header-revealed .shop-by-state .state-filter {
+  body.header-revealed .shop-by-state .state-filter {
     /*transform: translateY(71px);
     -ms-transform: translateY(71px);
     -webkit-transform: translateY(71px);*/
