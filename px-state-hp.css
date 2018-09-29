@@ -1,5 +1,6 @@
 .personalized-content {
-  padding-top: 24px;
+  /*padding: 24px 0 45px 0;*/
+  padding-bottom: 45px;
 }
 
 .personalized-content .retain {
@@ -19,7 +20,7 @@
 }
 
 .personalized-communities__cta a {
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 18px;
 }
 
@@ -35,4 +36,8 @@
     font-size: 20px;
     vertical-align: middle;
     color: #3f79ab;
+}
+
+.personalized-communities__cta a:hover:after, .personalized-communities__cta a:focus:after {
+    color: #fb6418;
 }
