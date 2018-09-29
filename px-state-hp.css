@@ -23,8 +23,8 @@
 }
 
 @media (max-width: 991px) {
-.personalized-content .text-image-content {
-    padding-bottom: 24px !important;
+.personalized-content .text-image, .personalized-content .text-image-content {
+    padding-bottom: 10px !important;
   }
 }
 
