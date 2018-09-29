@@ -55,6 +55,6 @@
     color: #3f79ab;
 }
 
-.personalized-communities__cta a:hover:after, .personalized-communities__cta a:focus:after {
+.personalized-communities__cta a:hover:after {
     color: #fb6418;
 }
