@@ -1,0 +1,38 @@
+.personalized-content {
+  padding-top: 24px;
+}
+
+.personalized-content .retain {
+  padding-bottom: 0;
+}
+
+.personalized-content .text-image-content {
+  border-bottom: 1px solid #d3d2d0
+}
+
+.personalized-content .text-image-content img {
+  max-width: 400px;
+}
+
+.personalized-communities__cta {
+  padding-top: 20px;
+}
+
+.personalized-communities__cta a {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.personalized-communities__cta a br {
+    display: none;
+}
+
+.personalized-communities__cta a:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    font-weight: 100;
+    padding: 0 8px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #3f79ab;
+}
