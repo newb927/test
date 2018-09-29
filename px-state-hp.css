@@ -3,12 +3,24 @@
   padding-bottom: 45px;
 }
 
+@media (max-width: 991px) {
+  .personalized-content {
+    padding-bottom: 35px;
+  }
+}
+
 .personalized-content .retain {
   padding-bottom: 0;
 }
 
 .personalized-content .text-image-content {
   border-bottom: 1px solid #d3d2d0
+}
+
+@media (max-width: 991px) {
+.personalized-content .text-image-content {
+    padding-bottom: 24px !important;
+  }
 }
 
 .personalized-content .text-image-content img {
