@@ -176,8 +176,21 @@
 
 /* Start Thank You Message Tweaks */
 
+#formLoad .b-contactform--showingSuccess .b-contactform__form {
+  display: none;
+}
+
+
+@media (min-width: 360px) {
 #formLoad .b-contactform--showingSuccess {
-  height: 534px; !important;
+  height: 554px; !important;
+}
+}
+
+@media (max-width: 359px) {
+#formLoad .b-contactform--showingSuccess {
+  height: 575px; !important;
+  }
 }
 
 #formLoad .b-contactform__response-steps {
@@ -215,7 +228,7 @@
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 360px) {
   #formLoad .b-contactform__response-links {
   text-align: center;
   margin-left: -100% !important;
@@ -223,10 +236,13 @@
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 359px) {
   #formLoad .b-contactform__response-links a {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+  #formLoad .b-contactform__response-links {
+    margin-top: 20px; !important;
   }
 }
