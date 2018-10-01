@@ -1,0 +1,310 @@
+#us-map{
+display: block;
+margin: 0 auto;
+width: 100%;
+max-width: 1200px;
+height: 100%;
+padding: 0 22px;
+  
+}
+path:hover {
+  stroke: #00539b !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #00539b !important;
+  cursor: pointer;
+}
+path#SD {
+  pointer-events: none;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #fff;
+  /*border: 2px solid #fb6418;
+  border: 2px solid #17a062;
+  border: 2px solid #666;*/
+  border: 2px solid #00539b;
+  border-radius: 5px;
+  padding: 5px;
+  color: #333;
+  /*font-family: Arial;*/
+  font-family: Arial;
+}
+
+@media screen and (max-width: 991px) {
+#us-map {
+    display: none;
+  }
+}
+
+/* Start browse by state styles */
+
+.state-filter {list-style: none; padding: 0;}
+
+.browse-by-state__page h2 {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 992px) {
+.browse-by-state__page h2, .browse-by-state__page p {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+}
+
+/* End Header CSS */
+
+.browse-by-state__page .state-filter {
+  font-size: 0;
+  margin: 24px 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-filter {
+    display: none;
+  }
+}
+  
+.browse-by-state__page .state-filter li {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    color: #8E9DA2;
+    cursor: pointer;
+    border: 1px solid #A9B5BA;
+    margin: -1px 0 0 -1px;
+}
+  
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-filter li {
+    /*width: 56px;
+    height: 56px;
+    line-height: 56px;*/
+    width: 53px;
+    height: 53px;
+    line-height: 53px;
+    font-size: 20px;
+  }
+}
+  
+.browse-by-state__page .state-filter li:hover {
+  background-color: #E9ECED; 
+}
+  
+/*@media screen and (min-width: 992px) {
+.browse-by-state__page .state-filter li[class*="all"] {
+    display: none !important;
+}
+}*/
+  
+.browse-by-state__page .state-list {
+    width: 100%;
+}
+  
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-list {
+    /*float: right;*/
+    margin-top: 20px;
+    /*margin-top: 30px;*/
+    /*padding-right: 10px;*/
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+  
+.browse-by-state__page .state-list ul li {
+    list-style-type: none;
+    /*margin-top: -10px;*/
+    margin: 0;
+    vertical-align: top;
+}
+  
+.browse-by-state__page .state-section {
+    background: #E9ECED;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    /*color: #8E9DA2;*/
+    color: #666;
+}
+
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-section {
+    /*padding: 15px 0 20px;*/
+    background: none;
+    font-size: 36px;
+    pointer-events: none;
+  }
+}
+  
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-list ul ul {
+    padding: 15px 0 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-list ul li {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    /*padding: 0 20px;*/
+    padding: 0px 0px 20px 0px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+  
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-list ul ul li {
+    width: auto;
+    /*display: inline-block;*/
+    display: block;
+    /*padding: 0 20px;*/
+    padding: 5px 18px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 992px) {
+.browse-by-state__page .state-list ul ul li i.fa {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .persistent-state-nav {
+    clear: both;
+    padding-top: 1px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-filter {
+    margin: 25px 0px 40px 0px;
+  }
+}
+  
+/*@media screen and (max-width: 991px) {*/
+.browse-by-state__page .state-filter li.active {
+    background-color: #00539b;
+    color: #ffffff;
+  }
+/*}*/
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul li {
+    color: #00539b;
+    background-color: #F4F6F6;
+    border-bottom: 1px solid #D4DADC;
+    padding: 17px 5px 17px 20px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul li a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul li i.fa {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    margin-right: 7px;
+    /* For Chicago */
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    -ms-transition: -ms-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+  }
+}
+
+/* Extra Styles for Chicago */
+.browse-by-state__page .state-list ul ul li.include-city ul {
+  display: none;
+  }
+
+/* Don't need if using jQuery slideToggle
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul li.include-city.open {
+  display: block;
+  }
+}
+*/
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul li.include-city.open i.fa {
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul ul {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 5px;
+  /* if bottom border 
+  padding-right: 20px; */
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul ul li {
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+.browse-by-state__page .state-list ul ul ul li:last-of-type {
+    padding: 0;
+    border-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+.browse-by-state__page .state-filter {
+    text-align: left;
+  }
+}
