@@ -170,4 +170,5 @@
     display: block;
     opacity: .5;
     filter: alpha(opacity=50);
+    z-index: 1040;
 }
