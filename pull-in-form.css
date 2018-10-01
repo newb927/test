@@ -98,6 +98,7 @@
   -ms-flex-direction: column !important;
   flex-direction: column !important;
   width: 100% !important;
+  min-width: auto !important;
   border: 0 !important;
   background-color: #f9f9f9 !important;
 }
