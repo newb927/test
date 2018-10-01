@@ -1,0 +1,173 @@
+.search-results-property__compare {
+  width: 100%;
+  border-right: 0;
+}
+
+.search-results-property__compare-label {
+  display: none;
+}
+
+.search-results-property__compare {
+  color: #00539b;
+  cursor: pointer;
+  /*visibility: hidden;*/
+}
+
+.search-results-property__compare::after {
+  content: "Contact";
+  text-indent: 0;
+  display: block;
+  line-height: initial; /* New content takes up original line height */
+  cursor: pointer;
+}
+
+.search-results-property__save {
+  display: none;
+}
+
+/*.search-results-property__save-icon {
+  display: none !important;
+}
+
+.search-results-property__save-text {
+  text-indent: -9999px;
+  line-height: 0;
+  content: "";
+}
+
+.search-results-property__save-text::after {
+  content: "Call";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+  cursor: pointer;
+}
+*/
+
+#formLoad .modal-content {
+  background-color: #f9f9f9;
+}
+
+#formLoad .modal-title {
+  line-height: 1.92857em;
+}
+
+#formLoad .modal-header {
+  background-color: #fff;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#formLoad .modal-header .close {
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: -100px;
+  opacity: 1;
+  color: #7d7d7d;
+}
+
+#formLoad .modal-body {
+  padding-top: 0 !important;
+  padding-bottom: 15px; !important;
+}
+
+#formLoad .b-contactform {
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  min-height: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+
+#formLoad .b-contactform .container {
+  width: auto !important;
+}
+
+#formLoad .b-contactform__form {
+  margin: 0 20px !important;
+  -ms-flex-line-pack: start !important;
+  align-content: flex-start !important;
+  height: auto !important;
+  padding-top: 20px !important;
+}
+
+#formLoad .b-contactform__reasons {
+  margin-bottom: 5px !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  border: 0 !important;
+  background-color: #f9f9f9 !important;
+}
+
+#formLoad .b-contactform__reasons > * {
+  width: 100% !important;
+  margin-left: 0 !important;
+  border: 0 !important;
+}
+
+#formLoad .b-contactform__prompt {
+  display: none !important;
+}
+
+#formLoad .b-contactform__contactinfo > * {
+    margin-top: 15px !important;
+}
+
+@media screen and (min-width: 768px) {
+  #formLoad .b-contactform__contactinfo {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -ms-flex-wrap:wrap !important;
+    flex-wrap: wrap !important;
+  }
+  #formLoad .communityform .communityform__item {
+    width: 49% !important;
+  }
+}
+
+#formLoad .b-contactform__button {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#formLoad .b-contactform__contactinfo input[type="submit"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#formLoad .b-contactform__compliance > * {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+  #formLoad .communityform .communityform__item:nth-of-type(1),
+  #formLoad .communityform .communityform__item:nth-of-type(3) {
+    margin-right: 5px;
+  }
+  #formLoad .communityform .communityform__item:nth-of-type(2),
+  #formLoad .communityform .communityform__item:nth-of-type(4) {
+    margin-left: 5px;
+    margin-right: 0 !important;
+  }
+}
+
+.at-modal-backdrop {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity .15s linear;
+}
+
+.at-modal-backdrop.in {
+    display: block;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
