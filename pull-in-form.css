@@ -176,15 +176,18 @@
 
 /* Start Thank You Message Tweaks */
 
-#formLoad .b-contactform--showingSuccess .b-contactform__form {
+#formLoad .b-contactform--showingSuccess .b-contactform__form, #formLoad .b-contactform--showingFail .b-contactform__form {
   display: none;
 }
 
+.b-contactform .b-contactform--showingFail {
+  height: 160px !important;
+}
 
 @media (min-width: 360px) {
 #formLoad .b-contactform--showingSuccess {
   height: 554px; !important;
-}
+  }
 }
 
 @media (max-width: 359px) {
