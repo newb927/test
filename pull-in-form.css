@@ -148,6 +148,8 @@
 
 #formLoad .b-contactform__compliance {
   margin-bottom: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 
