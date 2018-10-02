@@ -87,11 +87,17 @@
 }
 
 #formLoad .b-contactform__form {
-  margin: 0 20px !important;
+  margin: 0 5px;
   -ms-flex-line-pack: start !important;
   align-content: flex-start !important;
   height: auto !important;
   padding-top: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+  #formLoad .b-contactform__form {
+    margin: 0 20px !important;
+  }
 }
 
 #formLoad .b-contactform__reasons {
@@ -126,8 +132,7 @@
     flex-wrap: wrap !important;
   }
   #formLoad .communityform .communityform__item {
-    width: 100% !important;
-    max-width: 219px;
+    width: 48.8% !important;
   }
 }
 
