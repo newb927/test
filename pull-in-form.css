@@ -10,7 +10,6 @@
 .search-results-property__compare {
   color: #00539b;
   cursor: pointer;
-  /*visibility: hidden;*/
 }
 
 .search-results-property__compare::before {
@@ -19,6 +18,7 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
   content: "\f0e0";
   margin-right: -5px;
 }
