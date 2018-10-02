@@ -66,9 +66,10 @@
   color: #7d7d7d;
 }
 
+@media screen and (min-width: 991px) {
 #formLoad .modal-body {
-  padding-top: 0 !important;
-  padding-bottom: 15px !important;
+  padding: 20px 70px 30px;
+  }
 }
 
 #formLoad .b-contactform {
@@ -90,7 +91,7 @@
   -ms-flex-line-pack: start !important;
   align-content: flex-start !important;
   height: auto !important;
-  padding-top: 20px !important;
+  padding-top: 0 !important;
 }
 
 #formLoad .b-contactform__reasons {
@@ -125,7 +126,8 @@
     flex-wrap: wrap !important;
   }
   #formLoad .communityform .communityform__item {
-    width: 49% !important;
+    width: 100% !important;
+    max-width: 219px;
   }
 }
 
@@ -134,10 +136,15 @@
   max-width: 100% !important;
 }
 
-#formLoad .b-contactform__contactinfo input[type="submit"] {
+#formLoad .b-contactform__contactinfo #contact-form-submit {
   max-width: 100% !important;
   width: 100% !important;
 }
+
+#formLoad .b-contactform__compliance {
+  margin-bottom: 0 !important;
+}
+
 
 #formLoad .b-contactform__compliance > * {
   width: 100% !important;
