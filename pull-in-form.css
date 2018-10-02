@@ -231,6 +231,13 @@
   margin-bottom: 30px !important;
 }
 
+@media all and (-ms-high-contrast:none), all and (-ms-high-contrast:active) {
+  #formLoad .b-contactform__response-step--active {
+    padding-top: 36px;
+    padding-bottom: 120px;
+  }
+}
+
 @media (max-width: 480px) {
   #formLoad .b-contactform__response {
     margin-left: 46% !important;
