@@ -186,13 +186,13 @@
 
 @media (min-width: 360px) {
 #formLoad .b-contactform--showingSuccess {
-  height: 554px; !important;
+  height: 554px !important;
   }
 }
 
 @media (max-width: 359px) {
 #formLoad .b-contactform--showingSuccess {
-  height: 575px; !important;
+  height: 575px !important;
   }
 }
 
