@@ -24,7 +24,7 @@
 }
 
 .search-results-property__compare::after {
-  content: "Contact";
+  content: "Pricing & Availability";
   display: inline-block;
 }
 
