@@ -31,11 +31,11 @@
     -moz-transform: scale(1);
   }
   to {
-    transform: scale(0.5);
-    -ms-transform: scale(0.5) rotate(0.01deg);
-    -webkit-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    -moz-transform: scale(0.5);
+    transform: scale(1.25);
+    -ms-transform: scale(1.25) rotate(0.01deg);
+    -webkit-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -moz-transform: scale(1.25);
   }
 }
 @keyframes ken-burns {
@@ -47,11 +47,11 @@
     -moz-transform: scale(1);
   }
   to {
-    transform: scale(0.5);
-    -ms-transform: scale(0.5) rotate(0.01deg);
-    -webkit-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    -moz-transform: scale(0.5);
+    transform: scale(1.25);
+    -ms-transform: scale(1.25) rotate(0.01deg);
+    -webkit-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -moz-transform: scale(1.25);
   }
 }
 
