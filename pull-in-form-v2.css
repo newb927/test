@@ -1,0 +1,294 @@
+.search-results-property__compare {
+  width: 100%;
+  border-right: 0;
+}
+
+.search-results-property__compare-label {
+  display: none;
+}
+
+.search-results-property__compare {
+  color: #00539b;
+  cursor: pointer;
+  /*visibility: hidden;*/
+}
+
+.search-results-property__compare::before {
+  display: inline-block;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
+  content: "\f0e0";
+  margin-right: -5px;
+}
+
+.search-results-property__compare::after {
+  content: "Pricing & Availability";
+  display: inline-block;
+}
+
+.search-results-property__compare:hover {
+  color: #fb6418;
+}
+
+.search-results-property__save {
+  display: none;
+}
+
+/*.search-results-property__save-icon {
+  display: none !important;
+}
+
+.search-results-property__save-text {
+  text-indent: -9999px;
+  line-height: 0;
+  content: "";
+}
+
+.search-results-property__save-text::after {
+  content: "Call";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+  cursor: pointer;
+}
+*/
+
+#formLoad .modal-content {
+  background-color: #f9f9f9;
+}
+
+#formLoad .modal-title {
+  line-height: 1.92857em;
+}
+
+#formLoad .modal-header {
+  background-color: #fff;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#formLoad .modal-header .close {
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: -100px;
+  opacity: 1;
+  color: #7d7d7d;
+}
+
+@media screen and (min-width: 991px) {
+#formLoad .modal-body {
+  padding: 20px 70px 30px;
+  }
+}
+
+#formLoad .b-contactform {
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  min-height: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+
+#formLoad .b-contactform .container {
+  width: auto !important;
+}
+
+#formLoad .b-contactform__form {
+  margin: 0 5px;
+  -ms-flex-line-pack: start !important;
+  align-content: flex-start !important;
+  height: auto !important;
+  padding-top: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+  #formLoad .b-contactform__form {
+    margin: 0 20px !important;
+  }
+}
+
+#formLoad .b-contactform__reasons {
+  margin-bottom: 5px !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  min-width: auto !important;
+  border: 0 !important;
+  background-color: #f9f9f9 !important;
+}
+
+#formLoad .b-contactform__reasons > * {
+  width: 100% !important;
+  margin-left: 0 !important;
+  border: 0 !important;
+}
+
+#formLoad .b-contactform__prompt {
+  display: none !important;
+}
+
+#formLoad .b-contactform__contactinfo > * {
+  margin-top: 15px !important;
+}
+
+@media screen and (min-width: 768px) {
+  #formLoad .b-contactform__contactinfo {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  #formLoad .communityform .communityform__item {
+    width: 48.8% !important;
+  }
+}
+
+#formLoad .b-contactform__button {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#formLoad .b-contactform__contactinfo #contact-form-submit {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#formLoad .b-contactform__compliance {
+  margin-bottom: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+
+#formLoad .b-contactform__compliance > * {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+  #formLoad .communityform .communityform__item:nth-of-type(1),
+  #formLoad .communityform .communityform__item:nth-of-type(3) {
+    margin-right: 5px;
+  }
+  #formLoad .communityform .communityform__item:nth-of-type(2),
+  #formLoad .communityform .communityform__item:nth-of-type(4) {
+    margin-left: 5px;
+    margin-right: 0 !important;
+  }
+}
+
+.at-modal-backdrop {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.at-modal-backdrop.in {
+  display: block;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 1040;
+}
+
+/* Start Thank You Message Tweaks */
+
+#formLoad .b-contactform--showingSuccess .b-contactform__form, #formLoad .b-contactform--showingFail .b-contactform__form {
+  display: none;
+}
+
+.b-contactform .b-contactform--showingFail {
+  height: 160px !important;
+}
+
+@media (min-width: 360px) {
+#formLoad .b-contactform--showingSuccess {
+  height: 554px !important;
+  }
+}
+
+@media (max-width: 359px) {
+#formLoad .b-contactform--showingSuccess {
+  height: 575px !important;
+  }
+}
+
+#formLoad .b-contactform__response-steps {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+#formLoad .b-contactform__response {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  -webkit-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+}
+
+#formLoad .b-contactform__response-step {
+  max-width: 100% !important;
+  margin-bottom: 30px !important;
+}
+
+@media all and (-ms-high-contrast:none), all and (-ms-high-contrast:active) {
+  #formLoad .b-contactform__response-step--active {
+    padding-top: 36px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  #formLoad .b-contactform__response {
+    margin-left: 46% !important;
+    width: 330px !important;
+  }
+}
+
+@media (min-width: 481px) {
+  #formLoad .b-contactform__response {
+    margin-left: 48% !important;
+    width: 360px !important;
+  }
+}
+
+@media (min-width: 360px) {
+  #formLoad .b-contactform__response-links {
+  text-align: center;
+  margin-left: -100% !important;
+  margin-right: -100% !important;
+}
+}
+
+@media (max-width: 359px) {
+  #formLoad .b-contactform__response-links a {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #formLoad .b-contactform__response-links {
+    margin-top: 20px; !important;
+  }
+}
+
+
+#formLoad .modal {
+  z-index: -1;
+  display: block;
+}
+
+.modal-open #formLoad .modal {
+  z-index: 1050 !important;
+}
