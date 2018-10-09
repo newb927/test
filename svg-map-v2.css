@@ -308,3 +308,7 @@ path#SD {
     text-align: left;
   }
 }
+
+.raw_html {
+  display: none;
+}
