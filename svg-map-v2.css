@@ -8,10 +8,10 @@ padding: 0 22px;
   
 }
 path:hover {
-  stroke: #00539b !important;
+  stroke: #fb6418 !important;
   stroke-width:2px;
   stroke-linejoin: round;
-  fill: #00539b !important;
+  fill: #fb6418 !important;
   cursor: pointer;
 }
 path#SD {
@@ -32,7 +32,7 @@ path#SD {
   /*border: 2px solid #fb6418;
   border: 2px solid #17a062;
   border: 2px solid #666;*/
-  border: 2px solid #00539b;
+  border: 2px solid #fb6418;
   border-radius: 5px;
   padding: 5px;
   color: #333;
