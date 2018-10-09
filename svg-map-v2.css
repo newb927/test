@@ -8,7 +8,7 @@ padding: 0 22px;
   
 }
 path:hover {
-  stroke: #fb6418 !important;
+  stroke: #fff !important;
   stroke-width:2px;
   stroke-linejoin: round;
   fill: #fb6418 !important;
