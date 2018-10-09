@@ -6,15 +6,12 @@ max-width: 1200px;
 height: 100%;
 padding: 0 22px;
 }
-#us-map path {
-  stroke-width: 2px;
-  stroke-linejoin: round;
-}
+
 path:hover {
-  stroke: #fff !important;
-  /*stroke-width:2px;
-  stroke-linejoin: round;*/
-  fill: #fb6418 !important;
+  stroke: #00539b !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #00539b !important;
   cursor: pointer;
 }
 path#SD {
