@@ -38,10 +38,16 @@
 .mobile-options>.row>div.phone:before {
   margin-top: 0;
 }
-.atPhone--mobile > div:before {
+.atPhone--mobile:before {
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin: 0 10px 0;
   background-image:url("https://www.brookdale.com/etc/clientlibs/brookdale/main/images/icon-phone-fill.png");
   vertical-align: middle;
-  margin-top: 0;
 }
 @media (max-width: 990px) {
 .mobile-options .atPhone--mobile {
