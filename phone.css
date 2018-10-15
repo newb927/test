@@ -21,7 +21,7 @@
   color: #333 !important;
 }
 .atPhoneLabel--mobile {
-  margin-top: 0;
+  margin-top: -3px;
   font-size: 24px;
   display: block;
   font-size: 24px;
@@ -35,16 +35,10 @@
     width: calc(100% - 60px);
     vertical-align: middle;
 }
-.atPhoneLabel--mobile {
-    display: block;
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: -3px;
-}
 .mobile-options>.row>div.phone:before {
   margin-top: 0;
 }
-.atPhone--mobile:before {
+.atPhone--mobile > div:before {
   background-image:url("https://www.brookdale.com/etc/clientlibs/brookdale/main/images/icon-phone-fill.png");
   vertical-align: middle;
   margin-top: 0;
