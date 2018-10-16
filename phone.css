@@ -17,11 +17,16 @@
   display: block;
   margin-top: 0px;
   font-size: 13px;
+  line-height: 13px;
+  padding-bottom: 2px;
   font-weight: 300;
   color: #333 !important;
 }
+.mobile-options>.row>div.phone>div>span.phone {
+  padding-top: 2px;
+}
 .atPhoneLabel--mobile {
-  margin-top: -3px;
+  padding-top: 2px;
   font-size: 24px;
   display: block;
   font-size: 24px;
