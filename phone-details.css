@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  .cd-header-info .phone-detail, .cd-header-info .atPhoneDetail {
+  .bkd-community-details .cd-header-info .phone-detail, .bkd-community-details .cd-header-info .phone-detail {
     display: none;
   }
 }
