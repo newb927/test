@@ -32,3 +32,56 @@
     display: none;
   }
 }
+
+.mobile-options>.row {
+  background-color: #fff;
+}
+
+.mobile-options .ct-contact-support-label {
+  display: block;
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #333 !important;
+}
+
+.atPhoneLabel--mobile {
+  margin-top: 0;
+  font-size: 24px;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333 !important;
+}
+
+.mobile-options>.row>a.atPhone--mobile>div {
+    font-size: 12px;
+    font-weight: 100;
+    display: inline-block;
+    width: calc(100% - 60px);
+    vertical-align: middle;
+}
+
+.atPhoneLabel--mobile {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -3px;
+}
+
+.mobile-options>.row>div.phone:before {
+  margin-top: 0;
+}
+
+.atPhone--mobile:before {
+  background-image:url(''../../clientlibs/brookdale/main/images/icon-phone-fill.png);
+  vertical-align: middle;
+  margin-top: 0;
+}
+
+@media (max-width: 990px) {
+.mobile-options .atPhone--mobile {
+    padding: 18px 10px 18px;
+    display: block;
+  }
+}
