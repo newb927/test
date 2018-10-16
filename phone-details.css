@@ -1,0 +1,34 @@
+.bkd-community-details .cd-header-info .phone-detail,
+.bkd-community-details .cd-header-info .atPhoneDetail,
+.bkd-community-details .cd-header-info .supplemental {
+  visibility: hidden;
+}
+
+.bkd-community-details .cd-header-info .phone-detail,
+.bkd-community-details .atPhoneDetail {
+  display: inline-block;
+}
+
+.bkd-community-details .cd-header-info .phone-detail {
+  border-right: 1px solid #000;
+  padding-right: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.bkd-community-details .atPhoneLabel {
+  font-size: 14px;
+}
+
+.bkd-community-details .cd-header-info.at-fin .phone-detail,
+.bkd-community-details .cd-header-info.at-fin .atPhoneDetail,
+.bkd-community-details .cd-header-info.at-fin .supplemental {
+  visibility: visible;
+}
+
+@media screen and (max-width: 991px) {
+  .bkd-community-details .cd-header-info .phone-detail,
+  .bkd-community-details .cd-header-info .atPhoneDetail {
+    display: none;
+  }
+}
