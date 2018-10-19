@@ -2,3 +2,8 @@
 display: table;
 content: " ";
 }
+
+path:before, path:after {
+display: table;
+content: " ";
+}
