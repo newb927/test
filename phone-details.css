@@ -95,7 +95,7 @@
 
 @media (max-width: 990px) {
 .mobile-options .atPhone--mobile {
-    padding: 18px 10px 18px;
+    padding: 18px 10px 15px;
     display: block;
   }
 }
