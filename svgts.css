@@ -1,4 +1,4 @@
-#us-map:before {
+#us-map:before, #us-map:after {
 display: table;
 content: " ";
 }
