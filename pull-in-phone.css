@@ -1,3 +1,8 @@
+
+.search-results-property__tools {
+  display: none;
+}
+
 #testNum {
   height: 40px;
   margin: 0 -20px -20px;
@@ -13,6 +18,13 @@
   border-top: 1px solid #ccc;
 }
 
-.search-results-property__tools {
-  display: none;
+#testNum::before {
+  display: inline-block;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
+  content: "\f095";
+  margin-right: -5px;
 }
