@@ -1,0 +1,17 @@
+#testNum {
+  height: 40px;
+  margin: 0 -20px -20px;
+  height: 40px;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  font-weight: 500;
+}
+
+.search-results-property__tools {
+  display: none;
+}
