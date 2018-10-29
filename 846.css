@@ -1,0 +1,25 @@
+/* in bkd-old componens > _community-contact-form.scss line 165 */
+@media (max-width: 991px) {
+  .b-contactform__form {
+    /* margin-left; 20px; */
+    margin: 0 20px;
+    /* or */
+    margin: 0 10px;
+  }
+}
+
+/* in bkd-old componens > _community-contact-form.scss line 297 */
+@media (max-width: 1040px) {
+  .b-contactform__contactinfo input[type="submit"] {
+    /* max-width: 96%; */
+    /* width: 96%; */
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Example SCSS 
+@include media-down(desksmallalt) {
+    flex-direction:column;
+  }
+*/
