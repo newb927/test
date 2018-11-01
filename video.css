@@ -1,4 +1,4 @@
-/* Video Player */
+d/* Video Player */
 .video-player .video.js-video-player--playing {
   height: 525px;
   max-height: 511px;
@@ -17,7 +17,7 @@
   }
 }
 @media (max-width: 768px) {
-  .video-player .video.js-video-player--not-playing {
+  .video-player .video.js-video-player--ended {
     height: 350px;
   }
 }
