@@ -1,24 +1,21 @@
 /* Video Player */
-.video-player {
-  /*.video.js-video-player--ended {
-    height: 525px;
-  }*/
-}
-.video-player .video {
-  height: 511px;
-  max-height: 44%;
-}
 .video-player .video.js-video-player--playing {
   height: 525px;
+  max-height: 511px;
+}
+.video-player .video.js-video-player--not-playing {
+  height: 511px;
+}
+.video-player .video.js-video-player--ended {
+  height: 525px;
+  max-height: 511px;
 }
 
-@media (max-width: 1200px) {
-  .video-player .video {
-    height: auto;
-  }
-}
 @media (max-width: 767px) {
   .video-player .video {
+    height: 223px;
+  }
+  .video-player .video.js-video-player--not-playing {
     height: 223px;
   }
 }
