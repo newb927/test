@@ -1,0 +1,29 @@
+/* Video Player */
+.video-player {
+  /*.video.js-video-player--ended {
+    height: 525px;
+  }*/
+}
+.video-player .video {
+  height: 511px;
+  max-height: 44%;
+}
+.video-player .video.js-video-player--playing {
+  height: 525px;
+}
+
+@media (max-width: 1200px) {
+  .video-player .video {
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .video-player .video {
+    height: 223px;
+  }
+}
+@media (max-width: 768px) {
+  .video.js-video-player--ended {
+    height: 350px;
+  }
+}
