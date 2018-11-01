@@ -12,9 +12,6 @@
 }
 
 @media (max-width: 767px) {
-  .video-player .video {
-    height: 223px;
-  }
   .video-player .video.js-video-player--not-playing {
     height: 223px;
   }
