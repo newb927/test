@@ -17,7 +17,7 @@
   }
 }
 @media (max-width: 768px) {
-  .video.js-video-player--ended {
+  .video-player .video.js-video-player--not-playing {
     height: 350px;
   }
 }
