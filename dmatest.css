@@ -47,6 +47,7 @@
  margin-left: -15px;
  margin-right: -15px;
  font-weight: bold;
+ line-height: 1.4;
 }
 
 #at-dma .section-title--with-photo:before {
@@ -87,21 +88,18 @@
 @media (max-width: 991px) {
   #at-dma .section-title--with-photo {
     font-size: 32px;
-    line-height: 1.4;
   }
 }
 
 @media (max-width: 767px) {
   #at-dma .section-title--with-photo {
     font-size: 24px;
-    line-height: 1.4;
   }
 }
 
 @media (max-width: 620px) {
   #at-dma .section-title--with-photo {
     font-size: 20px;
-    line-height: 1.4;
   }
 }
 
@@ -115,6 +113,5 @@
 @media (max-width: 359px) {
   #at-dma .section-title--with-photo {
     font-size: 16px;
-    line-height: 1.3;
   }
 }
