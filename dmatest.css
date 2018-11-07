@@ -169,3 +169,10 @@
     display: none;
   }*/
 }
+
+#at-dma .section-title--with-photo {
+ display: flex;
+ align-items: center;
+ margin-left: -15px;
+ margin-right: -15px;
+}
