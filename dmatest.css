@@ -88,7 +88,8 @@
 @media (min-width: 768px) and (max-width: 991px) {
   #at-dma .text-image__iblock--left {
     min-width: 200px !important;
-    max-width: 400px !important;
+    /*max-width: 400px !important;*/
+    max-width: 365px !important;
     padding-right: 15px !important;
     padding-bottom: 0 !important;
   }
