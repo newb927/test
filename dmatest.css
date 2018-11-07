@@ -192,7 +192,7 @@
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
 }
 
-#at-dma .section-title--with-photo {
+#at-dma .section-title--with-photo div {
  position: relative;
  z-index: 1;
 }
