@@ -107,7 +107,7 @@
 @media (min-width: 992px) and (max-width: 1091px) {
   #at-dma .text-image__iblock--left {
     min-width: 315px !important;
-    max-width: 315 !important;
+    max-width: 315px !important;
   }
 }
 
@@ -140,6 +140,9 @@
   }
   a.outside {
     display: none;
+  }
+  #at-dma .text-image-content .headline2 {
+    font-size: 36px;
   }
 }
 
