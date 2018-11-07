@@ -196,3 +196,45 @@
  position: relative;
  z-index: 1;
 }
+
+@media (max-width: 359px) {
+  #at-dma .section-title--with-photo {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 420px) {
+  #at-dma .section-title--with-photo {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 620px) {
+  #at-dma .section-title--with-photo {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 767px) {
+  #at-dma .section-title--with-photo {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 767px) {
+  #at-dma .section-title--with-photo {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 991px) {
+  #at-dma .section-title--with-photo {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+}
