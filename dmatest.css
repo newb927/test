@@ -93,15 +93,15 @@
     padding-right: 15px !important;
     padding-bottom: 0 !important;
   }
-  a.inside {
+  /*a.inside {
     display: none !important;
-  }
-  a.outside {
+  }*/
+  /*a.outside {
     display: block !important;
     width: 100%;
     margin-top: 35px;
     text-align: center;
-  }
+  }*/
 }
 
 @media (min-width: 992px) and (max-width: 1091px) {
@@ -117,10 +117,13 @@
     /*width: auto !important;*/
   }
   a.inside {
-    display: block;
+    display: none;
   }
   a.outside {
-    display: none;
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    text-align: center;
   }
 }
 
