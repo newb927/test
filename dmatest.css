@@ -66,21 +66,6 @@
  z-index: 1;
 }
 
-/*@media (max-width: 991px) {
-  #at-dma .text-image-content {
-    display: block;
-  }
-  #at-dma .text-image__iblock--left {
-    display: block;
-    float: left;
-    padding: 0 30px 20px 0;
-    margin-right: 0;
-  }
-  #at-dma .text-image__iblock--right {
-    display: block;
-  }
-}*/
-
 @media (min-width: 992px) and (max-width: 1091px) {
   #at-dma .text-image__iblock--left {
     min-width: 315px;
