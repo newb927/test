@@ -13,7 +13,7 @@
   display:-ms-inline-flexbox;
   display:inline-flex;
   width: 100%;
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #d3d3d3;
   margin: 0 auto;
   padding: 20px;
@@ -109,11 +109,12 @@
 @media (max-width: 420px) {
   #at-dma {
     padding: 15px 0;
+    background-color: #fff;
   }
   #at-dma .text-image__iblock--left {
     margin-right: 10px;
   }
-  text-image__iblock--right {
+  .text-image__iblock--right {
     margin-right: 0;
   }
   #at-dma .text-image__iblock--right p {
