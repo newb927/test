@@ -131,12 +131,10 @@
   #at-dma .text-image__iblock--right p {
     line-height: 1.2;
   }
-  #at-dma {
-    border: 0;
-  }
   #at-dma .text-image-content {
+    border: 0;
     margin: 0;
-    padding-top: 0;
+    padding: 0;
   }
 }
 
