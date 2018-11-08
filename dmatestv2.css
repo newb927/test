@@ -48,9 +48,6 @@
 }
 
 @media (min-width: 992px) {
-  .text-image__iblock--right {
-   margin-right: 20px; 
-  }
   #at-dma .text-image-content .headline2 {
     font-size: 36px;
   }
@@ -110,6 +107,9 @@
 
 
 @media (max-width: 420px) {
+  #at-dma {
+    padding: 15px 0;
+  }
   #at-dma .text-image__iblock--left {
     margin-right: 10px;
   }
@@ -131,12 +131,11 @@
     line-height: 1.2;
   }
   #at-dma {
-  margin: 0;
-  padding-top: 0;
+    border: 0;
   }
   #at-dma .text-image-content {
-  margin: 0;
-  padding-top: 0;
+    margin: 0;
+    padding-top: 0;
   }
 }
 
