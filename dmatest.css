@@ -1,7 +1,10 @@
+#at-dma {
+  padding-top: 28px; 
+}
+
 @media screen and (max-width: 991px) {
   #at-dma {
     padding-bottom: 28px;
-    padding-top: 28px;
   }
 }
 #at-dma .retain {
@@ -76,8 +79,9 @@
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    border: 1px solid #d3d3d3;
     padding: 20px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
   }
   #at-dma .text-image-content .headline2 {
     font-size: 36px;
