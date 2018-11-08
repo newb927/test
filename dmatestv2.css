@@ -16,7 +16,7 @@
   background: #fff;
   border: 1px solid #d3d3d3;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
   }
 
 #at-dma .text-image__iblock--left {
@@ -24,7 +24,6 @@
  vertical-align: top;
  padding: 0;
  margin-right: 20px;
- margin-left: 20px;
  max-width: 285px;
 }
 
