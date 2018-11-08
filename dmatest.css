@@ -8,12 +8,10 @@
   }
 }
 #at-dma .retain {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 #at-dma .text-image__iblock--left {
   display: inline-block;
-  vertical-align: top;
   padding: 0;
   margin-right: 20px;
   min-width: 260px;
@@ -22,11 +20,9 @@
 }
 #at-dma .text-image__iblock--right {
   display: inline-block;
-  vertical-align: top;
 }
 #at-dma .text-image-content .headline2 {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 #at-dma .text-image-content img {
   margin-top: 0;
@@ -71,9 +67,6 @@
 @media (min-width: 992px) {
   #at-dma {
     background-color: #f9f9f9;
-  }
-  #at-dma .retain {
-    padding: 0 15px;
   }
   #at-dma .text-image-content {
     display: -webkit-inline-box;
