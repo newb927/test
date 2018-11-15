@@ -1,7 +1,6 @@
 /*<style>*/
 @media (max-width: 420px) {
 	.sneakpeek-modal-body__text .h3 {
-		font-size: 15px;
 		margin: 15px 0;
 	}
 	.sneakpeek-form .has-float-label {
@@ -10,6 +9,7 @@
 	.sneakpeek-hr { display: none; }
 	.sneakpeek-phone-closure {
 		display: block;
+		margin-top: 25px;
 	}
 }
 @media (max-width: 359px) {
