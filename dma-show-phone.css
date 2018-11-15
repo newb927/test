@@ -1,9 +1,4 @@
 /*<style>*/
-@media (max-width: 359px) {
-	.sneakpeek-modal-body__text .h3 {
-		font-size: 14px;
-	}
-}
 @media (max-width: 420px) {
 	.sneakpeek-modal-body__text .h3 {
 		font-size: 15px;
@@ -15,6 +10,11 @@
 	.sneakpeek-hr { display: none; }
 	.sneakpeek-phone-closure {
 		display: block;
+	}
+}
+@media (max-width: 359px) {
+	.sneakpeek-modal-body__text .h3 {
+		font-size: 14px;
 	}
 }
 /*</style>*/
