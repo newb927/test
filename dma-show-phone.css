@@ -1,0 +1,20 @@
+/*<style>*/
+@media (max-width: 359px) {
+	.sneakpeek-modal-body__text .h3 {
+		font-size: 14px;
+	}
+}
+@media (max-width: 420px) {
+	.sneakpeek-modal-body__text .h3 {
+		font-size: 15px;
+		margin: 15px 0;
+	}
+	.sneakpeek-form .has-float-label {
+		margin-bottom: 10px;
+	}
+	.sneakpeek-hr { display: none; }
+	.sneakpeek-phone-closure {
+		display: block;
+	}
+}
+/*</style>*/
