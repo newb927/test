@@ -16,5 +16,8 @@
 	.sneakpeek-modal-body__text .h3 {
 		font-size: 14px;
 	}
+	.sneakpeek-phone-closure {
+		margin-top: 0;
+	}
 }
 /*</style>*/
