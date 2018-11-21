@@ -1,7 +1,11 @@
 /* Original */
 
 .sidr-inner .ctcore-header__phonenumber a {
-    display: none;
+    display: initial;
+    height: auto;
+    padding-left: 0;
+    padding-top: 0;
+    border-bottom: 0;
 }
 
 .sidr-inner .ctcore-header__phonenumber > a:first-of-type {
