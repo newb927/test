@@ -84,6 +84,7 @@
   .pricing-info__item--price-asterisk {
   position: relative;
   bottom: 3px;
+  padding-right: 5px;
   font-size: 24px;
   font-weight: 100;
 }
