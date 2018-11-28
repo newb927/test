@@ -3,6 +3,7 @@
     background-color: #f9f9f9;
     border-top: 1px solid #979797;
     border-bottom: 1px solid #979797;
+    margin-bottom: 70px;
 }
 .pricing-info .headline3 {
     padding: 20px 0 64px;
@@ -379,7 +380,7 @@
         text-decoration: underline;
     }
     .pricing-info .pricing-info__footer .pricing-info__footer--disclaimer {
-        margin: 30px auto 10px auto;
+        margin: 30px auto 15px auto;
         font-size: 14px;
         line-height: 1.4em;
         max-width: 65%;
