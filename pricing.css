@@ -184,42 +184,6 @@
 .pricing-info .pricing-info__footer .pricing-info__footer--ctas div {
   margin-bottom: 10px;
 }
-@media (min-width: 992px) {
-  .pricing-info .pricing-info__item .pricing-info__item--price {
-    margin-left: -46px;
-    margin-right: -46px;
-  }
-}
-.pricing-info .pricing-info__item .pricing-info__item--price:before,
-.pricing-info .pricing-info__item .pricing-info__item--price:after {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  bottom: 100%;
-}
-.pricing-info .pricing-info__item .pricing-info__item--price:before {
-  left: 0;
-  border-width: 5px 11px 0 0;
-  border-color: transparent #00396a transparent transparent;
-}
-.pricing-info .pricing-info__item .pricing-info__item--price:after {
-  right: 0;
-  border-width: 5px 0 0 11px;
-  border-color: transparent transparent transparent #00396a;
-}
-.pricing-info .pricing-info__item .pricing-info__item--price #itemPrice {
-  font-size: 20px;
-  font-weight: 400;
-}
-.pricing-info
-  .pricing-info__item
-  .pricing-info__item--price
-  .pricing-info__item--price-asterisk {
-  position: relative;
-  bottom: 3px;
-  font-size: 24px;
-  font-weight: 100;
-}
 @media (min-width: 360px) {
   .pricing-info .pricing-info__item .pricing-info__item--price {
     font-size: 19px;
@@ -302,18 +266,7 @@
     padding-right: 20px;
   }
 }
-.pricing-info .pricing-info__footer .pricing-info__footer--heading {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 35px;
-}
-.pricing-info .pricing-info__footer .pricing-info__footer--ctas {
-  font-size: 22px;
-  font-weight: 300;
-}
-.pricing-info .pricing-info__footer .pricing-info__footer--ctas div {
-  margin-bottom: 10px;
-}
+
 @media (min-width: 680px) {
   .pricing-info .pricing-info__footer .pricing-info__footer--ctas div {
     display: inline-block;
@@ -322,7 +275,7 @@
 .pricing-info
   .pricing-info__footer
   .pricing-info__footer--disclaimer
-  .pricing-info__item--price-asterisk {
+  .pricing-info__footer--disclaimer-asterisk {
   position: relative;
   top: 6px;
   font-size: 24px;
