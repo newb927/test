@@ -370,6 +370,14 @@
             display: inline-block;
         }
     }
+    .pricing-info .pricing-info__footer .pricing-info__footer--disclaimer .pricing-info__item--price-asterisk {
+        position: relative;
+        top: 6px;
+        font-size: 24px;
+        right: 3px;
+        color: #999;
+        font-weight: 400;
+       }
     .pricing-info .pricing-info__footer .pricing-info__footer--ctas .pricing-info__footer--phone {
         color: #333;
         font-weight: 400;
@@ -391,9 +399,9 @@
             max-width: 100%;
         }
     }
-    info__footer--ctas div {
-        display: inline-block;
-    }
+    /*.info__footer--ctas div {
+        display: block;
+    }*/
 }
 .pricing-info .pricing-info__footer .pricing-info__footer--ctas .pricing-info__footer--phone {
     color: #333;
