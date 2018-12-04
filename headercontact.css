@@ -1,0 +1,78 @@
+/* Start Wrapper Styles simulating .ctcore-header__phone */
+
+.ctcore-header__contact {
+  padding-right: 18px;
+}
+
+.ctcore-header__contact {
+  position: relative;
+  margin-top: 14px;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  display: none;
+}
+
+@media (min-width: 1092px) {
+  .ctcore-header__contact {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 19px;
+  }
+}
+
+#nav-stripe__elements .ctcore-header__contact {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+/* Start Element Styles */
+
+.ctcore-header__contact-inner {
+  display: inline-block;
+}
+
+.ctcore-header__contactus {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ctcore-header__contactus .fa-envelope {
+  font-size: 18px;
+  color: #fff;
+  background-color: #2da262;
+  padding: 6px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.ctcore-header__contactus div {
+  margin-top: 1px;
+}
+
+/* Styles for Community Pages */
+
+#nav-stripe .community-contact-us {
+  display: none;
+}
+
+.community-options>ul>li:before {
+    background-color: #a9a9a9;
+    content: '';
+    height: calc(100% + 5px);
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
