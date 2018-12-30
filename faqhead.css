@@ -2,10 +2,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-top: 15px;
 }
 
 #faq-test .title .h2 {
 	display: inline-block;
+	margin-top: 10px;
 }
 
 #faq-test .title:before, #faq-test .title:after {
@@ -13,8 +15,6 @@
     content: '';
     height: 1px;
     border: 0;
-    margin-top: 0;
-    vertical-align: middle;
     width: 20%;
 }
 
