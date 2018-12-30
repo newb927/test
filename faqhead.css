@@ -3,7 +3,7 @@
 	align-items: center;
 }
 
-#faq-test h2:before, #faq-test h2:after {
+#faq-test .title h2:before, #faq-test .title h2:after {
 	display: inline-block;
     content: '';
     height: 1px;
@@ -13,13 +13,13 @@
     width: 20%;
 }
 
-#faq-test h2:before {
+#faq-test .title h2:before {
 	margin-right: 10px;
     background-image: -webkit-gradient(linear,left top,right top,from(rgba(213,213,213,0)),to(#d5d5d5));
     background-image: linear-gradient(to right,rgba(213,213,213,0) 0,#d5d5d5 100%);
 }
 
-#faq-test h2:after {
+#faq-test .title h2:after {
 	margin-left: 10px;
     background-image: -webkit-gradient(linear,left top,right top,from(#d5d5d5),to(rgba(213,213,213,0)));
     background-image: linear-gradient(to right,#d5d5d5 0,rgba(213,213,213,0) 100%);
