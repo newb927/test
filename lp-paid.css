@@ -906,7 +906,7 @@ body.btn-stuck .btn-sticky {
 }
 @media (min-width: 768px) {
   .primary-form {
-    padding: 0 70px !important;
+    padding: 0 68px !important;
   }
 }
 @media (min-width: 1200px) {
@@ -1025,6 +1025,11 @@ body.btn-stuck .btn-sticky {
 .form-container {
   display: none;
   margin-top: 70px;
+}
+@media (max-width: 1091px) {
+  .form-container {
+    margin-top: 60px;
+  }
 }
 .get-started > div,
 .get-started .site-footer {
