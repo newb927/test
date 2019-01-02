@@ -643,7 +643,7 @@ body.btn-stuck .ctcore-header__row--one .test-phone .test-phone-number a,
   color: #333;
 }
 .test-phone-number a:hover, .test-phone-number a:focus, .test-phone-number a:active {
-  color: #fc6b21;	
+  color: #fc6b21 !important;	
 }
 .hero-image-wrapper .hero-image-text p {
   font-size: 18px;
