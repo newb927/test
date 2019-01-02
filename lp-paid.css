@@ -815,6 +815,7 @@ body.btn-stuck .btn-sticky {
 }
 .promo a {
   color: #fff;
+  font-weight: bold;
 }
 .promo a:hover, .promo a:focus, .promo a:active {
   color: #fc6b21;
