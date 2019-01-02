@@ -899,6 +899,7 @@ body.btn-stuck .btn-sticky {
 
 .primary-form {
   position: static !important;
+  width: auto !important;
   max-width: none;
   margin: 0 auto !important;
   padding: 0 20px !important;
