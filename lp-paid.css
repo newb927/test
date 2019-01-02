@@ -823,6 +823,11 @@ body.btn-stuck .btn-sticky {
 .service-lines {
   margin-top: 40px;
 }
+@media (max-width: 991px) {
+.service-lines {
+  margin-top: 50px;
+  }	
+}
 .service-lines img {
   max-width: 214px;
   /*border: 3px solid #e5e5e5;*/
