@@ -1,9 +1,4 @@
-body, .site-header, .hero, .intro, .callout, .services {
-  display: none;
-}
-body {
-  padding-bottom: 0 !important;
-}
+body {display: none; padding-bottom: 0 !important;}
 .btn {
   border-radius: 5px;
   font-size: 20px;
@@ -570,9 +565,9 @@ h2 {
 @media (max-width: 480px) {
   .carousel__text_mobile {
     display: block;
-    text-align:  center;
+    text-align:  center;
 
-     :  10px;
+     :  10px;
   }
 }
 
@@ -908,7 +903,7 @@ body.btn-stuck .btn-sticky {
 }
 @media (min-width: 768px) {
   .primary-form {
-    padding: 0 68px !important;
+    padding: 0 70px !important;
   }
 }
 @media (min-width: 1200px) {
@@ -1028,10 +1023,6 @@ body.btn-stuck .btn-sticky {
   display: none;
   margin-top: 70px;
 }
-@media (max-width: 1091px) {
- .form-container {
-   margin-top: 60px;
-}
 .get-started > div,
 .get-started .site-footer {
   display: none;
@@ -1039,3 +1030,6 @@ body.btn-stuck .btn-sticky {
 .get-started .form-container {
   display: block;
 }
+/*body, .site-header, .hero, .intro, .callout, .services {
+  display: none;
+}*/
