@@ -1,5 +1,5 @@
 body, .site-header, .hero, .intro, .callout, .services {
-	display: none;
+  display: none;
 }
 body {
   padding-bottom: 0 !important;
