@@ -1,3 +1,4 @@
+body {display: none; padding-bottom: 0 !important;}
 .btn {
   border-radius: 5px;
   font-size: 20px;
@@ -1029,6 +1030,6 @@ body.btn-stuck .btn-sticky {
 .get-started .form-container {
   display: block;
 }
-body, .site-header, .hero, .intro, .callout, .services {
-	display: none;
-}
+/*body, .site-header, .hero, .intro, .callout, .services {
+  display: none;
+}*/
