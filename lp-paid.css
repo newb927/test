@@ -803,6 +803,7 @@ body.btn-stuck .btn-sticky {
 .service-lines h2 {
   font-size: 44px;
   margin-bottom: 65px;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .service-lines h2 {
