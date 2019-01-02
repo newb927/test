@@ -1,0 +1,20 @@
+.ctcore-header__mobile-nav .js-header__phonenumber>a {
+	transition: all .2s ease;
+}
+.show-num .ctcore-header__mobile-nav {
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+}
+.show-num>header.ctcore-header .ctcore-header__row.ctcore-header__row--first .ctcore-header__logo, .show-num .ct-icon--menu {
+	display: none;
+}
+.show-num .ctcore-header__mobile-nav .js-header__phonenumber>a {
+	text-indent: initial;
+    overflow: auto;
+    white-space: normal;
+    font-size: 22px;
+}
+.show-num .ctcore-header__mobile-nav .js-header__phonenumber>a:before {
+	margin-right: 7px;
+}
