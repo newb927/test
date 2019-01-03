@@ -220,7 +220,7 @@ main > div, .bottom-promo-bar,
   color: #fff;
   text-decoration: none;
 }
-.ctcore-header {
+/*.ctcore-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,7 +233,7 @@ main > div, .bottom-promo-bar,
   margin: 0 auto;
   line-height: 1em;
   z-index: 1;
-}
+}*/
 .ctcore-header__logo {
   max-width: 212px;
   min-width: 210px;
@@ -457,13 +457,13 @@ main > div, .bottom-promo-bar,
     margin-top: 60px;
   }
 }
-#nav-stripe {
+/*#nav-stripe {
   background: transparent;
   border: 0;
   position: absolute;
   top: 0;
   display: block;
-}
+}*/
 @media (max-width: 991px) {
   #nav-stripe {
     position: fixed;
