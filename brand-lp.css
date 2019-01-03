@@ -643,7 +643,7 @@ body.btn-stuck .btn-sticky {
     margin-top: 60px;
   }
 }
-.get-started > div, .get-started main {
+.get-started > div, .get-started main, .get-started footer {
   display: none;
 }
 .get-started .form-container {
