@@ -40,13 +40,9 @@ main {
 .new .hero-image-content {
   overflow: visible;
 }
-.closestCommunities .carousel-aem {
-  max-width: 1200px;
-  padding: 55px;
-  margin-left: auto;
-  margin-right: auto;
+.closest-communities__title {
+  margin-top: 0;
 }
-
 .video-player .video .video-cta p {
   max-width: 500px;
   text-align: center;
