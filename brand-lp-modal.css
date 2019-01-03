@@ -689,7 +689,7 @@ body.btn-stuck .btn-sticky {
   line-height: 1.6;
   font-size: 16px;
 }
-.contactform-lp__note {
+.contactform-lp__note, .contactform-lp__compliance {
   display: none;
 }
 #contactform-lp__submit {
