@@ -564,19 +564,26 @@ body.btn-stuck .btn-sticky {
     max-width: 600px;
   }
 }
-.primary-form__main {
+.contactform-lp__contactinfo {
   padding-top: 20px;
 }
-.primary-form__intro {
+.contactform-lp__prompt {
   text-align: center;
 }
-.primary-form__heading {
+.contactform-lp__prompt h3 {
   font-size: 30px;
   margin-bottom: 15px;
 }
-.primary-form__content p {
+.contactform-lp__prompt p {
   line-height: 1.6;
   font-size: 16px;
+}
+.contactform-lp__note {
+  display: none;
+}
+#contactform-lp__submit {
+  width: 100%;
+  margin: 0;
 }
 .primary-form__wrap {
   padding-top: 40px;
