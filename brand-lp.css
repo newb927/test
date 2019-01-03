@@ -80,28 +80,6 @@ footer {
   overflow: visible;
   background-color: #ccc;
 }
-.hero-image-wrapper .hero-title-wrap {
-  position: relative;
-  height: 100%;
-}
-.hero-image-wrapper .hero-image-text {
-  height: 100%;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  top: 0;
-}
 .hero-image-wrapper .hero-image-text h1.white {
   color: #fff;
 }
@@ -173,6 +151,7 @@ footer {
   }
   .hero-image-content.hidden-md .ctcore-header__phonenumber {
     text-align: center;
+    white-space: normal;
   }
 }
 @media (min-width: 992px) {
