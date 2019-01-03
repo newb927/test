@@ -590,6 +590,7 @@ body.btn-stuck .btn-sticky {
   font-size: 40px;
   opacity: 1;
   color: #7d7d7d;
+  margin-top: -10px;
 }
 
 @media screen and (min-width: 991px) {
