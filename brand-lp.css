@@ -2,16 +2,29 @@ body {display: none; padding-bottom: 0 !important;}
 .site-header, .hero, .intro, .callout, .services {
 	display: none;
 }
-/* Start New Styles */
 
-main > div {
+/************ Start New Styles */
+
+#nav-stripe, .util-layout-6535__first, main > div, .bottom-promo-bar, .util-layout-6535__second > div > .fullWidthText, .util-layout-6535__second > div > .callouts-aem, .util-layout-6535__second > div > .sectionTitle .util-layout-6535__second > div > .video + .carousel-aem {
   display: none;
 }
-.new {
+.util-layout-6535, .new {
   display: block;
 }
+.util-layout-6535__second {
+  width: 100%;
+  padding: 0;
+}
 
-/* End New Styles */
+.closestCommunities .carousel-aem {
+  max-width: 1200px;
+  padding: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/************ End New Styles */
+
 .btn {
   border-radius: 5px;
   font-size: 20px;
