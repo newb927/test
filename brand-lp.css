@@ -37,6 +37,9 @@ main {
   width: 100%;
   padding: 0;
 }
+.new .hero-image-content {
+  overflow-y: visible;
+}
 .closestCommunities .carousel-aem {
   max-width: 1200px;
   padding: 55px;
