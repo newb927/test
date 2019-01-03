@@ -18,11 +18,17 @@ main > div, .bottom-promo-bar,
 .util-layout-6535, .new {
   display: block;
 }
+#nav-stripe.new {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  top: 0;
+  display: block;
+}
 .util-layout-6535__second {
   width: 100%;
   padding: 0;
 }
-
 .closestCommunities .carousel-aem {
   max-width: 1200px;
   padding: 55px;
