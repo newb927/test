@@ -5,7 +5,12 @@ body {display: none; padding-bottom: 0 !important;}
 
 /************ Start New Styles */
 
-#nav-stripe, .util-layout-6535__first, main > div, .bottom-promo-bar, .util-layout-6535__second > div > .fullWidthText, .util-layout-6535__second > div > .callouts-aem, .util-layout-6535__second > div > .sectionTitle .util-layout-6535__second > div > .video + .carousel-aem {
+#nav-stripe, .util-layout-6535__first, 
+main > div, .bottom-promo-bar, 
+.util-layout-6535__second > div > .fullWidthText, 
+.util-layout-6535__second > div > .callouts-aem, 
+.util-layout-6535__second > div > .sectionTitle, 
+.util-layout-6535__second > div > .video + .carousel-aem {
   display: none;
 }
 .util-layout-6535, .new {
