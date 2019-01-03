@@ -8,16 +8,17 @@ body {display: none; padding-bottom: 0 !important;}
 #nav-stripe, 
 .ctcore-header, 
 .progressive-bar, 
+.heroImage, 
 .util-layout-6535__first, 
 .bottom-promo-bar, 
 .util-layout-6535__second > div > .raw_html, 
 .util-layout-6535__second > div > .fullWidthText, 
 .util-layout-6535__second > div > .callouts-aem, 
 .util-layout-6535__second > div > .sectionTitle, 
-.util-layout-6535__second > div > .video + .carousel-aem {
+.util-layout-6535__second > div > .carousel-aem {
   display: none;
 }
-.util-layout-6535, .new, .new .ctcore-header {
+.new, .util-layout-6535, .new .ctcore-header, .heroImage.new {
   display: block;
 }
 .new #nav-stripe {
