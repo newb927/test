@@ -40,8 +40,16 @@ body {display: none; padding-bottom: 0 !important;}
 }
 
 .video-player .video .video-cta p {
-  max-width 500px;
+  max-width: 500px;
   text-align: center;
+}
+
+.lpBlockTitle {
+  margin-top: 40px;	
+}
+
+.lpBlockTitle a {
+  font-weight: bold;	
 }
 
 footer {
