@@ -2,6 +2,16 @@ body {display: none; padding-bottom: 0 !important;}
 .site-header, .hero, .intro, .callout, .services {
 	display: none;
 }
+* Start New Styles */
+
+main > div {
+  display: none;
+}
+.new {
+  display: block;
+}
+
+/* End New Styles */
 .btn {
   border-radius: 5px;
   font-size: 20px;
