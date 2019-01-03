@@ -39,6 +39,11 @@ body {display: none; padding-bottom: 0 !important;}
   margin-right: auto;
 }
 
+.video-player .video .video-cta p {
+  max-width 600px;
+  text-align: center;
+}
+
 footer {
   margin-top: 60px;
 }
