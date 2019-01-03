@@ -440,6 +440,9 @@ body {display: none; padding-bottom: 0 !important;}
     height: 60px;
     background: #fff;
   }
+  .btn-stuck #nav-stripe {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  }
 }
 @media (max-width: 767px) {
   #nav-stripe {
@@ -559,19 +562,6 @@ h2 {
   margin-bottom: 25px;
   font-weight: 400;
   line-height: 1.2;
-}
-
-.carousel__text_mobile {
-  display: none;
-}
-
-@media (max-width: 480px) {
-  .carousel__text_mobile {
-    display: block;
-    text-align:  center;
-
-     :  10px;
-  }
 }
 
 @media (max-width: 1200px) {
