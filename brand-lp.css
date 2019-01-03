@@ -680,8 +680,7 @@ body.btn-stuck .btn-sticky {
     margin-top: 60px;
   }
 }
-.get-started > div,
-.get-started .site-footer {
+.get-started > div, .get-started main {
   display: none;
 }
 .get-started .form-container {
