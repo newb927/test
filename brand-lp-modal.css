@@ -1,0 +1,712 @@
+body {display: none; padding-bottom: 0 !important; margin-top: 0 !important;}
+
+/************ Start New Styles */
+
+main {
+  margin-top: 0 !important;
+}
+
+#nav-stripe, 
+.ctcore-header, 
+.progressive-bar, 
+.progressive-bar.progressive-bar--mobile, 
+.heroImage, 
+.util-layout-6535__first, 
+.bottom-promo-bar, 
+.util-layout-6535__second > div > .raw_html, 
+.util-layout-6535__second > div > .fullWidthText, 
+.util-layout-6535__second > div > .callouts-aem, 
+.util-layout-6535__second > div > .sectionTitle, 
+.util-layout-6535__second > div > .carousel-aem {
+  display: none;
+}
+.new, .util-layout-6535, .new .ctcore-header, .heroImage.new {
+  display: block;
+}
+.new #nav-stripe {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  top: 0;
+  display: block;
+}
+.util-layout-6535__second {
+  width: 100%;
+  padding: 0;
+}
+.new .hero-image-content {
+  overflow: visible;
+}
+.closest-communities__title {
+  margin-top: 0;
+}
+.video-player .video .video-cta p {
+  text-align: center;
+}
+@media (min-width: 768px) {
+ .video-player .video .video-cta p {
+   display: block;
+  }
+}
+@media (min-width: 1201px) {
+ .video-player .video .video-cta p {
+   max-width: 500px;
+  }
+}
+.lpBlockTitle {
+  margin-top: 40px;	
+}
+
+.lpBlockTitle h2 {
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+ .lpBlockTitle h2 {
+  font-size: 18px;
+ }
+}
+
+.lpBlockTitle a {
+  font-weight: bold;
+  color: #00529b;
+}
+
+.lpBlockTitle a:hover, .lpBlockTitle a:focus, .lpBlockTitle a:active {
+  color: #fc6b21;
+}
+
+@media (max-width: 767px) {
+  .title-wrapper .title h2::after, .title-wrapper .title h2::before {
+    display: none;
+  }
+}
+
+footer {
+  margin-top: 65px;
+}
+
+/************ End New Styles */
+
+.hero-image-wrapper .hero-image-content {
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: visible;
+  background-color: #ccc;
+}
+@media (max-width: 991px) {
+  .ctcore-header__logo-img {
+    background-size: 70%;
+  }
+}
+.ctcore-header__phonenumber a {
+  font-weight: 700;
+}
+@media (max-width: 991px) {
+  .hero-image-content.hidden-md .ctcore-header__phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    padding-right: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .hero-image-content.hidden-md .ctcore-header__phonenumber {
+    text-align: center;
+    white-space: normal;
+  }
+}
+@media (min-width: 992px) {
+  .hero-image-content.hidden-sm .ctcore-header__phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+}
+.ctcore-header__phonenumber > div {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #fff;
+}
+.ctcore-header__phone:before {
+  display: none;
+}
+.ctcore-header__phonenumber a,
+.ctcore-header__phonenumber a:active,
+.ctcore-header__phonenumber a:hover,
+.ctcore-header__phonenumber a:link,
+.ctcore-header__phonenumber a:visited {
+  color: #fff;
+}
+.hero-image-wrapper {
+  padding-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .hero-image-content {
+    height: 480px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  #nav-stripe.new {
+    position: fixed;
+    height: 60px;
+    background: #fff;
+  }
+  .btn-stuck #nav-stripe.new {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  }
+}
+@media (max-width: 767px) {
+  #nav-stripe.new {
+    position: absolute;
+    top: -60px;
+  }
+  .get-started #nav-stripe.new {
+    top: 0;
+  }
+  .btn-stuck #nav-stripe.new {
+    position: fixed;
+    top: 0;
+  }
+}
+@media (min-width: 1092px) {
+  .ctcore-header {
+    border: 0;
+  }
+}
+.heroImage {
+  margin-bottom: 30px;
+}
+
+.hero-image-content:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*background: rgba(0,0,0,.25);
+    background: rgba(25, 51, 76,.25);*/
+  /*background: linear-gradient(to top right,rgba(25, 51, 76,.25) 0,rgba(25, 51, 76,.25) 63%,rgba(0, 0, 0,.6) 75%);*/
+  /*background: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.19)),color-stop(23%,rgba(0,0,0,.19)),color-stop(53%,rgba(0,0,0,0)),to(rgba(0,0,0,0)));*/
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 1) 0,
+    rgba(0, 0, 0, 0.5) 25%
+  );
+}
+.hero-image-wrapper .hero-image-text h1 {
+  /*line-height: 1.1;*/
+  /*margin: 20px 0;*/
+}
+@media (max-width: 991px) {
+  .hero-image-wrapper .hero-image-text {
+    margin: 0 5%;
+  }
+  .hero-image-wrapper .hero-image-text h1 {
+    line-height: 1.2;
+    margin-top: 0;
+    /*display: block;*/
+  }
+}
+@media (min-width: 992px) {
+  .hero-image-wrapper .hero-image-text {
+    width: 60%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+.hero-image-icon {
+  z-index: 1;
+  position: absolute;
+  width: 60px;
+  bottom: -30px;
+  left: calc(50% - 30px);
+}
+.test-blocks .col-md-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .test-blocks .col-md-4 {
+    margin-bottom: 65px;
+  }
+}
+.test-blocks .col-md-4 [class^="test-block"] {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 25px;
+}
+.test-blocks .col-md-4 .test-block-1 {
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/mc/veteran-painting-crafts-mobile.jpg");
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/mc/caregiver-help-with-clothes.jpg");
+}
+.test-blocks .col-md-4 .test-block-2 {
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/11171-freedom-plaza-sun-city-center/freedom-plaza-sun-city-center-golf.jpg");
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/10113-brookdale-bayshore/brookdale-bayshore-6-pool.jpg");
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/11171-freedom-plaza-sun-city-center/freedom-plaza-sun-city-center-pool.jpg");
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/10503-brookdale-island-lake/brookdale-island-lake-6-pool.jpg");
+}
+.test-blocks .col-md-4 .test-block-3 {
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/10774-brookdale-palm-beach-gardens/brookdale-palm-beach-gardens-11-cocktail.jpg");
+  background-image: url("https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/il/women-talking-poolside.jpg");
+}
+.test-blocks .col-md-4 .test-block img {
+  border: 3px solid #e5e5e5;
+  border-radius: 50%;
+}
+.test-blocks .col-md-4 h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Start New CSS */
+
+@media (min-width: 992px) {
+  .hero-image-content:before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0,
+      rgba(0, 0, 0, 0.25) 25%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.75) 75%
+    );
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 1) 0,
+      rgba(0, 0, 0, 0.5) 25%
+    );
+  }
+}
+
+.test-phone {
+  margin-right: 17px;
+  text-align: right;
+  position: absolute;
+  top: 14px;
+  right: 27px;
+}
+@media (max-width: 1091px) {
+  .test-phone {
+    top: 14px;
+    right: 17px;
+    margin-right: 0;
+  }
+}
+
+.test-phone-label {
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.ctcore-header__row .test-phone-number {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ctcore-header__row--one .test-phone,
+.ctcore-header__row--one .test-phone .test-phone-number a {
+  color: #fff;
+  transition: color 0.25s ease;
+}
+body.btn-stuck .ctcore-header__row--one .test-phone,
+body.btn-stuck .ctcore-header__row--one .test-phone .test-phone-number a,
+.get-started .test-phone .test-phone-number a {
+  color: #333;
+}
+.hero-image-wrapper .hero-image-text p {
+  font-size: 18px;
+  padding-top: 0;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.ctcore-header__row {
+  position: fixed;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+@media (max-width: 767px) {
+  .ctcore-header__row {
+    position: static;
+  }
+}
+.ctcore-header__row:before {
+  opacity: 0;
+  -webkit-transform: translateY(-210%);
+  transform: translateY(-210%);
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: white;
+  transition: 0.3s ease;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1091px) {
+  .ctcore-header__row:before {
+    height: 60px;
+  }
+}
+
+body.btn-stuck .ctcore-header__row--one:before,
+.ctcore-header__row--two:before {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.ctcore-header__logo {
+  position: absolute;
+  left: 27px;
+  top: 0;
+}
+
+@media (max-width: 1091px) {
+  .ctcore-header__logo {
+    left: 17px;
+  }
+}
+@media (max-width: 991px) {
+  .ctcore-header__row .test-phone-number {
+    font-size: 16px;
+  }
+  .ctcore-header__row .test-phone-label {
+    font-size: 13px;
+    padding-bottom: 2px;
+  }
+  .test-phone .test-phone-number a {
+    color: #333;
+  }
+}
+@media (max-width: 767px) {
+  .ctcore-header__logo-img {
+  }
+  body.get-started .ctcore-header__logo,
+  body.get-started .ctcore-header__row .test-phone {
+    display: block;
+  }
+}
+@media (max-width: 560px) {
+  body.btn-stuck .ctcore-header__logo,
+  body.btn-stuck .ctcore-header__row .test-phone {
+    display: none;
+  }
+  body.get-started .ctcore-header__logo,
+  body.get-started .ctcore-header__row .test-phone {
+    display: block;
+  }
+}
+
+.ctcore-header {
+  height: 70px;
+}
+@media (max-width: 991px) {
+  .ctcore-header {
+    height: 60px;
+  }
+}
+
+.btn-sticky {
+  opacity: 0;
+  transition: opacity 0s ease-out;
+  position: absolute;
+  top: 9px;
+  left: calc(50% - 75px);
+  pointer-events: none;
+}
+
+@media (max-width: 1091px) {
+  .btn-sticky {
+    top: 5px;
+  }
+}
+
+body.btn-stuck .btn-sticky {
+  transition: opacity 0.3s ease-in;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 480px) {
+  .simple-callout__main a {
+    display: block;
+  }
+}
+
+/******************/
+
+.promo {
+  background-color: #00529b;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  padding-bottom: 23.33333px;
+  padding-top: 23.33333px;
+  text-align: center;
+}
+.promo p {
+  margin-bottom: 10px;
+}
+.promo a {
+  color: #fff;
+  font-weight: bold;
+}
+.promo a:hover, .promo a:focus, .promo a:active {
+  color: #fc6b21;
+}
+
+/******************/
+
+.service-lines {
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+.service-lines {
+  margin-top: 50px;
+  }	
+}
+.service-lines img {
+  max-width: 214px;
+  /*border: 3px solid #e5e5e5;*/
+  border-radius: 50%;
+}
+.service-lines h2 {
+  font-size: 44px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .service-lines h2 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+}
+.service-lines h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+@media (max-width: 991px) {
+  .service-lines h3 {
+    font-size: 24px;
+  }
+}
+.service-lines .flex-row {
+  display: flex;
+  /*align-items: center;*/
+  align-items: flex-start;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.service-lines .flex-row:before,
+.service-lines .flex-row:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+.service-lines .flex-row__reverse {
+  display: flex;
+  /*align-items: center;*/
+  /*align-items: flex-start;*/
+  flex-direction: row-reverse;
+}
+@media (max-width: 767px) {
+  .service-lines .flex-row {
+    padding-bottom: 45px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/************/
+
+.flex-row {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+.flex-row [class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/***************/
+
+#formLoad .modal-content, #formLoad .b-contactform {
+  background-color: #fff;
+}
+
+#formLoad .modal-title {
+  line-height: 1.92857em;
+}
+
+#formLoad .modal-header {
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  background: transparent;
+  border: 0;
+}
+
+#formLoad .modal-header .close {
+  font-weight: 100;
+  font-size: 40px;
+  opacity: 1;
+  color: #7d7d7d;
+}
+
+@media screen and (min-width: 991px) {
+#formLoad .modal-body {
+  padding: 20px 70px 30px;
+  }
+}
+
+.at-modal-backdrop {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background-color: #000;
+  /*background-color: rgba(238,238,238,0.8);*/
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.at-modal-backdrop.in {
+  display: block;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 1040;
+}
+
+#formLoad .modal {
+  z-index: -1;
+  display: block;
+}
+
+.modal-open #formLoad .modal {
+  z-index: 1050 !important;
+}
+
+/* Start Image Modal */
+
+#formLoad .modal-content {
+  overflow: hidden;
+  display: table;
+}
+
+#formLoad .b-contactform {
+  margin: 0 !important;
+}
+
+#formLoad .modal-dialog {
+  max-width: 720px;
+  width: auto !important;
+}
+
+#formLoad .main-section {
+  padding: 38.88889px 38.88889px 23.33333px;
+  overflow-y: auto;
+  width: 50%;
+  display: table-cell;
+}
+
+@media screen and (min-width: 992px) {
+#formLoad .main-section {
+    padding: 44.44444px 44.44444px 26.66667px;
+  }
+}
+
+#formLoad .image-section {
+  display: none;
+  background-image: url('https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/home-page/Homepage-Hero-Couple-Dog-Swoosh-Mobile.jpg');
+  background-image: url('https://visit.brookdale.com/wp-content/uploads/2018/07/couple-bicycle@2x.jpg');
+  background-position: 20% 50%;
+  background-position: 50% 50%;
+  width: 50%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@media screen and (min-width: 768px) {
+#formLoad .image-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table-cell;
+  }
+}
+
+.contactform-lp__contactinfo {
+  padding-top: 20px;
+}
+.contactform-lp__prompt {
+  text-align: center;
+}
+.contactform-lp__prompt h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.contactform-lp__prompt p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+.contactform-lp__note {
+  display: none;
+}
+#contactform-lp__submit {
+  width: 100%;
+  margin: 0;
+}
+
+/******************/
+
+.get-started > div, .get-started main, .get-started footer {
+  display: none;
+}
+.get-started .form-container {
+  display: block;
+}
+
+.get-started .form-container #nav-stripe.new {
+   display: block;
+   top: 0; 
+}
