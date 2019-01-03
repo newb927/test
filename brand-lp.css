@@ -54,7 +54,8 @@ main {
 }
 
 .lpBlockTitle a {
-  font-weight: bold;	
+  font-weight: bold;
+  color: #00529b;
 }
 
 .lpBlockTitle a:hover, .lpBlockTitle a:focus, .lpBlockTitle a:active {
@@ -500,21 +501,21 @@ h2 {
   display: block;
 }*/
 @media (max-width: 991px) {
-  #nav-stripe {
+  #nav-stripe.new {
     position: fixed;
     height: 60px;
     background: #fff;
   }
 }
 @media (max-width: 767px) {
-  #nav-stripe {
+  #nav-stripe.new {
     position: absolute;
     top: -60px;
   }
-  .get-started #nav-stripe {
+  .get-started #nav-stripe.new {
     top: 0;
   }
-  .btn-stuck #nav-stripe {
+  .btn-stuck #nav-stripe.new {
     position: fixed;
     top: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
@@ -599,7 +600,6 @@ h2 {
   margin-bottom: 25px;
 }
 .test-blocks .col-md-4 .test-block-1 {
-  background-image: url("https://via.placeholder.com/300/ccc/ccc");
   background-image: url("https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/mc/veteran-painting-crafts-mobile.jpg");
   background-image: url("https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/mc/caregiver-help-with-clothes.jpg");
 }
@@ -610,46 +610,12 @@ h2 {
   background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/10503-brookdale-island-lake/brookdale-island-lake-6-pool.jpg");
 }
 .test-blocks .col-md-4 .test-block-3 {
-  background-image: url("https://via.placeholder.com/300/ccc/ccc");
   background-image: url("https://www.brookdale.com/content/dam/brookdale/en/communities/photos/10774-brookdale-palm-beach-gardens/brookdale-palm-beach-gardens-11-cocktail.jpg");
   background-image: url("https://www.brookdale.com/content/dam/brookdale/en/images/lifestyle/il/women-talking-poolside.jpg");
 }
 .test-blocks .col-md-4 .test-block img {
   border: 3px solid #e5e5e5;
   border-radius: 50%;
-}
-.test-blocks .col-md-4 h2,
-h2 {
-  font-size: 30px;
-  margin-bottom: 25px;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.carousel__text_mobile {
-  display: none;
-}
-
-@media (max-width: 480px) {
-  .carousel__text_mobile {
-    display: block;
-    text-align:  center;
-
-     :  10px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .video-player .video .video-cta p {
-    display: none;
-  }
-}
-
-.core-carousel-narrow {
-  max-width: calc(100% - 115px);
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 24px;
 }
 
 /* Start New CSS */
