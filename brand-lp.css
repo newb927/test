@@ -41,12 +41,29 @@ main {
   margin-top: 0;
 }
 .video-player .video .video-cta p {
-  max-width: 500px;
   text-align: center;
 }
-
+@media (min-width: 768px) {
+ .video-player .video .video-cta p {
+   display: block;
+  }
+}
+@media (min-width: 1201px) {
+ .video-player .video .video-cta p {
+   max-width: 500px;
+  }
+}
 .lpBlockTitle {
   margin-top: 40px;	
+}
+
+.lpBlockTitle h2 {
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+ .lpBlockTitle h2 {
+  font-size: 18px;
+ }
 }
 
 .lpBlockTitle a {
