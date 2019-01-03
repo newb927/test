@@ -2,7 +2,7 @@ body {display: none; padding-bottom: 0 !important;}
 .site-header, .hero, .intro, .callout, .services {
 	display: none;
 }
-* Start New Styles */
+/* Start New Styles */
 
 main > div {
   display: none;
