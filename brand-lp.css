@@ -75,6 +75,12 @@ main {
   color: #fc6b21;
 }
 
+@media (max-width: 767px) {
+  .title-wrapper .title h2::after, .title-wrapper .title h2::before {
+    display: none;
+  }
+}
+
 footer {
   margin-top: 65px;
 }
