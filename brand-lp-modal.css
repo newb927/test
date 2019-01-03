@@ -106,6 +106,10 @@ footer {
   font-size: 13px;
 }
 
+.accessibility-note p {
+  font-size: 13px; 
+}
+
 @media (max-width: 768px) {
  .footer-slim__left .ctcore-util-unlist, .footer-slim__right .ctcore-util-unlist {
     display: -webkit-box;
