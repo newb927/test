@@ -9,17 +9,18 @@ body {display: none; padding-bottom: 0 !important;}
 .ctcore-header, 
 .progressive-bar, 
 .util-layout-6535__first, 
-main > div, .bottom-promo-bar, 
+.bottom-promo-bar, 
+.util-layout-6535__second > div > .fullWidthText
 .util-layout-6535__second > div > .fullWidthText, 
 .util-layout-6535__second > div > .callouts-aem, 
 .util-layout-6535__second > div > .sectionTitle, 
 .util-layout-6535__second > div > .video + .carousel-aem {
   display: none;
 }
-.util-layout-6535, .new {
+.util-layout-6535, .new, .new .ctcore-header {
   display: block;
 }
-#nav-stripe.new {
+.new #nav-stripe {
   background: transparent;
   border: 0;
   position: absolute;
@@ -35,6 +36,10 @@ main > div, .bottom-promo-bar,
   padding: 55px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+  margin-top: 60px;
 }
 
 /************ End New Styles */
