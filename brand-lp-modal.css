@@ -645,7 +645,7 @@ body.btn-stuck .btn-sticky {
 }
 
 #formLoad .main-section {
-  padding: 38.88889px 38.88889px 23.33333px;
+  padding: 38.88889px;
   overflow-y: auto;
   width: 50%;
   display: table-cell;
@@ -653,7 +653,7 @@ body.btn-stuck .btn-sticky {
 
 @media screen and (min-width: 992px) {
 #formLoad .main-section {
-    padding: 44.44444px 44.44444px 26.66667px;
+    padding: 44.44444px;
   }
 }
 
@@ -677,7 +677,7 @@ body.btn-stuck .btn-sticky {
 }
 
 .contactform-lp__contactinfo {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .contactform-lp__prompt {
   text-align: center;
