@@ -13,7 +13,7 @@
   top: auto;
   position: absolute;
   top: 20px;
-  bottom: 70px;
+  bottom: 0;
   z-index: 7;
   -webkit-transition: -webkit-all 0.5s ease-out;
   transition: -webkit-all 0.5s ease-out;
