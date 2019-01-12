@@ -68,8 +68,8 @@
 .js-modaltype-mapunlock.sneakpeek--init .footer .link-container {
   display: none;
 }
-.js-modaltype-mapunlock.sneakpeek--active .js-search-listing-1,
-.js-modaltype-mapunlock.sneakpeek--active .js-search-listing-2 {
+.js-modaltype-mapunlock.sneakpeek--init .js-search-listing-1,
+.js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
   display: block;
 }
 .js-modaltype-mapunlock.sneakpeek--active .footer__social-links a {
