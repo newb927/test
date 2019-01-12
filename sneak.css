@@ -1,0 +1,94 @@
+.lp-cap.sneakpeek--active .js-search-results-container {
+  position: relative;
+}
+.lp-cap.sneakpeek--active .communitySearch {
+  margin-bottom: 40px;
+}
+.lp-cap.sneakpeek--active .sneakpeek-modal-body__form {
+  padding-bottom: 0;
+}
+.lp-cap.sneakpeek--active .sneakpeek__wrap {
+  height: auto;
+  display: block;
+  top: auto;
+  -webkit-transform: none !important;
+  transform: none !important;
+  position: absolute;
+  top: 0;
+  bottom: 15px;
+  z-index: 7;
+  -webkit-transition: -webkit-all 0.5s ease-out;
+  transition: -webkit-all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out, -webkit-all 0.5s ease-out;
+}
+@media (max-height: 567px) {
+  .lp-cap.sneakpeek--active .sneakpeek__wrap {
+    overflow: initial;
+  }
+}
+@media (max-width: 480px) {
+  .lp-cap.sneakpeek--active .sneakpeek-modal-body__text .h3 {
+    margin: 15px 0;
+    font-size: 14px;
+  }
+}
+.lp-cap.sneakpeek--active .sneekpeek-modal-header {
+  pointer-events: none;
+  height: auto;
+  min-height: 60px;
+}
+.lp-cap.sneakpeek--active .sneakpeek__modal-body {
+  height: 100%;
+  border-radius: 8px;
+}
+.lp-cap.sneakpeek--active:after {
+  display: none;
+}
+.lp-cap.sneakpeek--active .search-results-property {
+  position: relative;
+}
+.lp-cap.sneakpeek--active .search-results-property:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+.lp-cap.sneakpeek--active [class*="js-search-listing-"],
+.lp-cap.sneakpeek--active .community-search-form,
+.lp-cap.sneakpeek--active .sneakpeek-arrow,
+.lp-cap.sneakpeek--active #pagination-container,
+.lp-cap.sneakpeek--active .sectionTitlewithCommunitySearch,
+.lp-cap.sneakpeek--active .footer .divider,
+.lp-cap.sneakpeek--active .footer .link-container {
+  display: none;
+}
+.lp-cap.sneakpeek--active .js-search-listing-1,
+.lp-cap.sneakpeek--active .js-search-listing-2 {
+  display: block;
+}
+.lp-cap.sneakpeek--active .footer__social-links a {
+  pointer-events: none;
+  cursor: auto;
+}
+@media (max-width: 480px) {
+  .lp-cap.sneakpeek--active .js-search-listing-2 {
+    display: none;
+  }
+  .lp-cap.sneakpeek--active .sneakpeek-phone {
+    font-size: 24px;
+  }
+}
+@media (max-width: 359px) {
+  .lp-cap.sneakpeek--active .sneakpeek__modal-body {
+    margin: 0 10%;
+  }
+}
+.js-paid-formtitle span {
+  text-transform:capitalize;
+}
