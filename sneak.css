@@ -24,7 +24,7 @@
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
   top: 500px;
   }
-.js-modaltype-mapunlock.sneakpeek--active.sticky-map-stuck.sticky-map-attach-to-bottom .search-results-property__map-container {
+.js-modaltype-mapunlock.sneakpeek--init.sticky-map-stuck.sticky-map-attach-to-bottom .search-results-property__map-container {
   position: static;
   }
 }
