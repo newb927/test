@@ -1,9 +1,5 @@
 .js-modaltype-mapunlock.sneakpeek--init .js-search-results-container {
   position: relative;
-  padding-bottom: 10px;
-}
-.js-modaltype-mapunlock.sticky-map-stuck.sticky-map-attach-to-bottom .search-results-property__map-container {
-  top: 0px;
 }
 .js-modaltype-mapunlock.sneakpeek--init .communitySearch {
   margin-bottom: 40px;
@@ -15,16 +11,22 @@
   height: auto;
   display: block;
   top: auto;
-  -webkit-transform: none !important;
-  transform: none !important;
   position: absolute;
-  top: 0;
-  bottom: 15px;
+  top: 20px;
+  bottom: 70px;
   z-index: 7;
   -webkit-transition: -webkit-all 0.5s ease-out;
   transition: -webkit-all 0.5s ease-out;
   transition: all 0.5s ease-out;
   transition: all 0.5s ease-out, -webkit-all 0.5s ease-out;
+}
+@media (max-width:768px) {
+.js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
+  top: 500px;
+  }
+.js-modaltype-mapunlock.sneakpeek--active.sticky-map-stuck.sticky-map-attach-to-bottom .search-results-property__map-container {
+  position: static;
+  }
 }
 @media (max-height: 567px) {
   .js-modaltype-mapunlock.sneakpeek--init .sneakpeek__wrap {
@@ -32,6 +34,9 @@
   }
 }
 @media (max-width: 480px) {
+  .js-modaltype-mapunlock.sneakpeek--init .sneakpeek__modal-body {
+    height: auto;
+  }
   .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-modal-body__text .h3 {
     margin: 15px 0;
     font-size: 14px;
@@ -80,7 +85,7 @@
   pointer-events: none;
   cursor: auto;
 }
-@media (max-width: 480px) {
+@media (max-width: 991px) {
   .js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
     display: none;
   }
