@@ -1,6 +1,11 @@
 .js-modaltype-mapunlock.sneakpeek--init .js-search-results-container {
   position: relative;
 }
+.js-modaltype-mapunlock .sneakpeek__modal-body {
+  max-width: 947px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .js-modaltype-mapunlock.sneakpeek--init .communitySearch {
   margin-bottom: 40px;
 }
@@ -90,6 +95,12 @@
   .js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
     display: none;
   }
+  .js-modal-type-mapunlock .sneakpeek-phone-closure {
+    margin-top: 40px;
+  }
+  .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-phone {
+    font-size: 22px;
+  }
 }
 @media (max-width: 991px) {
   .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-phone {
@@ -97,11 +108,14 @@
   }
 }
 @media (max-width: 359px) {
-  .js-modaltype-mapunlock.sneakpeek--active .sneekpeek-modal-header__text {
-    margin: 0;
+  .sneakpeek-modal-body__button span, .sneakpeek-modal-body__button .btn-continue__action {
+    font-size: 14px;
   }
   .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__modal-body {
     margin: 0 10%;
+  }
+  .js-modaltype-mapunlock.sneakpeek--active .sneekpeek-modal-header__text {
+    margin: 0;
   }
 }
 .js-paid-formtitle span {
