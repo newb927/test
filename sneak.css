@@ -1,10 +1,10 @@
-.js-modaltype-mapunlock.sneakpeek--active .js-search-results-container {
+.js-modaltype-mapunlock.sneakpeek--init .js-search-results-container {
   position: relative;
 }
-.js-modaltype-mapunlock.sneakpeek--active .communitySearch {
+.js-modaltype-mapunlock.sneakpeek--init .communitySearch {
   margin-bottom: 40px;
 }
-.js-modaltype-mapunlock.sneakpeek--active .sneakpeek-modal-body__form {
+.js-modaltype-mapunlock.sneakpeek--init .sneakpeek-modal-body__form {
   padding-bottom: 0;
 }
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
@@ -23,12 +23,12 @@
   transition: all 0.5s ease-out, -webkit-all 0.5s ease-out;
 }
 @media (max-height: 567px) {
-  .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
+  .js-modaltype-mapunlock.sneakpeek--init .sneakpeek__wrap {
     overflow: initial;
   }
 }
 @media (max-width: 480px) {
-  .js-modaltype-mapunlock.sneakpeek--active .sneakpeek-modal-body__text .h3 {
+  .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-modal-body__text .h3 {
     margin: 15px 0;
     font-size: 14px;
   }
@@ -38,14 +38,14 @@
   height: auto;
   min-height: 60px;
 }
-.js-modaltype-mapunlock.sneakpeek--active .sneakpeek__modal-body {
+.js-modaltype-mapunlock.sneakpeek--init .sneakpeek__modal-body {
   height: 100%;
   border-radius: 8px;
 }
 .js-modaltype-mapunlock.sneakpeek--active:after {
   display: none;
 }
-.js-modaltype-mapunlock.sneakpeek--active .search-results-property {
+.js-modaltype-mapunlock.sneakpeek--init .search-results-property {
   position: relative;
 }
 .js-modaltype-mapunlock.sneakpeek--active .search-results-property:after {
@@ -59,13 +59,13 @@
   -webkit-transition: opacity 0.4s ease-out;
   transition: opacity 0.4s ease-out;
 }
-.js-modaltype-mapunlock.sneakpeek--active [class*="js-search-listing-"],
-.js-modaltype-mapunlock.sneakpeek--active .community-search-form,
+.js-modaltype-mapunlock.sneakpeek--init [class*="js-search-listing-"],
+.js-modaltype-mapunlock.sneakpeek--init .community-search-form,
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek-arrow,
-.js-modaltype-mapunlock.sneakpeek--active #pagination-container,
-.js-modaltype-mapunlock.sneakpeek--active .sectionTitlewithCommunitySearch,
-.js-modaltype-mapunlock.sneakpeek--active .footer .divider,
-.js-modaltype-mapunlock.sneakpeek--active .footer .link-container {
+.js-modaltype-mapunlock.sneakpeek--init #pagination-container,
+.js-modaltype-mapunlock.sneakpeek--init .sectionTitlewithCommunitySearch,
+.js-modaltype-mapunlock.sneakpeek--init .footer .divider,
+.js-modaltype-mapunlock.sneakpeek--init .footer .link-container {
   display: none;
 }
 .js-modaltype-mapunlock.sneakpeek--active .js-search-listing-1,
@@ -77,10 +77,10 @@
   cursor: auto;
 }
 @media (max-width: 480px) {
-  .js-modaltype-mapunlock.sneakpeek--active .js-search-listing-2 {
+  .js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
     display: none;
   }
-  .js-modaltype-mapunlock.sneakpeek--active .sneakpeek-phone {
+  .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-phone {
     font-size: 24px;
   }
 }
