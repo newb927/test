@@ -97,6 +97,9 @@
   }
 }
 @media (max-width: 359px) {
+  .js-modaltype-mapunlock.sneakpeek--active .sneekpeek-modal-header__text {
+    margin: 0;
+  }
   .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__modal-body {
     margin: 0 10%;
   }
