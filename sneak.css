@@ -92,9 +92,6 @@
   }
 }
 @media (max-width: 991px) {
-  .js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
-    display: none;
-  }
   .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-phone {
     font-size: 24px;
   }
