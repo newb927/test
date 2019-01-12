@@ -26,6 +26,7 @@
   }
 .js-modaltype-mapunlock.sneakpeek--init .search-results-property__map-container {
   position: static;
+  margin-top: 0 !important;
   }
 }
 @media (max-height: 567px) {
@@ -57,7 +58,7 @@
 .js-modaltype-mapunlock.sneakpeek--init .search-results-property {
   position: relative;
 }
-.js-modaltype-mapunlock.sneakpeek--active .search-results-property:after {
+.js-modaltype-mapunlock.sneakpeek--init .search-results-property:after {
   content: "";
   width: 100%;
   height: 100%;
