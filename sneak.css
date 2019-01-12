@@ -1,5 +1,9 @@
 .js-modaltype-mapunlock.sneakpeek--init .js-search-results-container {
   position: relative;
+  padding-bottom: 10px;
+}
+.js-modaltype-mapunlock.sticky-map-stuck.sticky-map-attach-to-bottom .search-results-property__map-container {
+  top: 0px;
 }
 .js-modaltype-mapunlock.sneakpeek--init .communitySearch {
   margin-bottom: 40px;
