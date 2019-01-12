@@ -22,7 +22,7 @@
 }
 @media (max-width:768px) {
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
-  top: 500px;
+  top: 40%;
   }
 .js-modaltype-mapunlock.sneakpeek--init .search-results-property__map-container {
   position: static;
@@ -64,7 +64,7 @@
   height: 100%;
   top: 0;
   position: absolute;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   opacity: 1;
   -webkit-transition: opacity 0.4s ease-out;
   transition: opacity 0.4s ease-out;
