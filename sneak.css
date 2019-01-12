@@ -85,6 +85,11 @@
   pointer-events: none;
   cursor: auto;
 }
+@media (max-width: 480px) {
+  .js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
+    display: none;
+  }
+}
 @media (max-width: 991px) {
   .js-modaltype-mapunlock.sneakpeek--init .js-search-listing-2 {
     display: none;
