@@ -10,10 +10,11 @@
 }
 .js-modaltype-mapunlock.sneakpeek--init .sneakpeek__wrap {
   z-index: 9;
+  transition: none;
+}
+.js-modaltype-mapunlock.sneakpeek--init .sneakpeek__wrap--pre-animation {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
-  top: -109px;
-  transition: none;
 }
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
   height: auto;
