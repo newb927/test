@@ -116,7 +116,7 @@
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
     overflow: visible;
   }
-.js-modaltype-unlock .sneakpeek-modal-body__text {
+.js-modaltype-unlock.sneakpeek--active .sneakpeek-modal-body__text {
     overflow-y: scroll;
   }
 }
