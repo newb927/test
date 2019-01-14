@@ -112,3 +112,11 @@
     margin: 0;
   }
 }
+@media (max-height: 567px) {
+.js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
+    overflow: visible;
+  }
+.js-modaltype-unlock .sneakpeek-modal-body__text {
+    overflow-y: scroll;
+  }
+}
