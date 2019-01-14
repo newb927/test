@@ -13,6 +13,7 @@
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   top: -109px;
+  transition: none;
 }
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
   height: auto;
