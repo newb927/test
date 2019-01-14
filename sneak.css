@@ -84,7 +84,7 @@
     display: none;
   }
 }
-  .js-modaltype-mapunlock.sneakpeek--active .footer__social-links a {
+.js-modaltype-mapunlock.sneakpeek--init .footer__social-links a {
   pointer-events: none;
   cursor: auto;
 }
