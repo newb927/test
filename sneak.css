@@ -14,18 +14,23 @@
 .js-modaltype-mapunlock.sneakpeek--init .sneakpeek-modal-body__form {
   padding-bottom: 0;
 }
-.js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
-  height: auto;
-  display: block;
-  top: auto;
-  position: absolute;
-  top: 80px;
-  bottom: 0;
+.js-modaltype-mapunlock.sneakpeek--init .sneakpeek__wrap {
   z-index: 7;
   -webkit-transition: -webkit-all 0.5s ease-out;
   transition: -webkit-all 0.5s ease-out;
   transition: all 0.5s ease-out;
   transition: all 0.5s ease-out, -webkit-all 0.5s ease-out;
+}
+.js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
+  height: auto;
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  /*z-index: 7;
+  -webkit-transition: -webkit-all 0.5s ease-out;
+  transition: -webkit-all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out, -webkit-all 0.5s ease-out;*/
 }
 @media (max-width:768px) {
 .js-modaltype-mapunlock.sneakpeek--active .sneakpeek__wrap {
