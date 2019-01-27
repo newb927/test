@@ -5,9 +5,14 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  overflow-y: scroll;
   z-index: 9999;
   /*z-index: -1;*/
 }
+
+/* add class showTestGalleryForm to HTML not body */
+
+.showTestGalleryForm {overflow-y: hidden;}
 
 .showTestGalleryForm #testGalleryForm {
   z-index: 9999;
@@ -21,10 +26,12 @@
 
 #testGalleryContainer #photo-gallery-container {
   width: auto;
+  padding: 0;
 }
 
 #testGalleryContainer .photo-gallery-wrapper {
-  margin: 0 auto; 
+  margin: 0 auto;
+  max-width: 720px;
 }
 
 #testGalleryContainer .photo-gallery-wrapper > div {
@@ -50,8 +57,7 @@
 #testFormContainer .b-contactform > .container { width: auto;}
 
 #testFormContainer #is-b-contactform, 
-#testFormContainer .b-contactform__contactinfo, 
-#testFormContainer .b-contactform__reasons {flex-direction: column; align-items: center;}
+#testFormContainer .b-contactform__contactinfo {flex-direction: column; align-items: center;}
 
 #testFormContainer .b-contactform__reasons {
   min-width: initial;
@@ -83,3 +89,9 @@
 #testFormContainer .b-contactform__contactinfo>.b-contactform__button { max-width: initial;}
 
 #testFormContainer .communityform .btn-cta-button { width: 100%; }
+
+#testFormContainer .b-contactform__compliance { width: 285px; color: #fff; text-align: left; }
+
+#testFormContainer .b-contactform__compliance a { color: #fb6418 !important; }
+
+/*#testFormContainer .b-contactform__compliance a:hover, #testFormContainer .b-contactform__compliance a:focus { color: #00539b; }*/
