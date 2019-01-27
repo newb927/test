@@ -33,7 +33,11 @@
   }
 }
 
-#testGalleryContainer .title-wrapper {color: #fff;}
+#testGalleryContainer .title-wrapper {color: #fff; visibility:hidden;}
+
+@media (min-width: 768px) {
+ #testGalleryContainer .title-wrapper {visibility:visible;} 
+}
 
 #testGalleryContainer .title-wrapper .title {margin-bottom: 10px; padding: 5px 30px 0 30px;}
 
@@ -113,6 +117,25 @@
 
 #testFormContainer {display: table-cell; height: 100%; background-color: #34383d; width: 100%;}
 
+@media (max-width: 767px) {
+  #testFormContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+  }
+  #testFormContainer.test-form-hidden {
+    width: 50%;
+    height: auto; 
+  }
+}
+
+@media (max-width: 360px) {
+  #testFormContainer.test-form-hidden {
+    width: 58%;
+  }
+}
+
 #testFormContainer.test-form-hidden { background: transparent; }
 
 @media (min-width: 768px) {
@@ -139,12 +162,14 @@
   align-content: center;
   margin: 0;
   height: auto;
+  padding-top: 0;
+  width: 100%;
 }
 
 #testFormContainer .b-contactform__reasons {
   min-width: initial;
   display: block;
-  width: 285px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 12px;
@@ -166,7 +191,7 @@
 
 #testFormContainer .b-contactform__pricing, #testFormContainer .b-contactform__schedule { border-right: 0; }
 
-#testFormContainer .b-contactform__contactinfo>* { width: 285px; margin: 0 0 10px 0 !important;}
+#testFormContainer .b-contactform__contactinfo>* { width: 100%; margin: 0 0 10px 0 !important;}
 
 #testFormContainer .communityform .communityform__item>input { left: 10px; }
 
@@ -174,7 +199,7 @@
 
 #testFormContainer .communityform .btn-cta-button { width: 100%; }
 
-#testFormContainer .b-contactform__compliance { width: 285px; color: #fff; text-align: left; }
+#testFormContainer .b-contactform__compliance { width: 100%; color: #fff; text-align: left; }
 
 #testFormContainer .b-contactform__compliance p { width: auto; line-height: 1.5 }
 
