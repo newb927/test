@@ -25,6 +25,12 @@
 
 #testGalleryContainer {display: table-cell; padding-top: 30px; height: 100%; width: 100%;}
 
+@media (max-width: 1091px) {
+ #testGalleryContainer {
+   padding-top: 25%;
+  }
+}
+
 @media (min-width: 768px) {
   #testGalleryContainer { 
     /*width: 66.66667%;*/
@@ -133,16 +139,13 @@
     bottom: 0;
   }
   #testFormContainer.test-form-hidden {
-    /*width: 50%;*/
-    height: auto; 
+    height: auto;
+    width: 190px;
+  }
+  .b-contactform__prompt h3 {
+    font-size: 19px; 
   }
 }
-
-/*@media (max-width: 360px) {
-  #testFormContainer.test-form-hidden {
-    width: 58%;
-  }
-}*/
 
 @media (max-width: 420px) {
   #testFormContainer .b-contactform {
@@ -201,7 +204,11 @@
   margin: 0;
 }
 
-#testFormContainer .b-contactform .control { margin-bottom: 0; }
+#testFormContainer .b-contactform .control { margin-bottom: 0; padding-right: 0; }
+
+@media (max-width: 420px) {
+  #testFormContainer .b-contactform .control { font-size: 12px; }
+}
 
 #testFormContainer .b-contactform__prompt:before, #testFormContainer .b-contactform__prompt:after { display: none; }
 
