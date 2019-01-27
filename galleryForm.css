@@ -39,11 +39,11 @@
   }
 }
 
-#testGalleryContainer .title-wrapper {color: #fff; visibility:hidden;}
+#testGalleryContainer .title-wrapper {/*color: #fff;*/ visibility:hidden;}
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
  #testGalleryContainer .title-wrapper {visibility:visible;} 
-}
+}*/
 
 #testGalleryContainer .title-wrapper .title {margin-bottom: 10px; padding: 5px 30px 0 30px;}
 
