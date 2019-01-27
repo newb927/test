@@ -94,8 +94,8 @@
 #testGalleryContainer .photo-gallery-wrapper .carousel-control { 
   cursor:pointer; 
   height: calc(100% - 160px);
-  width: 10%;
   background: 0;
+  opacity: 1;
   cursor: default;
   pointer-events: none;
 }
@@ -132,6 +132,14 @@
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-indicators {
  display: none; 
+}
+
+#testGalleryContainer .carousel-control .glyphicon-chevron-left {
+  margin-left: -40px;
+}
+
+#testGalleryContainer .carousel-control .glyphicon-chevron-right {
+  margin-right: -25px;
 }
 
 #testGalleryContainer .carousel-control .glyphicon:before {
