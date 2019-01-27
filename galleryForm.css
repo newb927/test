@@ -97,6 +97,10 @@
 
 #testGalleryContainer .photo-description { margin-bottom: 20px; }
 
+.item .photo-description + span { display: none; }
+
+#testGalleryContainer .item .photo-description + span { display: inline-block; }
+
 #testGalleryContainer .item .photo-description + span { opacity: 1; }
 
 #testGalleryContainer .item.active.left .photo-description + span { opacity: 0; }
@@ -115,7 +119,7 @@
 
 /* Form */
 
-#testFormContainer {display: table-cell; height: 100%; background-color: #34383d; width: 100%;}
+#testFormContainer {display: table-cell; height: 100%; background-color: #34383d; width: auto;}
 
 @media (max-width: 767px) {
   #testFormContainer {
@@ -151,6 +155,7 @@
   padding: 40px 30px 0 30px;
   margin: 0;
   background-color: #34383d;
+  width: 345px;
 }
 
 #testFormContainer .b-contactform > .container { width: auto; padding: 0;}
