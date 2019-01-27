@@ -179,15 +179,20 @@
 
 /* Form */
 
-#testFormContainer {display: table-cell; height: 100%; background-color: #34383d; width: auto;}
+#testFormContainer {
+  display: table-cell; 
+  height: 100%; 
+  background-color: #34383d; 
+  width: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+}
 
 @media (max-width: 1091px) {
   #testFormContainer {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
   }
   #testFormContainer.test-form-hidden {
     height: 50px;
@@ -198,7 +203,10 @@
   }
 }
 
-#testFormContainer.test-form-hidden { background: transparent; }
+#testFormContainer.test-form-hidden { 
+  background: transparent;
+  position: absolute;
+}
 
 @media (min-width: 768px) {
   #testFormContainer { 
