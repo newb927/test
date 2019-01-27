@@ -1,13 +1,17 @@
 #testGalleryForm {
   /*z-index: -1;*/
   z-index: 9999;
-  display: table;
+  display: block;
   height: 100%;
   width: 100%;
   background: rgba(71, 76, 85, 0.95);
   position: fixed;
   top: 0;
   overflow-y: scroll;
+}
+
+#testGalleryForm > div { 
+  display: table-row;
 }
 
 /* add class showTestGalleryForm to HTML not body */
