@@ -245,7 +245,7 @@
 
 #testFormContainer .b-contactform__compliance p { width: auto; line-height: 1.5 }
 
-#testFormContainer .b-contactform__compliance a { color: #fb6418 !important; }
+#testFormContainer .b-contactform__compliance a { color: #fff !important; text-decoration: underline; }
 
 /*#testFormContainer .b-contactform__compliance a:hover, #testFormContainer .b-contactform__compliance a:focus { color: #00539b; }*/
 
