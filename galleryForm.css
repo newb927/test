@@ -53,9 +53,13 @@
 
 #testGalleryContainer .photo-gallery-wrapper {
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 690px;
   background: transparent;
   height: auto;
+}
+
+#testGalleryContainer .photo-gallery-wrapper #slider {
+  padding: 0;
 }
 
 #testGalleryContainer .photo-gallery-wrapper > div {
@@ -121,22 +125,28 @@
 
 #testFormContainer {display: table-cell; height: 100%; background-color: #34383d; width: auto;}
 
-@media (max-width: 767px) {
+@media (max-width: 1091px) {
   #testFormContainer {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80%;
+    bottom: 0;
   }
   #testFormContainer.test-form-hidden {
-    width: 50%;
+    /*width: 50%;*/
     height: auto; 
   }
 }
 
-@media (max-width: 360px) {
+/*@media (max-width: 360px) {
   #testFormContainer.test-form-hidden {
     width: 58%;
+  }
+}*/
+
+@media (max-width: 420px) {
+  #testFormContainer .b-contactform {
+    width: 270px;
   }
 }
 
@@ -145,7 +155,8 @@
 @media (min-width: 768px) {
   #testFormContainer { 
     /*width: 33.33333%;*/
-    width: 345px;
+    /*width: 345px;*/
+    /*width: auto;
   }
 }
 
