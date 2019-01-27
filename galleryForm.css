@@ -15,10 +15,16 @@
 
 /* Gallery */
 
-#testGalleryContainer {padding-top: 40px;}
+#testGalleryContainer {padding-top: 30px;}
+
+#testGalleryContainer .title-wrapper .title {margin-bottom: 10px;}
 
 #testGalleryContainer #photo-gallery-container {
   width: auto;
+}
+
+#testGalleryContainer .photo-gallery-wrapper {
+  margin: 0 auto; 
 }
 
 #testGalleryContainer .photo-gallery-wrapper > div {
