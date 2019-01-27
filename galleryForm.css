@@ -40,11 +40,18 @@
 
 /* Form */
 
-#testFormContainer .b-contactform {display: block; background-color: #34383d;}
+#testFormContainer .b-contactform {display: block;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #34383d;
+}
 
 #testFormContainer .b-contactform > .container { width: auto;}
 
-#testFormContainer #is-b-contactform, #testFormContainer .b-contactform__contactinfo, #testFormContainer .b-contactform__reasons {flex-direction: column;}
+#testFormContainer #is-b-contactform, 
+#testFormContainer .b-contactform__contactinfo, 
+#testFormContainer .b-contactform__reasons {flex-direction: column; align-items: center;}
 
 #testFormContainer .b-contactform__reasons {
   min-width: initial;
