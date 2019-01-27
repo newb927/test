@@ -52,6 +52,7 @@
   margin: 0 auto;
   max-width: 720px;
   background: transparent;
+  height: auto;
 }
 
 #testGalleryContainer .photo-gallery-wrapper > div {
@@ -60,6 +61,8 @@
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+#testGalleryContainer .photo-gallery-wrapper .carousel { height: auto; }
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-inner .item { min-width: initial; }
 
