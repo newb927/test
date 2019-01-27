@@ -135,11 +135,17 @@
 }
 
 #testGalleryContainer .carousel-control .glyphicon-chevron-left {
-  margin-left: -40px;
+  left: 15px;
 }
 
 #testGalleryContainer .carousel-control .glyphicon-chevron-right {
-  margin-right: -25px;
+  right: 15px;
+}
+
+@media (min-width: 768px) {
+ #testGalleryContainer .carousel-control .glyphicon-chevron-right {
+  right: 31px;
+  } 
 }
 
 #testGalleryContainer .carousel-control .glyphicon:before {
