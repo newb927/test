@@ -36,6 +36,9 @@
 
 #testGalleryContainer .photo-gallery-wrapper > div {
   width: 100%;
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 #testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none; }
@@ -44,6 +47,8 @@
 #testGalleryContainer .photo-gallery-wrapper .carousel-control {cursor:pointer;}
 
 #testGalleryContainer .title-wrapper {color: #fff;}
+
+#testGalleryContainer .photo-title, #testGalleryContainer .photo-description {color: #fff;}
 
 /* Form */
 
@@ -65,7 +70,7 @@
   width: 285px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 12px;
   border: 0;
 }
 
