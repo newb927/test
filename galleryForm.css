@@ -90,6 +90,10 @@
 
 #testGalleryContainer .photo-description { margin-bottom: 20px; }
 
+#testGalleryContainer .item .photo-description + span { opacity: 1; }
+
+#testGalleryContainer .item.active.left .photo-description + span { opacity: 0; }
+
 @media (min-width: 991px) {
 #testGalleryContainer .photo-description + span {
   position: absolute;
