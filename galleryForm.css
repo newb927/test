@@ -182,3 +182,43 @@
 #testFormContainer .b-contactform__compliance a { color: #fb6418 !important; }
 
 /*#testFormContainer .b-contactform__compliance a:hover, #testFormContainer .b-contactform__compliance a:focus { color: #00539b; }*/
+
+#testShowHideFormContainer {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  background: #262b31;
+}
+
+#testShowHideForm {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  border-right: 1px solid #34383d;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#testClose {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  font-size: 40px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#testShowHideForm:hover { background: #181b1f;}
+
+.test-form-hidden .b-contactform {
+  display: none;
+}
+
+.test-form-hidden #testShowHideForm {
+  justify-content: center;
+  padding: 0 10px;
+}
