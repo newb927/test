@@ -11,7 +11,8 @@
 }
 
 #testGalleryForm > div { 
-  display: table-row;
+  display: table;
+  height: 100%;
 }
 
 /* add class showTestGalleryForm to HTML not body */
