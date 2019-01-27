@@ -78,9 +78,23 @@
 
 #testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none; }
 
-#testGalleryContainer .photo-gallery-wrapper .carousel-control {cursor:pointer;}
+#testGalleryContainer .photo-gallery-wrapper .carousel-control { cursor:pointer; height: calc(100% - 120px); }
 
-#testGalleryContainer .photo-title, #testGalleryContainer .photo-description {color: #fff;}
+@media (min-width: 768px) {
+  #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 130px); }
+}
+
+#testGalleryContainer .photo-title, #testGalleryContainer .photo-description {color: #fff; margin-bottom: 20px;}
+
+#testGalleryContainer .photo-title, #testGalleryContainer .photo-description + span { color: #fff;}
+
+@media (min-width: 991px) {
+#testGalleryContainer .photo-title, #testGalleryContainer .photo-description + span {
+  position: absolute;
+  right: 0;
+  bottom: 49px;
+  }
+}
 
 /* Form */
 
