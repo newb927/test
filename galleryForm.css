@@ -27,7 +27,7 @@
 
 @media (max-width: 1091px) {
  #testGalleryContainer {
-   padding-top: 15%;
+   padding-top: 80px;
   }
 }
 
@@ -139,7 +139,7 @@
     bottom: 0;
   }
   #testFormContainer.test-form-hidden {
-    height: auto;
+    height: 50px;
     width: 190px;
   }
   .b-contactform__prompt h3 {
