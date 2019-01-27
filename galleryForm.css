@@ -2,12 +2,18 @@
   background: rgba(71, 76, 85, 0.95);
   position: fixed;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
   overflow-y: scroll;
   z-index: 9999;
   /*z-index: -1;*/
+}
+
+#testGalleryForm > div {
+  display: table;
+  width: 100%;
+  height: 1px;
 }
 
 /* add class showTestGalleryForm to HTML not body */
@@ -20,9 +26,20 @@
 
 /* Gallery */
 
-#testGalleryContainer {padding-top: 30px;}
+#testGalleryContainer {display: table-cell; padding-top: 30px; height: 100%; width: 100%;}
+
+@media (min-width: 768px) {
+  #testGalleryContainer { width: 66.66667%; }
+}
+
+#testGalleryContainer .title-wrapper {color: #fff;}
 
 #testGalleryContainer .title-wrapper .title {margin-bottom: 10px;}
+
+#testGalleryContainer .title-wrapper .title .headline2:before, 
+#testGalleryContainer .title-wrapper .title .headline2:after { display: none; }
+
+#testGalleryContainer .title-wrapper span { display: none; }
 
 #testGalleryContainer #photo-gallery-container {
   width: auto;
@@ -43,14 +60,17 @@
 
 #testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none; }
 
-
 #testGalleryContainer .photo-gallery-wrapper .carousel-control {cursor:pointer;}
-
-#testGalleryContainer .title-wrapper {color: #fff;}
 
 #testGalleryContainer .photo-title, #testGalleryContainer .photo-description {color: #fff;}
 
 /* Form */
+
+#testFormContainer {display: table-cell; height: 100%; background-color: #34383d; width: 100%;}
+
+@media (min-width: 768px) {
+  #testFormContainer { width: 33.33333%; }
+}
 
 #testFormContainer .b-contactform {display: block;
   text-align: center;
