@@ -91,11 +91,11 @@
 
 #testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none; }
 
-#testGalleryContainer .photo-gallery-wrapper .carousel-control { cursor:pointer; height: calc(100% - 180px); }
+#testGalleryContainer .photo-gallery-wrapper .carousel-control { cursor:pointer; height: calc(100% - 160px); }
 
-@media (min-width: 580px) {
+/*@media (min-width: 580px) {
   #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 160px); }
-}
+}*/
 
 @media (min-width: 991px) {
   #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 140px); }
