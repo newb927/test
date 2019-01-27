@@ -108,6 +108,10 @@
   #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 140px); }
 }
 
+#testGalleryContainer .photo-gallery-wrapper .carousel-inner .item .carousel-text {
+ position: relative; 
+}
+
 #testGalleryContainer .photo-title, 
 #testGalleryContainer .photo-description, 
 #testGalleryContainer .photo-description + span { color: #fff; }
