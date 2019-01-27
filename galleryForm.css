@@ -57,7 +57,13 @@
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-inner .item .carousel-image { height: auto; }
 
-#testGalleryContainer .photo-gallery-wrapper .carousel-inner>.item>.carousel-image>img { height: auto; max-width: 100%; }
+#testGalleryContainer .photo-gallery-wrapper .carousel-inner>.item>.carousel-image>img { 
+  height: auto; 
+  max-width: 100%;
+  position: static;
+  transform: none;
+  -webkit-transform: none;
+}
 
 #testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none; }
 
