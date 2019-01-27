@@ -62,7 +62,7 @@
   box-shadow: none;
 }
 
-#testGalleryContainer .photo-gallery-wrapper .carousel { height: auto; }
+#testGalleryContainer .photo-gallery-wrapper .carousel { height: auto !important; }
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-inner .item { min-width: initial; }
 
