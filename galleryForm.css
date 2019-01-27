@@ -212,7 +212,9 @@
   cursor: pointer;
 }
 
-#testShowHideForm:hover { background: #181b1f;}
+#testClose span { margin-top: -8px; }
+
+#testShowHideForm:hover, #testClose:hover { background: #181b1f;}
 
 .test-form-hidden .b-contactform {
   display: none;
