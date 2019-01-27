@@ -150,7 +150,7 @@
   border-radius: 50%;
 }
 
-#testGalleryContainer .carousel-control .glyphicon:before:hover {
+#testGalleryContainer .carousel-control .glyphicon:hover:before {
   background-color: #181b1f;
 }
 
