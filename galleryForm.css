@@ -1,7 +1,6 @@
 #testGalleryForm {
   z-index: 9999;
   display: none;
-  display: block;
   height: 100%;
   width: 100%;
   background: rgba(71, 76, 85, 0.95);
