@@ -93,7 +93,7 @@
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-control { 
   cursor:pointer; 
-  height: calc(100% - 160px);
+  height: calc(100% - 120px);
   background: 0;
   opacity: 1;
   cursor: default;
@@ -104,9 +104,13 @@
   #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 160px); }
 }*/
 
-@media (min-width: 991px) {
-  #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 140px); }
+@media (min-width: 768px) {
+  #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 130px); }
 }
+
+/*@media (min-width: 991px) {
+  #testGalleryContainer .photo-gallery-wrapper .carousel-control { height: calc(100% - 140px); }
+}*/
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-inner .item .carousel-text {
  position: relative; 
