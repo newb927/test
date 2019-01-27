@@ -1,6 +1,6 @@
 #testGalleryForm {
-  z-index: -1;
-  /*z-index: 9999;*/
+  z-index: 9999;
+  display: none;
   display: block;
   height: 100%;
   width: 100%;
@@ -20,9 +20,7 @@
 
 .showTestGalleryForm {overflow-y: hidden;}
 
-.showTestGalleryForm #testGalleryForm {
-  z-index: 9999;
-}
+.showTestGalleryForm #testGalleryForm { display: block; }
 
 /* Gallery */
 
