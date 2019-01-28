@@ -84,7 +84,7 @@
   justify-content: center;
   z-index: 6;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 38px;
   background: rgba(85, 85, 85, 0.5);
 }
 
@@ -92,6 +92,9 @@
   background: rgba(85, 85, 85, 0.75);
 }
 
+.thumbnail:hover .thumbnail-overlay {
+    display: block !important;
+}
 
 /* Start Test Gallery Form */
 
