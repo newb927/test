@@ -190,16 +190,13 @@
   z-index: 5;
 }
 
-@media (max-width: 1091px) {
+@media (max-width: 1023px) {
   #testFormContainer {
     position: absolute;
   }
   #testFormContainer.test-form-hidden {
     height: 50px;
     width: 190px;
-  }
-  .b-contactform__prompt h3 {
-    font-size: 19px; 
   }
 }
 
@@ -225,10 +222,14 @@
   width: 345px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 1023px) {
   #testFormContainer .b-contactform {
     width: 270px;
   }
+  .b-contactform__prompt h3 {
+    font-size: 19px; 
+  }
+  #testFormContainer .b-contactform .control { font-size: 12px; }
 }
 
 #testFormContainer .b-contactform > .container { width: auto; padding: 0;}
@@ -265,9 +266,9 @@
 
 #testFormContainer .b-contactform .control { margin-bottom: 0; padding-right: 0; }
 
-@media (max-width: 420px) {
+/*@media (max-width: 420px) {
   #testFormContainer .b-contactform .control { font-size: 12px; }
-}
+}*/
 
 #testFormContainer .b-contactform__prompt:before, #testFormContainer .b-contactform__prompt:after { display: none; }
 
