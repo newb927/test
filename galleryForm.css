@@ -192,6 +192,7 @@
   right: 0;
   bottom: 0;
   z-index: 5;
+  overflow: hidden;
 }
 
 @media (max-width: 1023px) {
@@ -335,4 +336,35 @@
 .test-form-hidden #testShowHideForm {
   justify-content: center;
   padding: 0 15px;
+}
+
+/* Thank You */
+
+#testFormContainer .b-contactform--showingSuccess #is-b-contactform, #testFormContainer .b-contactform--showingFailure #is-b-contactform {
+  display: none;
+}
+
+#testFormContainer .b-contactform__response {
+ color: #fff; 
+}
+
+#testFormContainer .b-contactform__response-steps {
+  flex-direction: column;
+}
+
+#testFormContainer .b-contactform__response-step {
+  max-width: none;
+}
+
+#testFormContainer .b-contactform__response-links {
+ display: none; 
+}
+
+#testFormContainer .b-contactform__response-step.b-contactform__response-step--active { min-width: auto; margin-top: 20px; }
+
+#testFormContainer .b-contactform__response-step--active .b-contactform__response-icon--number { margin-right: 0; }
+
+#testFormContainer .b-contactform__response-stepbubble .b-contactform__response-txt {
+ color: #333;
+  font-size: 16px;
 }
