@@ -357,6 +357,12 @@
   display: block;
 }
 
+@media (min-width: 1024px) {
+ #testFormContainer .b-contactform__response-steps {
+  padding: 0 10px;
+  } 
+}
+
 #testFormContainer .b-contactform__response-step {
   max-width: none;
   justify-content: left;
@@ -379,7 +385,7 @@
 #testFormContainer .b-contactform__response-txt { white-space: normal; }
 
 #testFormContainer .b-contactform__response-step.b-contactform__response-step--active .b-contactform__response-stepbubble { 
-  margin-left: -15px; margin-right: -15px; padding: 10px;
+  padding: 10px;
 }
 
 #testFormContainer .b-contactform__response-stepbubble .b-contactform__response-txt {
@@ -393,5 +399,9 @@
 }*/
 
 @media (max-width: 1023px) {
+  #testFormContainer .b-contactform__response-step.b-contactform__response-step--active .b-contactform__response-stepbubble {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
   #testFormContainer .b-contactform__response-hours { font-size: 12px; }
 }
