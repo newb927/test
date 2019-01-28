@@ -23,7 +23,7 @@
 
 /* Gallery */
 
-#testGalleryContainer {display: table-cell; padding-top: 30px; height: 100%; width: 100%;}
+#testGalleryContainer {display: table-cell; padding-top: 30px; height: 100%; width: 100%; vertical-align: top;}
 
 @media (max-width: 1091px) {
  #testGalleryContainer {
