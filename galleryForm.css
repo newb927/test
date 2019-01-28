@@ -28,7 +28,7 @@
 
 @media (max-width: 991px) {
   .photo-gallery-wrapper .slider-thumbs {
-    display: block;
+    display: block !important;
   }
 }
 
@@ -193,7 +193,7 @@
   -webkit-transform: none;
 }
 
-#testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none; }
+#testGalleryContainer .photo-gallery-wrapper .slider-thumbs { display: none !important; }
 
 #testGalleryContainer .photo-gallery-wrapper .carousel-control {  
   height: calc(100% - 120px);
