@@ -29,6 +29,12 @@
   padding: 0;
 }
 
+@media (max-width: 991px) {
+  .photo-gallery-wrapper .slider-thumbs {
+    display: block;
+  }
+}
+
 .photo-gallery-wrapper .slider-thumbs ul {
   margin-top: 18px;
 }
