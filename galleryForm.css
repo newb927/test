@@ -225,7 +225,6 @@
   margin: 0;
   background-color: #34383d;
   width: 345px;
-  height: initial !important;
 }
 
 @media (max-width: 1023px) {
@@ -350,11 +349,12 @@
  position: static;
  width: auto;
  margin: 0;
+ -webkit-transform: none;
  transform: none; 
 }
 
 #testFormContainer .b-contactform__response-steps {
-  flex-direction: column;
+  display: block;
 }
 
 #testFormContainer .b-contactform__response-step {
