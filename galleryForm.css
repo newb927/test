@@ -328,6 +328,10 @@
 
 #testClose span { margin-top: -8px; }
 
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
+  #testClose span { margin-top: 0; }
+}
+
 #testShowHideForm:hover, #testClose:hover { background: #181b1f;}
 
 .test-form-hidden .b-contactform {
