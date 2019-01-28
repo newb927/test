@@ -399,6 +399,8 @@
  margin-right: 10px;
 }*/
 
+#testFormContainer .b-contactform__response-hours { font-size: 15px; }
+
 @media (max-width: 1023px) {
   #testFormContainer .b-contactform__response-step.b-contactform__response-step--active .b-contactform__response-stepbubble {
     margin-left: -15px;
