@@ -442,7 +442,7 @@
   #testClose span { margin-top: 0; }
 }
 
-#testShowHideForm:hover, #testShowHideForm:active, #testClose:hover { background: #181b1f;}
+#testShowHideForm:hover, #testClose:hover { background: #181b1f;}
 
 .test-form-hidden .b-contactform {
   display: none !important;
