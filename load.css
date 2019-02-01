@@ -1,3 +1,39 @@
+.loc-listing h3 {
+    font-weight: 300;
+}
+.loc-listing .retain--padded {
+    padding-bottom: 0;
+}
+.loc-listing p {
+    line-height: 1.4;
+}
+.loc-listing .callout--images {
+    margin-top: 20px;
+}
+.loc-listing .callout__item {
+    width: calc(20% - 24px);
+}
+.loc-listing .callout__head .h4 {
+    text-transform: none;
+}
+@media (max-width: 768px) {
+   .loc-listing .callout__item {
+        width: calc(33% - 24px);
+        margin-bottom: 20px;
+    }
+    .callout__image-image {
+        max-width: 50%;
+    }
+}
+@media (max-width: 480px) {
+   .loc-listing .callout__item {
+        width: calc(50% - 24px);
+    }
+    .callout__image-image {
+        max-width: 60%;
+    }
+}
+
 .testFullAmenities { padding-top: 65px; }
 
 .testFullAmenities h3 { padding: 20px 20px 0 20px; text-align: center; }
