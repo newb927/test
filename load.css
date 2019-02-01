@@ -169,7 +169,16 @@
   line-height: .6;
 }
 
+@media (min-width: 768px) {
+#formLoad .modal-dialog {
+    width: 700px;
+    }
+}
+
 @media screen and (min-width: 992px) {
+#formLoad .modal-dialog {
+    width: 930px;
+    }
 #formLoad .modal-body {
   padding: 20px 70px 30px;
   }
@@ -199,7 +208,19 @@
   z-index: 1040;
 }
 
+@media (max-width: 991px) {
+.modal-open {
+    position: static;
+    }
+}
+
 #formLoad .modal-body a {
- margin-bottom: 20px;
+ margin-top: 30px;
  display: block;   
+}
+
+@media (min-width: 992px) {
+ #formLoad .modal-body a {
+ max-width: 350px;   
+    }   
 }
