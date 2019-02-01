@@ -48,16 +48,16 @@
 .testFullAmenities ul li {
     width: 50%;
   }
-#loadAmenities {
+.testFullAmenities ul li {
     padding-right: 25px;
   }
 }
 
 @media (max-width: 480px) {
 .testFullAmenities ul li {
-    width: 100%;
+    width: 100% !important;
   }
-#loadAmenities {
+.testFullAmenities ul li {
     padding-right: 0;
   }
 }
