@@ -129,9 +129,20 @@
 }
 
 #formLoad .modal-title {
-  line-height: 1.92857em;
   text-align: center;
   text-transform: capitalize;
+}
+
+@media (max-width: 359px) {
+    #formLoad .modal-title {
+        width: 90%;
+    }
+}
+
+@media (min-width: 360px) {
+    #formLoad .modal-title {
+        line-height: 1.92857em;
+    }
 }
 
 #formLoad .modal-header {
