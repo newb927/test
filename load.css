@@ -198,3 +198,8 @@
   filter: alpha(opacity=50);
   z-index: 1040;
 }
+
+#loadLocCopy a {
+ margin-top: 30px;
+ display: block;   
+}
