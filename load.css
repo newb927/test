@@ -34,9 +34,13 @@
     }
 }
 
-.testFullAmenities { padding-top: 65px; }
+#testLocs {
+    padding-bottom: 60px;
+}
 
-.testFullAmenities h3 { padding: 20px 20px 0 20px; text-align: center; }
+.testFullAmenities {  }
+
+.testFullAmenities h3 { padding: 0 20px 20px 20px; text-align: center; /*margin-bottom: 40px;*/ }
 
 #loadAmenities { padding-left: 30px;}
 
@@ -72,6 +76,10 @@
     padding-right: 15px !important;
     text-align: center;
     margin: 0;
+}
+
+#floorplan {
+    padding-bottom: 60px;
 }
 
 #floorplan a {
