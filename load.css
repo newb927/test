@@ -55,7 +55,7 @@
 
 @media (max-width: 480px) {
 .testFullAmenities .amenities-list-wrapper>div>div>ul li {
-    width: 100% !important;
+    width: 100%;
   }
 .testFullAmenities .amenities-list-wrapper>div>div>ul li {
     padding-right: 0;
