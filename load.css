@@ -136,6 +136,8 @@
   border-top-left-radius: 6px;
 }
 
+#formLoad .modal-title { text-transform: capitalize; }
+
 #formLoad .modal-header .close {
   font-weight: 100;
   font-size: 40px;
