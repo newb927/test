@@ -45,19 +45,19 @@
 #loadAmenities { padding-left: 30px;}
 
 @media (max-width: 991px) {
-.testFullAmenities ul li {
+.testFullAmenities .amenities-list-wrapper>div>div>ul li {
     width: 50%;
   }
-.testFullAmenities ul li {
+.testFullAmenities .amenities-list-wrapper>div>div>ul li {
     padding-right: 25px;
   }
 }
 
 @media (max-width: 480px) {
-.testFullAmenities ul li {
+.testFullAmenities .amenities-list-wrapper>div>div>ul li {
     width: 100% !important;
   }
-.testFullAmenities ul li {
+.testFullAmenities .amenities-list-wrapper>div>div>ul li {
     padding-right: 0;
   }
 }
