@@ -117,3 +117,53 @@
 #floorplan a:after {
  display: none;   
 }
+
+
+/* Modal */
+
+#formLoad .modal-content {
+  background-color: #f9f9f9;
+}
+
+#formLoad .modal-title {
+  line-height: 1.92857em;
+}
+
+#formLoad .modal-header {
+  background-color: #fff;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#formLoad .modal-header .close {
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: -100px;
+  opacity: 1;
+  color: #7d7d7d;
+}
+
+@media screen and (min-width: 991px) {
+#formLoad .modal-body {
+  padding: 20px 70px 30px;
+  }
+}
+
+.at-modal-backdrop {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.at-modal-backdrop.in {
+  display: block;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 1040;
+}
