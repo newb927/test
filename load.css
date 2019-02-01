@@ -134,6 +134,13 @@
   text-transform: capitalize;
 }
 
+@media (max-width: 480px) {
+    #formLoad .modal-title { 
+        text-align: left;
+        padding-left: 25px;
+    } 
+}
+
 #formLoad .modal-header {
   background-color: #fff;
   border-top-right-radius: 6px;
