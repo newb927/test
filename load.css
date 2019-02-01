@@ -154,7 +154,6 @@
 @media (max-width: 480px) {
     #formLoad .modal-title { 
         text-align: left;
-        padding-left: 25px;
     }
     #formLoad .modal-header {
      padding-left: 25px;   
