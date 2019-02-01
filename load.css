@@ -124,7 +124,8 @@
 #formLoad .modal-body {
   background-color: #f9f9f9;
   border-radius: 0 0 6px 6px;
-  /*padding: 20px 75px 30px;*/
+  line-height: 1.3;
+  padding: 20px 25px 30px;
 }
 
 #formLoad .modal-title {
@@ -147,7 +148,7 @@
   color: #7d7d7d;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
 #formLoad .modal-body {
   padding: 20px 70px 30px;
   }
