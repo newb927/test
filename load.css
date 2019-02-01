@@ -128,6 +128,8 @@
 
 #formLoad .modal-title {
   line-height: 1.92857em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 #formLoad .modal-header {
@@ -135,8 +137,6 @@
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
 }
-
-#formLoad .modal-title { text-transform: capitalize; }
 
 #formLoad .modal-header .close {
   font-weight: 100;
