@@ -1,6 +1,6 @@
 .testFullAmenities { padding-top: 65px; }
 
-.testFullAmenities h3 { padding: 40px 20px 0 20px; }
+.testFullAmenities h3 { padding: 20px 20px 0 20px; text-align: center; }
 
 #loadAmenities { padding-left: 30px;}
 
@@ -20,4 +20,51 @@
 #loadAmenities {
     padding-right: 0;
   }
+}
+
+
+
+
+.communityTwoColumn .communityAmenities, 
+.communityTwoColumn .levelsOfCareList {
+    display: none;
+}
+
+.communityTwoColumn .col-md-6 {
+    width: 100%;
+    border-right: 0;
+    padding-right: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+#floorplan a {
+ display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    line-height: 1.42857;
+    -moz-user-select: none;
+    user-select: none;   
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    min-width: 150px;
+    padding: 6px 17px;
+    margin: 30px 0 0 0;
+    background-color: #17a062;
+    border: 4px solid #17a062;
+    color: #fff;
+    height: 50px;
+}
+
+#floorplan a:focus, #floorplan a:hover {
+ background:#fb6418;border:4px solid #fb6418;-webkit-box-shadow:0 0 0 0 #fb6418;box-shadow:0 0 0 0 #fb6418;color:#fff;text-decoration:none   
+}
+
+#floorplan a:after {
+ display: none;   
 }
