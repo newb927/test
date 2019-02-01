@@ -1,6 +1,6 @@
-.testFullAmenities { }
+.testFullAmenities { padding-top: 65px; }
 
-.testFullAmenities h3 { padding: 0 20px; }
+.testFullAmenities h3 { padding: 40px 20px 0 20px; }
 
 #loadAmenities { padding-left: 30px;}
 
