@@ -1,0 +1,23 @@
+.testFullAmenities { }
+
+.testFullAmenities h3 { padding: 0 20px; }
+
+#loadAmenities { padding-left: 30px;}
+
+@media (max-width: 991px) {
+.testFullAmenities ul li {
+    width: 50%;
+  }
+#loadAmenities {
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+.testFullAmenities ul li {
+    width: 100%;
+  }
+#loadAmenities {
+    padding-right: 0;
+  }
+}
