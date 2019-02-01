@@ -199,7 +199,7 @@
   z-index: 1040;
 }
 
-#loadLocCopy a {
- margin-top: 30px;
+#formLoad .modal-body a {
+ margin-bottom: 30px;
  display: block;   
 }
