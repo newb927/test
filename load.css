@@ -56,9 +56,13 @@
   list-style: none;
   border: 1px solid #ccc;
   border-top: 0;
+  display:-webkit-box;display:-ms-flexbox;display:flex;
+  -ms-flex-wrap:wrap;flex-wrap:wrap;
 }
 
 .testFullAmenities .amenities-list-wrapper>div>div>ul li {
+  float: none;
+  display: block;
   list-style: none;
   border: 1px solid #ccc;
   padding: 15px 15px;
