@@ -67,19 +67,13 @@
   border: 1px solid #ccc;
   padding: 15px 15px;
   font-size: 15px;
-  margin-bottom: 0;
-  border-right: 0;
-  border-bottom: 0;
-  border-left: 0;
+  margin: -1px;
 }
 
 @media (max-width: 991px) {
 .testFullAmenities .amenities-list-wrapper>div>div>ul li {
     width: 50%;
-  }
-/*.testFullAmenities .amenities-list-wrapper>div>div>ul li {
-    padding-right: 25px;
-  }*/
+    }
 }
 
 @media (max-width: 480px) {
