@@ -252,6 +252,9 @@
 
 
 /* New Styles */
+.community-description-wrapper .ctcore-util-content {
+ display: none;   
+}
 .community-description-wrapper .ctcore-util-content h2 {
   margin-bottom: 20px;
 }
