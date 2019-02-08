@@ -172,6 +172,7 @@
   background-color: #fff;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
+  overflow: hidden;
 }
 
 @media (max-width: 480px) {
@@ -251,3 +252,10 @@
 
 
 /* New Styles */
+.community-description-wrapper .ctcore-util-content h2 {
+  margin-bottom: 20px;
+}
+.community-description-wrapper .ctcore-util-content ul li {
+  text-align: center;
+  list-style: none;
+}
