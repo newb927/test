@@ -90,7 +90,8 @@
     width: 100%;
   }
 #testAmenitiesWrapper ul li {
-    display: none;  
+    display: none;
+    fonts-size: 18px;
   }
 #testAmenitiesWrapper ul li:first-of-type, 
 #testAmenitiesWrapper ul li:nth-of-type(2), 
@@ -104,8 +105,16 @@
   }
 }
 
+#viewAllAmenities {
+ display: block;
+ text-align: center;
+ font-weight: 400;
+ font-size: 18px;
+ margin-top: 30px;   
+}
+
 @media (min-width: 481px) {
- #showAllAmenities {
+ #viewAllAmenities {
    display: none;
   }
 }
