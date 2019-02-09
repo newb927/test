@@ -89,9 +89,19 @@
 #testAmenitiesWrapper ul li {
     width: 100%;
   }
-/*.testFullAmenities .amenities-list-wrapper>div>div>ul li {
-    padding-right: 0;
-  }*/
+#testAmenitiesWrapper ul li {
+    display: none;  
+  }
+#testAmenitiesWrapper ul li:first-of-type, 
+#testAmenitiesWrapper ul li:nth-of-type(2), 
+#testAmenitiesWrapper ul li:nth-of-type(3), 
+#testAmenitiesWrapper ul li:nth-of-type(4), 
+#testAmenitiesWrapper ul li:nth-of-type(5) {
+    display: block;  
+  } 
+#testAmenitiesWrapper ul.showAll li {
+    display: block;  
+  }
 }
 
 #loadDetails + .communityTwoColumn .communityAmenities, 
