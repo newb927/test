@@ -104,6 +104,12 @@
   }
 }
 
+@media (min-width: 481px) {
+ #showAllAmenities {
+   display: none;
+  }
+}
+
 #loadDetails + .communityTwoColumn .communityAmenities, 
 #loadDetails + .communityTwoColumn .levelsOfCareList {
     display: none;
