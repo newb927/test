@@ -317,6 +317,7 @@
     position: relative;
     background: #FFFFFF;
     z-index: 1;
+    border-radius: 4px;
 }
 
 @media screen and (min-width: 1092px) {
@@ -466,15 +467,6 @@
     max-width: 100%;
     border: 1px solid #e4e4e4;
     border-radius: 4px;
-}
-
-@media screen and (min-width: 1092px) {
- .overlayGallery + section {
-    margin-top: 0;
-    position: initial;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-}
 }
 
 .eRFWBR {
