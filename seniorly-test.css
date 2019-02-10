@@ -713,3 +713,9 @@
 .careName {
  font-weight: 500; 
 }
+
+@media (max-width: 680px) {
+  #careLevels .ktZaXL {
+   display: none; 
+  }
+}
