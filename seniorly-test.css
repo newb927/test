@@ -1181,9 +1181,9 @@ body.header-revealed .sticky-inner-wrapper {
 
 #loadLocCopy h2, #loadLocCopy h3 { font-weight: 300; }
 
-.overlayTwoColumn .video-player {
+/*.overlayTwoColumn .video-player {
   margin-bottom: 24px;
-}
+}*/
 
 .overlayTwoColumn .iparsys .richtext {
     -webkit-transition: padding-bottom 0.2s ease-out;
