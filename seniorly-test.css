@@ -1075,3 +1075,22 @@ body.header-revealed .sticky-inner-wrapper {
 .closest-communities__item .card-compare {
   display: none;
 }
+
+.reviewsCommunity {
+  -webkit-transition: padding-bottom 0.2s ease-out;
+  transition: padding-bottom 0.2s ease-out;
+  max-width: 100%;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+#reviews {
+  margin: 0;
+  padding: 24px;
+}
+
+#reviews > div, 
+#reviews > p {
+    text-align: left;
+}
