@@ -739,3 +739,7 @@
 #bCommDescr h2 {
  font-size: 30px; 
 }
+
+#aCommDescr p, #bCommDescr p {
+ line-height: 1.4; 
+}
