@@ -1,10 +1,11 @@
-#pricingInfo { display: none; }
+/*#pricingInfo, #pricingIngo + .raw_html { display: none; }*/
+
+#nav-stripe .community-options { display: none; }
 
 .overlayTwoColumn .communityIntro, 
 .overlayTwoColumn .communityDescription, 
 .overlayTwoColumn .communityDescription + .contentBreak, 
-.overlayTwoColumn .communityTwoColumn, 
-#pricingIngo + .raw_html, 
+.overlayTwoColumn .communityTwoColumn,  
 #photo-gallery-container .title-wrapper {display: none; }
 
 .overlayTwoColumn .container, 
