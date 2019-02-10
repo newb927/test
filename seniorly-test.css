@@ -730,7 +730,8 @@ body.header-revealed .sticky-inner-wrapper {
 
 #bCommDescr h3  {
  font-size: 24px;
- font-weight: 500;
+ /*font-weight: 500;*/
+ font-weight: 300;
 }
 
 #bCommDescr h2 {
