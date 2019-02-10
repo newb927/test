@@ -727,7 +727,15 @@
   }
 }
 
+#moveMapHere {
+ margin-top: 24px; 
+}
+
 .header-revealed .sticky-inner-wrapper {
   -webkit-transform: translateY(70px);
   transform: translateY(70px);
+}
+
+#bCommDescr h2 {
+ font-size: 30px; 
 }
