@@ -755,3 +755,15 @@ body.header-revealed .sticky-inner-wrapper {
 #bCommDescr {
   display: none;
 }
+
+#locsVMC {
+  display: none;
+}
+
+#careLevels > div {
+  display: none;
+}
+
+#careLevels.showAll > div {
+ display: block; 
+}
