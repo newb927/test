@@ -1107,6 +1107,20 @@ body.header-revealed .sticky-inner-wrapper {
   display: none;
 }
 
+@media (max-width: 991px) {
+  .overlayTwoColumn .schedule-content {
+    border: 0;
+  }
+  .overlayTwoColumn .carousel-inner>.item {
+    display: block;
+ }
+  .overlayTwoColumn .item[data-slide-number="1"] .schedule-header, 
+  .overlayTwoColumn .item[data-slide-number="2"] .schedule-header, 
+  .overlayTwoColumn .item[data-slide-number="2"] .schedule-content h3 {
+    display: none;
+  }
+}
+
 .overlayTwoColumn .single-image--image {
   padding: 24px 0 48px 0;
 }
