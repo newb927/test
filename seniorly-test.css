@@ -319,7 +319,7 @@
 }
 
 @media screen and (min-width: 1092px) {
-.dOztuQ {
+ .dOztuQ {
     margin-top: 0;
     position: initial;
     border-top-right-radius: 0;
@@ -465,6 +465,15 @@
     max-width: 100%;
     border: 1px solid #e4e4e4;
     border-radius: 4px;
+}
+
+@media screen and (min-width: 1092px) {
+ .overlayGallery + section {
+    margin-top: 0;
+    position: initial;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
 }
 
 .eRFWBR {
@@ -1111,7 +1120,7 @@ body.header-revealed .sticky-inner-wrapper {
   .overlayTwoColumn .schedule-content {
     border: 0;
   }
-  .overlayTwoColumn .carousel-inner>.item {
+  .overlayTwoColumn .schedule-content .carousel-inner>.item {
     display: block;
  }
   .overlayTwoColumn .item[data-slide-number="1"] .schedule-header, 
