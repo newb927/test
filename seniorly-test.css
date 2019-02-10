@@ -760,6 +760,10 @@ body.header-revealed .sticky-inner-wrapper {
   display: none;
 }
 
+#locsVMC.showC {
+ display:block; 
+}
+
 #careLevels > div {
   display: none;
 }
