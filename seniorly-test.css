@@ -695,11 +695,11 @@
 #amenitiesAnchor > div:nth-of-type(4), 
 #amenitiesAnchor > div:nth-of-type(5),
 #amenitiesAnchor > div:nth-of-type(6) {
- display: grid; 
+ display:-webkit-box;display:-ms-flexbox;display:flex; 
 }
 
 #amenitiesAnchor.showAllAmenities  > div {
- display: grid; 
+ display:-webkit-box;display:-ms-flexbox;display:flex;
 }
 
 
