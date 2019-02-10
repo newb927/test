@@ -1116,7 +1116,8 @@ body.header-revealed .sticky-inner-wrapper {
  }
   .overlayTwoColumn .item[data-slide-number="1"] .schedule-header, 
   .overlayTwoColumn .item[data-slide-number="2"] .schedule-header, 
-  .overlayTwoColumn .item[data-slide-number="2"] .schedule-content h3 {
+  .overlayTwoColumn .item[data-slide-number="2"] .schedule-content h3, 
+  .overlayTwoColumn #scheduleMenuCarousel .carousel-indicators {
     display: none;
   }
 }
