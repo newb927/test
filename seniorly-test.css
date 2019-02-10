@@ -724,13 +724,18 @@ body.header-revealed .sticky-inner-wrapper {
  display: none; 
 }
 
-#bCommDescr h2, #bCommDescr h3  {
+#bCommDescr .ctcore-util-content {
+ padding: 0;   
+}
+
+#bCommDescr h3  {
  font-size: 24px;
  font-weight: 500;
 }
 
 #bCommDescr h2 {
- margin-top: 0; 
+ /*margin-top: 0;*/
+ display: none;
 }
 
 #aCommDescr p, #bCommDescr p {
