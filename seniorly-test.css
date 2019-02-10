@@ -1,6 +1,6 @@
 /*#pricingInfo, #pricingIngo + .raw_html { display: none; }*/
 
-#nav-stripe .community-options { display: none; }
+#nav-stripe .community-options, .header-text .btn:last-of-type { display: none; }
 
 .overlayTwoColumn .communityIntro, 
 .overlayTwoColumn .communityDescription, 
@@ -872,7 +872,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .title-wrapper .title {
   padding: 0;
-  margin: 0;
+  margin-bottom: 24px;
 }
 
 .overlayTwoColumn .title-wrapper .title .headline2 {
@@ -1065,6 +1065,10 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .schedule-menu .container {
   padding: 0;
+}
+
+.overlayTwoColumn .schedule-menu .title-wrapper .title {
+ margin-bottom: 0;   
 }
 
 .overlayTwoColumn .schedule-menu .title-wrapper .headline2 {
