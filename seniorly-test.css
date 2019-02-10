@@ -9,7 +9,7 @@
 
 .overlayTwoColumn .communityIntro, 
 .overlayTwoColumn .communityDescription, 
-.overlayTwoColumn .communityDescription + contentBreak, 
+.overlayTwoColumn .communityDescription + .contentBreak, 
 .overlayTwoColumn .communityTwoColumn {display: none; }
 
 .overlayTwoColumn .container, 
