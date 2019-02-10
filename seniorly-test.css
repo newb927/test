@@ -709,11 +709,11 @@
  display:-webkit-box;display:-ms-flexbox;display:flex;
 }
 
-#viewAllAmenities:hover {
+#readMore:hover, #viewAllAmenities:hover  {
  color: #fb6418;
 }
 
-#viewAllAmenities:focus {
+#readMore:focus, #viewAllAmenities:focus {
  color: #00539b; 
 }
 
@@ -729,6 +729,11 @@
 
 #moveMapHere {
  margin-top: 24px; 
+}
+
+.sticky-inner-wrapper {
+ -webkit-transition: transform .2s ease-in;
+ transition: transform .2s ease-in; 
 }
 
 .header-revealed .sticky-inner-wrapper {
