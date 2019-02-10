@@ -10,7 +10,8 @@
 
 .overlayTwoColumn .container, 
 .overlayTwoColumn .header-text { 
-    width: auto !important; 
+    width: auto !important;
+    padding: 0;
 }
 
 .overlayTwoColumn .community-description-wrapper .headline2 {
@@ -871,7 +872,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .title-wrapper .title {
   padding: 0;
-  margin-bottom: 24px;
+  margin: 0;
 }
 
 .overlayTwoColumn .title-wrapper .title .headline2 {
@@ -1066,14 +1067,28 @@ body.header-revealed .sticky-inner-wrapper {
   padding: 0;
 }
 
-.overlayTwoColumn .schedule-menu .headline2 {
+.overlayTwoColumn .schedule-menu .title-wrapper .headline2 {
   margin: 0;
   padding: 24px;
   font-size: 20px;
 }
 
 .overlayTwoColumn .schedule {
-  padding: 24px;
+  padding: 0 24px 24px 24px;
+}
+
+.overlayTwoColumn .schedule .schedule-header {
+  margin-left: 0;   
+}
+
+.overlayTwoColumn .schedule .schedule-header .headline2 {
+  margin-bottom: -3px;
+  padding-left: 0;
+  font-size: 30px;   
+}
+
+.overlayTwoColumn .schedule .schedule-header span {
+ padding-left: 0;   
 }
 
 .overlayTwoColumn .schedule-content .row {
@@ -1084,7 +1099,8 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .schedule .schedule-content {
-  border: 0;   
+  border: 0;
+  padding 0;
 }
 
 .overlayTwoColumn .schedule-content .row > div {
@@ -1117,12 +1133,12 @@ body.header-revealed .sticky-inner-wrapper {
   .overlayTwoColumn .schedule-content {
     border: 0;
   }
-  .overlayTwoColumn .schedule-content .carousel-inner>.item {
+  .overlayTwoColumn #scheduleMenuCarousel .item {
     display: block;
  }
-  .overlayTwoColumn .item[data-slide-number="1"] .schedule-header, 
-  .overlayTwoColumn .item[data-slide-number="2"] .schedule-header, 
-  .overlayTwoColumn .item[data-slide-number="2"] .schedule-content h3, 
+  .overlayTwoColumn #scheduleMenuCarousel .item[data-slide-number="1"] .schedule-header, 
+  .overlayTwoColumn #scheduleMenuCarousel .item[data-slide-number="2"] .schedule-header, 
+  .overlayTwoColumn #scheduleMenuCarousel .item[data-slide-number="2"] .schedule-content h3, 
   .overlayTwoColumn #scheduleMenuCarousel .carousel-indicators {
     display: none;
   }
