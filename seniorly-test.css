@@ -1081,8 +1081,17 @@ body.header-revealed .sticky-inner-wrapper {
   flex-direction:column;
 }
 
+.overlayTwoColumn .schedule .schedule-content {
+  border: 0;   
+}
+
 .overlayTwoColumn .schedule-content .row > div {
   width: 100%;
+}
+
+.overlayTwoColumn .schedule-content .row .col-md-4 {
+  border-right: 0;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .overlayTwoColumn .downloads-wrapper {
@@ -1099,5 +1108,5 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .single-image--image {
-  padding-bottom: 24px;
+  padding: 24px 0 48px 0;
 }
