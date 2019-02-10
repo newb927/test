@@ -1091,8 +1091,12 @@ body.header-revealed .sticky-inner-wrapper {
   width: 100%;
 }
 
+.overlayTwoColumn .schedule-content .row .col-md-4, 
+.overlayTwoColumn .schedule-content .row .col-md-6 {
+    border-right: 0;
+}
+
 .overlayTwoColumn .schedule-content .row .col-md-4 {
-  border-right: 0;
   border-bottom: 1px solid #e4e4e4;
 }
 
