@@ -709,11 +709,11 @@
  display:-webkit-box;display:-ms-flexbox;display:flex;
 }
 
-#readMore:hover, #viewAllAmenities:hover  {
+#readMore:hover, #viewAllLocs:hover, #viewAllAmenities:hover  {
  color: #fb6418;
 }
 
-#readMore:focus, #viewAllAmenities:focus {
+#readMore:focus, #viewAllLocs:focus, #viewAllAmenities:focus {
  color: #00539b; 
 }
 
