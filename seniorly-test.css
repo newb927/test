@@ -1036,10 +1036,22 @@ body.header-revealed .sticky-inner-wrapper {
   text-overflow: ellipsis;
   width: 100%;
   font-size: 14px;
+  font-weight: 400;
 }
 
 .closest-communities__info div[itemprop="address"] br:first-of-type {
   display: none;
+}
+
+.closest-communities__info .ctcore-util-unlist {
+  margin-top: 8px;
+}
+
+.closest-communities__info .ctcore-util-unlist li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
 }
 
 .closest-communities__item .card-compare {
