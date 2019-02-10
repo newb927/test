@@ -697,7 +697,7 @@
 }
 
 #moveMapHere {
- margin-top: 24px; 
+ margin: 24px 0 48px 0; 
 }
 
 .sticky-inner-wrapper {
