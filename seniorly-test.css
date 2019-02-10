@@ -1109,7 +1109,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .schedule .schedule-content {
   border: 0;
-  padding 0;
+  padding: 0;
 }
 
 .overlayTwoColumn .schedule-content .row > div {
@@ -1190,11 +1190,11 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .iparsys .richtext .retain {
- padding: 24px !important; 
+  padding: 24px 24px 0 24px !important; 
 }
 
 .overlayTwoColumn .iparsys .richtext .retain .ctcore-util-content {
- padding-bottom: 0; 
+  padding-bottom: 0; 
 }
 
 .overlayTwoColumn .iparsys .richtext h2, .overlayTwoColumn .iparsys .richtext p {
