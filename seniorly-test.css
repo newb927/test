@@ -1100,6 +1100,10 @@ body.header-revealed .sticky-inner-wrapper {
  padding-left: 0;   
 }
 
+.overlayTwoColumn .schedule .schedule-content h3 {
+ font-size: 20px;   
+}
+
 .overlayTwoColumn .schedule-content .row {
   -webkit-box-orient:vertical;
   -webkit-box-direction:normal;
@@ -1202,7 +1206,8 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .iparsys .richtext h2 {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .overlayTwoColumn .full-width-text .ctcore-util-content h3 {
