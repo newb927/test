@@ -764,6 +764,12 @@ body.header-revealed .sticky-inner-wrapper {
   display: none;
 }
 
+#careLevels > div:first-of-type,
+#careLevels > div:nth-of-type(2), 
+#careLevels > div:nth-of-type(3) {
+  display: block;
+}
+
 #careLevels.showAll > div {
  display: block; 
 }
