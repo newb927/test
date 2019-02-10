@@ -402,16 +402,16 @@
     font-weight: 500;
     white-space: nowrap;
     font-size: 14px;
-    border: 1px solid currentcolor;
+    border: 1px solid #e5e5e5;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: 2px;
+    border-radius: 5px;
     -webkit-transition: background-color 250ms ease-out,color 250ms ease-out,border-color 250ms ease-out;
     transition: background-color 250ms ease-out,color 250ms ease-out,border-color 250ms ease-out;
     background-color: #FFFFFF;
-    color: #2A333F;
+    color: #00539b;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -419,9 +419,11 @@
     pointer-events: auto;
 }
 
-.cgQzDu:hover{border-color:transparent;color:#B9BCC0;}
-.cgQzDu:active{color:#B9BCC0;}
+.cgQzDu:hover{color: #fb6418;}
+.cgQzDu:active{color: #fb6418;}
 .cgQzDu:focus{outline:none;}
+
+.cgQzDu:hover svg path, .cgQzDu:focus svg path, .cgQzDu:focus svg active {fill: #fb6418;}
 
 .hOCsja {
     margin-right: 0.500rem;
@@ -442,7 +444,6 @@
 .fLjMAI > svg {
     font-size: 1.500rem;
     display: block;
-    fill: currentColor;
     stroke: none;
 }
 
