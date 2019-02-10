@@ -1225,3 +1225,7 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .header-text .btn:last-of-type { display: none;}
+
+.cta.parbase + .heroImage {
+  margin-top: 24px;
+}
