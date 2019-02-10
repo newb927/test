@@ -744,3 +744,7 @@
 #aCommDescr p, #bCommDescr p {
  line-height: 1.4; 
 }
+
+#bCommDescr {
+  display: none;
+}
