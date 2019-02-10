@@ -1180,12 +1180,43 @@ body.header-revealed .sticky-inner-wrapper {
   margin-bottom: 24px;
 }
 
+.overlayTwoColumn .iparsys .richtext {
+    -webkit-transition: padding-bottom 0.2s ease-out;
+    transition: padding-bottom 0.2s ease-out;
+    max-width: 100%;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.overlayTwoColumn .iparsys .richtext .retain {
+ padding: 24px !important; 
+}
+
+.overlayTwoColumn .iparsys .richtext .retain .ctcore-util-content {
+ padding-bottom: 0; 
+}
+
+.overlayTwoColumn .iparsys .richtext h2, .overlayTwoColumn .iparsys .richtext p {
+  text-align: left !important;
+}
+
 .overlayTwoColumn .iparsys .richtext h2 {
-    font-size: 30px;
+    font-size: 24px;
+}
+
+.overlayTwoColumn .full-width-text .ctcore-util-content h3 {
+    margin-left: -24px;
+    margin-right: -24px;
+    background-color: rgb(244, 244, 245);
+    padding: 6px 24px;
+    margin-bottom: 0px;
+    border-radius: 0 0 4px 4px;
 }
 
 .overlayTwoColumn .full-width-text .ctcore-util-content h3 a:not(.ctcore-util-button) {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .overlayTwoColumn .header-text .btn:last-of-type { display: none;}
