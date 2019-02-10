@@ -1230,3 +1230,8 @@ body.header-revealed .sticky-inner-wrapper {
 .cta.parbase + .heroImage {
   margin-top: 24px;
 }
+
+.overlayTwoColumn .video-player .video, 
+.overlayTwoColumn .video-player .video .video-container {
+ border-radius: 4px;   
+}
