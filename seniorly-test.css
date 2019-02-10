@@ -1090,7 +1090,18 @@ body.header-revealed .sticky-inner-wrapper {
   padding: 24px;
 }
 
-#reviews > div, 
-#reviews > p {
-    text-align: left;
+#reviews > div {
+  text-align: left;
+}
+
+.reviews-community-wrapper {
+  margin: 0;
+}
+
+#js-bkdRatings {
+  padding: 24px 24px 0 24px;
+}
+
+.reviews-community-wrapper .container {
+  padding: 0;
 }
