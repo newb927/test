@@ -760,6 +760,10 @@ body.header-revealed .sticky-inner-wrapper {
  font-weight: 500;
 }
 
+#bCommDescr h2 {
+ margin-top: 0; 
+}
+
 #aCommDescr p, #bCommDescr p {
  line-height: 1.4; 
 }
