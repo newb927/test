@@ -743,6 +743,18 @@ body.header-revealed .sticky-inner-wrapper {
   transform: translateY(70px);
 }
 
+#bCommDescr {
+  display: none;
+}
+
+#commDescrs.showB #bCommDescr {
+  display: block;
+}
+
+#commDescrs.showB #aCommDescr {
+ display: none; 
+}
+
 #bCommDescr h2, #bCommDescr h3  {
  font-size: 24px;
  font-weight: 500;
@@ -750,10 +762,6 @@ body.header-revealed .sticky-inner-wrapper {
 
 #aCommDescr p, #bCommDescr p {
  line-height: 1.4; 
-}
-
-#bCommDescr {
-  display: none;
 }
 
 #locsVMC {
