@@ -1160,3 +1160,5 @@ body.header-revealed .sticky-inner-wrapper {
 .overlayTwoColumn .single-image--image {
   padding: 24px 0 48px 0;
 }
+
+#loadLocCopy h2, #loadLocCopy h3 { font-weight: 300; } 
