@@ -702,4 +702,11 @@
  display:-webkit-box;display:-ms-flexbox;display:flex;
 }
 
+#viewAllAmenities:hover {
+ color: #fb6418;
+}
+
+#viewAllAmenities:focus {
+ color: #00539b; 
+}
 
