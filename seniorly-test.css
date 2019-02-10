@@ -768,7 +768,8 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 #aCommDescr p, #bCommDescr p {
- line-height: 1.4; 
+ font-size:16px;
+ line-height: 1.4;
 }
 
 #locsVMC {
