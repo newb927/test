@@ -1029,7 +1029,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn #reviews {
   margin: 0;
-  padding: 24px;
+  padding: 24px 24px 0 24px;
 }
 
 .overlayTwoColumn #reviews > div {
