@@ -1,6 +1,6 @@
 /*#pricingInfo, #pricingIngo + .raw_html { display: none; }*/
 
-#nav-stripe .community-options, .header-text .btn:last-of-type { display: none; }
+#loadDetails, #nav-stripe .community-options, .header-text .btn:last-of-type { display: none; }
 
 .overlayTwoColumn .communityIntro, 
 .overlayTwoColumn .communityDescription, 
