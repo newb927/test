@@ -1370,3 +1370,7 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .license>.license { padding-left: 0; }
+
+@media (max-width: 991px) {
+    #testCompare { display: none; }   
+}
