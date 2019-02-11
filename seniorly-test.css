@@ -1109,6 +1109,7 @@ body.header-revealed .sticky-inner-wrapper {
 .overlayTwoColumn .fyre.fyre-reviews .fyre-comment-article .fyre-comment-head h3 {
     position: initial;
     margin-left: 0;
+    padding-top: 40px;
 }
 
 .overlayTwoColumn .fyre.fyre-reviews .fyre-reviews-header {
@@ -1119,8 +1120,8 @@ body.header-revealed .sticky-inner-wrapper {
     border-color: #e4e4e4;
 }
 
-@media (max-width: 991px) {
- .overlayTwoColumn .fyre-comment-tag .fyre-featured { 
+@media (max-width: 1024px) {
+ .overlayTwoColumn .fyre-comment-tag.fyre-featured { 
    display: none;
   }  
 }
