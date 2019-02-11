@@ -1121,8 +1121,12 @@ body.header-revealed .sticky-inner-wrapper {
     min-height: 0;
 }
 
+.overlayTwoColumn .fyre-comment-head br {
+   display: none;   
+}
+
 .overlayTwoColumn .fyre-reviews .fyre-featured-text {
-    display: block;
+    /*display: block;*/
 }
 
 .overlayTwoColumn .fyre.fyre-reviews .fyre-comment-article .fyre-comment-head h3 {
@@ -1142,7 +1146,7 @@ body.header-revealed .sticky-inner-wrapper {
 @media (max-width: 1024px) {
  .overlayTwoColumn .fyre-comment-tag.fyre-featured { 
    display: none;
-  }  
+  }
 }
 
 /* End Reviews */
