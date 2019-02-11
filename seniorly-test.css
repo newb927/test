@@ -11,6 +11,13 @@
 .overlayTwoColumn .communityTwoColumn,  
 #photo-gallery-container .title-wrapper {display: none; }
 
+.overlayTwoColumn .carousel-inner>.item {
+  -webkit-transition: -webkit-transform .35s ease-in-out;
+  transition: -webkit-transform .35s ease-in-out;
+  transition: transform .35s ease-in-out;
+  transition: transform .35s ease-in-out,-webkit-transform .35s ease-in-out;
+}
+
 .overlayTwoColumn .container, 
 .overlayTwoColumn .header-text { 
     width: auto !important;
