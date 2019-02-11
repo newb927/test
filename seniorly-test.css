@@ -1182,6 +1182,14 @@ body.header-revealed .sticky-inner-wrapper {
   display: none;
 }
 
+.overlayTwoColumn #events-menu-container .row {
+    margin: 0;
+}
+
+.overlayTwoColumn #events-menu-container [class^="col-"] {
+    padding: 0;
+}
+
 @media (max-width: 991px) {
   .overlayTwoColumn .schedule-content {
     border: 0;
@@ -1195,7 +1203,7 @@ body.header-revealed .sticky-inner-wrapper {
     display: none;
   }
   .overlayTwoColumn .schedule {
-   padding: 0 24px 24px 24px;
+   padding: 0 24px;
  }
   .overlayTwoColumn .schedule dl dt {
     width: 96px;
@@ -1205,13 +1213,7 @@ body.header-revealed .sticky-inner-wrapper {
   }
 }
 
-.overlayTwoColumn #events-menu-container .row {
-    margin: 0;
-}
-
-.overlayTwoColumn #events-menu-container [class^="col-"] {
-    padding: 0;
-}
+/* End Events and Menu */
 
 .overlayTwoColumn .single-image--image {
   padding: 24px 0 48px 0;
@@ -1242,13 +1244,6 @@ body.header-revealed .sticky-inner-wrapper {
   padding-bottom: 0; 
 }
 
-.hide-section {
-  height: 0;
-  -webkit-transition: height 0.2s ease-out;
-  transition: height 0.2s ease-out;
-  overflow: hidden;
-}
-
 .overlayTwoColumn .iparsys .richtext h2, .overlayTwoColumn .iparsys .richtext p {
   text-align: left !important;
 }
@@ -1272,8 +1267,6 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .full-width-text .ctcore-util-content h3 {
-    /*margin-left: -24px;
-    margin-right: -24px;*/
     background-color: rgb(244, 244, 245);
     padding: 6px 24px;
     margin: 30px 0 0 0;
