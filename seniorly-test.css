@@ -521,6 +521,7 @@
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+    margin-left: 12px;
     /*-webkit-transition: -webkit-transform 0.1s ease-out;
     -webkit-transition: transform 0.1s ease-out;
     transition: transform 0.1s ease-out;*/
@@ -1047,6 +1048,8 @@ body.header-revealed .sticky-inner-wrapper {
   display: none;
 }
 
+/* Reviews */
+
 .overlayTwoColumn .reviewsCommunity {
   -webkit-transition: padding-bottom 0.2s ease-out;
   transition: padding-bottom 0.2s ease-out;
@@ -1094,6 +1097,35 @@ body.header-revealed .sticky-inner-wrapper {
   margin-left: -24px;
   margin-right: -24px;   
 }
+
+.overlayTwoColumn .fyre-reviews .fyre-stream-header {
+    min-height: 0;
+}
+
+.overlayTwoColumn .fyre-reviews .fyre-featured-text {
+    display: block;
+}
+
+.overlayTwoColumn .fyre.fyre-reviews .fyre-comment-article .fyre-comment-head h3 {
+    position: initial;
+    margin-left: 0;
+}
+
+.overlayTwoColumn .fyre.fyre-reviews .fyre-reviews-header {
+   margin: 0 0 24px 0;   
+}
+
+.overlayTwoColumn .fyre article.fyre-comment-article {
+    border-color: #e4e4e4;
+}
+
+@media (max-width: 991px) {
+ .overlayTwoColumn .fyre-comment-tag .fyre-featured { 
+   display: none;
+  }  
+}
+
+/* End Reviews */
 
 /* Events and Menu */
 
