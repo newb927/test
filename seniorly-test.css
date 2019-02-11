@@ -505,6 +505,9 @@
     color: #333 !important;
     width: 24px;
     height: 24px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
     -webkit-transition: -webkit-transform 0.1s ease-out;
     -webkit-transition: transform 0.1s ease-out;
     transition: transform 0.1s ease-out;
@@ -894,6 +897,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .title-wrapper .title {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .overlayTwoColumn .title-wrapper .title .headline2 {
@@ -923,7 +927,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .closest-communities {
   margin: 0;
-  padding: 24px;
+  padding: 0;
 }
 
 .overlayTwoColumn .closest-communities__list {
@@ -1063,12 +1067,17 @@ body.header-revealed .sticky-inner-wrapper {
  font-size: 15.5px;   
 }
 
+.overlayTwoColumn #reviews > p.no-reviews {
+ padding: 0 24px 24px 24px;   
+}
+
 .overlayTwoColumn .reviews-community-wrapper {
   margin: 0;
+    padding: 24px;
 }
 
 .overlayTwoColumn #js-bkdRatings {
-  padding: 24px 24px 0 24px;
+  /*padding: 24px 24px 0 24px;*/
 }
 
 .overlayTwoColumn .reviews-community-wrapper .container {
@@ -1096,7 +1105,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .title-wrapper .headline2 {
   padding: 24px;
-  font-size: 20px;
+  font-size: 20px !important;
   text-align: left;
   display: grid;
   -webkit-box-pack: justify;
@@ -1221,7 +1230,8 @@ body.header-revealed .sticky-inner-wrapper {
 }
 
 .overlayTwoColumn .iparsys .richtext .retain {
-  padding: 24px 24px 0 24px !important; 
+  /*padding: 24px 24px 0 24px !important; */
+  padding: 0 !important;
 }
 
 .overlayTwoColumn .iparsys .richtext .retain .ctcore-util-content {
@@ -1242,6 +1252,14 @@ body.header-revealed .sticky-inner-wrapper {
 .overlayTwoColumn .iparsys .richtext h2 {
     font-size: 20px;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
 }
 
 .overlayTwoColumn .full-width-text .ctcore-util-content h3 {
