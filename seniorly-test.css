@@ -409,8 +409,8 @@
  .gVZiyY > div:first-of-type div:first-of-type {
      margin-bottom: 8px;
 }
- .gVZiyY > div:first-of-type div:first-of-type span, 
- .gVZiyY > div:first-of-type div:first-of-type a {
+ .gVZiyY > div:first-of-type div span, 
+ .gVZiyY > div:first-of-type div a {
      display: block;
 }
 }
