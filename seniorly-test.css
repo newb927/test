@@ -1,6 +1,9 @@
 /*#pricingInfo, #pricingIngo + .raw_html { display: none; }*/
 
-#loadDetails, #nav-stripe .community-options, .header-text .btn:last-of-type { display: none; }
+#loadDetails, 
+#nav-stripe .community-options, 
+.contentBreak, 
+.header-text .btn:last-of-type { display: none; }
 
 .overlayTwoColumn .communityIntro, 
 .overlayTwoColumn .communityDescription, 
@@ -1309,3 +1312,5 @@ body.header-revealed .sticky-inner-wrapper {
 .overlayTwoColumn .full-width-text .ctcore-util-content.collapsed h3 {
    margin: 0;   
 }
+
+.overlayTwoColumn .license>.license { padding-left: 0; }
