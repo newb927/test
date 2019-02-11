@@ -697,6 +697,8 @@
  display:-webkit-box;display:-ms-flexbox;display:flex;
 }
 
+#readMore, #viewAllLocs, #viewAllAmenities { white-space: normal; }
+
 #readMore:hover, #viewAllLocs:hover, #viewAllAmenities:hover  {
  color: #fb6418;
 }
@@ -1093,7 +1095,7 @@ body.header-revealed .sticky-inner-wrapper {
   margin-right: -24px;   
 }
 
-/* Downloads */
+/* Events and Menu */
 
 .overlayTwoColumn .schedule-menu {
   -webkit-transition: padding-bottom 0.2s ease-out;
@@ -1188,6 +1190,10 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn #events-menu-container [class^="col-"] {
     padding: 0;
+}
+
+.overlayTwoColumn .schedule .carousel-indicators {
+    display: none;
 }
 
 @media (max-width: 991px) {
