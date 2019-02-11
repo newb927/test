@@ -1129,12 +1129,6 @@ body.header-revealed .sticky-inner-wrapper {
     /*display: block;*/
 }
 
-.overlayTwoColumn .fyre.fyre-reviews .fyre-comment-article .fyre-comment-head h3 {
-    position: initial;
-    margin-left: 0;
-    padding-top: 40px;
-}
-
 .overlayTwoColumn .fyre.fyre-reviews .fyre-reviews-header {
    margin: 0 0 24px 0;   
 }
@@ -1143,10 +1137,19 @@ body.header-revealed .sticky-inner-wrapper {
     border-color: #e4e4e4;
 }
 
+.overlayTwoColumn .fyre-comment-tag.fyre-featured {
+   margin-top: 20px;   
+}
+
 @media (max-width: 1024px) {
  .overlayTwoColumn .fyre-comment-tag.fyre-featured { 
    display: none;
   }
+  .overlayTwoColumn .fyre.fyre-reviews .fyre-comment-article .fyre-comment-head h3 {
+    position: initial;
+    margin-left: 0;
+    padding-top: 40px;
+}
 }
 
 /* End Reviews */
