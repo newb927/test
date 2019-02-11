@@ -1067,7 +1067,7 @@ body.header-revealed .sticky-inner-wrapper {
  font-size: 15.5px;   
 }
 
-.overlayTwoColumn #reviews > p.no-reviews {
+.overlayTwoColumn #reviews .no-reviews {
  padding: 0 24px 24px 24px;   
 }
 
