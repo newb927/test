@@ -1248,6 +1248,10 @@ body.header-revealed .sticky-inner-wrapper {
     display: none;
 }
 
+.overlayTwoColumn .schedule {
+   padding: 0 24px !important;
+ }
+
 @media (max-width: 991px) {
   .overlayTwoColumn .schedule-content {
     border: 0;
@@ -1260,9 +1264,6 @@ body.header-revealed .sticky-inner-wrapper {
   .overlayTwoColumn #scheduleMenuCarousel .item[data-slide-number="2"] .schedule-content h3 {
     display: none;
   }
-  .overlayTwoColumn .schedule {
-   padding: 0 24px !important;
- }
   .overlayTwoColumn .schedule dl dt {
     width: 96px;
   }
