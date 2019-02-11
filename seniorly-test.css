@@ -386,6 +386,10 @@
     font-weight: 400;
 }
 
+.gVZiyY > div:first-of-type {
+ margin-bottom: 24px;   
+}
+
 @media screen and (min-width: 768px) {
 .gVZiyY {
     -webkit-flex-direction: row;
@@ -395,6 +399,19 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+.gVZiyY > div:first-of-type {
+   margin-bottom: 0;   
+  }
+}
+
+@media (max-width: 420px) {
+ .gVZiyY > div:first-of-type div:first-of-type {
+     margin-bottom: 8px;
+}
+ .gVZiyY > div:first-of-type div:first-of-type span, 
+ .gVZiyY > div:first-of-type div:first-of-type a {
+     display: block;
 }
 }
 
