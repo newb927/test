@@ -1071,9 +1071,13 @@ body.header-revealed .sticky-inner-wrapper {
  padding: 0 24px 24px 24px;   
 }
 
+.overlayTwoColumn #reviews .no-reviews p {
+ margin-bottom: 0 !important;  
+}
+
 .overlayTwoColumn .reviews-community-wrapper {
   margin: 0;
-    padding: 24px;
+  padding: 0 24px 24px 24px;
 }
 
 .overlayTwoColumn #js-bkdRatings {
