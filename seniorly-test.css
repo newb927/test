@@ -1256,6 +1256,7 @@ body.header-revealed .sticky-inner-wrapper {
     -ms-flex-pack: justify;
     justify-content: space-between;
     grid-template-columns: auto auto;
+    cursor: pointer;
 }
 
 .overlayTwoColumn .full-width-text .ctcore-util-content p {
@@ -1292,12 +1293,19 @@ body.header-revealed .sticky-inner-wrapper {
 .collapsed .schedule, 
 .collapsed + .reviews-community-wrapper #js-bkdRatings, 
 .collapsed + .closest-communities__list, 
-.collapsed .overlayTwoColumn .full-width-text .ctcore-util-content p, 
-.collapsed .overlayTwoColumn .full-width-text .ctcore-util-content h3 {
+.overlayTwoColumn .full-width-text ctcore-util-content.collapsed p, 
+.overlayTwoColumn .full-width-text ctcore-util-content.collapsed h3 {
   height: 0;
   overflow: hidden;
 }
 
-.collapsed .schedule {
+.collapsed .schedule, 
+.collapsed + .closest-communities__list, 
+.overlayTwoColumn .full-width-text ctcore-util-content.collapsed h3 {
   padding: 0;
+}
+
+.overlayTwoColumn .full-width-text ctcore-util-content.collapsed p, 
+.overlayTwoColumn .full-width-text ctcore-util-content.collapsed h3 {
+   margin: 0;   
 }
