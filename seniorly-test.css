@@ -520,23 +520,10 @@
     stroke: none;
 }
 
-.fLjMAI {
-    display: inline-block !important;
-    vertical-align: top;
-    font-size: 24px !important;
-    color: #333 !important;
-    width: 24px;
-    height: 24px;
-    -webkit-transition: -webkit-transform 0.1s ease-out;
-    -webkit-transition: transform 0.1s ease-out;
-    transition: transform 0.1s ease-out;
-}
-
-.fLjMAI > svg {
-    font-size: 24px;
-    display: block;
-    fill: currentColor;
-    stroke: none;
+.collapsed .fLjMAI {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .eTPbqk {
@@ -1077,7 +1064,7 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .reviews-community-wrapper {
   margin: 0;
-  padding: 0 24px 24px 24px;
+  padding: 0 24px;
 }
 
 .overlayTwoColumn #js-bkdRatings {
@@ -1086,6 +1073,11 @@ body.header-revealed .sticky-inner-wrapper {
 
 .overlayTwoColumn .reviews-community-wrapper .container {
   padding: 0;
+}
+
+.overlayTwoColumn .reviews-community-wrapper .eucnOG {
+  margin-left: -24px;
+  margin-right: -24px;   
 }
 
 /* Downloads */
@@ -1257,7 +1249,7 @@ body.header-revealed .sticky-inner-wrapper {
     font-size: 20px;
     font-weight: 400;
     margin: 0;
-    padding: 0;
+    padding: 24px;
     display: grid;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -1266,12 +1258,16 @@ body.header-revealed .sticky-inner-wrapper {
     grid-template-columns: auto auto;
 }
 
+.overlayTwoColumn .full-width-text .ctcore-util-content p {
+   padding: 0 24px;   
+}
+
 .overlayTwoColumn .full-width-text .ctcore-util-content h3 {
-    margin-left: -24px;
-    margin-right: -24px;
+    /*margin-left: -24px;
+    margin-right: -24px;*/
     background-color: rgb(244, 244, 245);
     padding: 6px 24px;
-    margin-bottom: 0px;
+    margin: 30px 0 0 0;
     border-radius: 0 0 4px 4px;
 }
 
@@ -1289,4 +1285,15 @@ body.header-revealed .sticky-inner-wrapper {
 .overlayTwoColumn .video-player .video, 
 .overlayTwoColumn .video-player .video .video-container {
  border-radius: 4px;   
+}
+
+.collapsed .kPVXRx,
+.collapsed .eTPbqk, 
+.collapsed .schedule, 
+.collapsed .reviews-community-wrapper #js-bkdRatings, 
+.collapsed + .closest-communities__list, 
+.collapsed .overlayTwoColumn .full-width-text .ctcore-util-content p, 
+.collapsed .overlayTwoColumn .full-width-text .ctcore-util-content h3 {
+  height: 0;
+  overflow: hidden;
 }
