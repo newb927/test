@@ -1421,7 +1421,7 @@
 
 @media (min-width: 768px) {
  .overlayTwoColumn main {
-  width 720px;
+  width: 720px;
  } 
 }
 
@@ -1430,7 +1430,7 @@
   display: flex;
 }
 .overlayTwoColumn main {
-  width 680px;
+  width: 680px;
   margin-right: 24px;
  }
 .overlayColumn {
