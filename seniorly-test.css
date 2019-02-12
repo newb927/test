@@ -93,13 +93,18 @@
 @media screen and (min-width: 1092px) {
 .overlayTwoColumn main {
    /*grid-column: 1 / 2;*/
-   width: 680px;
    margin-right: 24px;
  }
 }
 
 .overlayColumn {
   width: 100%; 
+}
+
+@media screen and (min-width: 1092px) {
+.overlayColumn {
+   width: 355px;
+ }
 }
 
 /*.overlayColumn {
