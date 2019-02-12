@@ -495,8 +495,8 @@
     -moz-appearance: none;
     appearance: none;
     border-radius: 5px;
-    -webkit-transition: background-color 250ms ease-out,color 250ms ease-out,border-color 250ms ease-out;
-    transition: background-color 250ms ease-out,color 250ms ease-out,border-color 250ms ease-out;
+    /*-webkit-transition: background-color 250ms ease-out,color 250ms ease-out,border-color 250ms ease-out;
+    transition: background-color 250ms ease-out,color 250ms ease-out,border-color 250ms ease-out;*/
     background-color: #FFFFFF;
     color: #00539b;
     -webkit-user-select: none;
