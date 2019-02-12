@@ -98,9 +98,9 @@
  }
 }
 
-/*.overlayColumn {
+.overlayColumn {
   width: 100%; 
- }*/
+}
 
 /*.overlayColumn {
     grid-row: 2;
