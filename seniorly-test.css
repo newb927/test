@@ -11,6 +11,10 @@
 .overlayTwoColumn .communityTwoColumn,  
 #photo-gallery-container .title-wrapper {display: none; }
 
+/* Test Use Flex over Grid */
+
+/* End Test Use Flex over Grid */
+
 .overlayTwoColumn .carousel-inner>.item {
   -webkit-transition: -webkit-transform .35s ease-in-out;
   transition: -webkit-transform .35s ease-in-out;
@@ -37,14 +41,14 @@
 @media screen and (min-width: 768px) {
 .overlayWrapper {
     padding: 0;
-    width: 48.000rem;
+    /*width: 48.000rem;*/
     width: 768px;
 } 
 }
 
 @media screen and (min-width: 1092px) {
 .overlayWrapper {
-    width: 64.500rem;
+    /*width: 64.500rem;*/
     width: 1032px;
     /*width: 1044px;*/
 }
@@ -67,35 +71,48 @@
 @media screen and (min-width: 1092px) {
 .overlayTwoColumn {
     width: auto;
-    display: grid;
+    display:-webkit-box;display:-ms-flexbox;display:flex;
+    /*display: grid;
     grid-template-columns: 42.500rem auto;
-    grid-template-columns: 680px auto;
+    grid-template-columns: 680px auto;*/
     /*grid-template-columns: 800px auto;*/
     grid-gap: 0 24px;
 }
 }
 
-.overlayTwoColumn main {
+/*.overlayTwoColumn main {
     grid-row: 2;
+}*/
+
+@media (min-width: 768px) {
+ .overlayTwoColumn main {
+  width: 720px;
+ } 
 }
 
 @media screen and (min-width: 1092px) {
 .overlayTwoColumn main {
-    grid-column: 1 / 2;
-}
+   /*grid-column: 1 / 2;*/
+   width: 680px;
+   margin-right: 24px;
+ }
 }
 
-.overlayColumn {
+/*.overlayColumn {
+  width: 100%; 
+ }*/
+
+/*.overlayColumn {
     grid-row: 2;
     grid-column: 2 / 2;
     display: none;
-}
+}*/
 
-@media screen and (min-width: 1092px) {
+/*@media screen and (min-width: 1092px) {
 .overlayColumn {
     display: block;
-}
-}
+ }
+}*/
 
 .overlayGallery {
     margin: 0 -16px;
@@ -535,7 +552,8 @@
 }
 
 .cbMbcd {
-    display: grid;
+    /*display: grid;*/
+    display:-webkit-box;display:-ms-flexbox;display:flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -663,9 +681,11 @@
 }
 
 .htiEWy {
-    display: grid;
-    grid-template-columns: 100%;
+    /*display: grid;
     grid-row-gap: 16px;
+    grid-template-columns: 100%;*/
+    -ms-flex-wrap:wrap;flex-wrap:wrap;
+    display:-webkit-box;display:-ms-flexbox;display:flex;
 }
 
 @media screen and (min-width: 1092px) {
@@ -732,7 +752,25 @@
 
 /* Amenities */
 
-#amenitiesAnchor > div { display: none;}
+#amenitiesWrapper {
+ padding-bottom: 8px; 
+}
+
+#amenitiesAnchor > div { 
+  display: none;
+  margin-bottom: 16px;
+}
+@media (min-width: 1092px) {
+ #amenitiesAnchor > div { 
+  width: 50%;
+ }
+ #amenitiesAnchor > div:nth-child(odd) {
+  padding-right: 12px;
+ }
+ #amenitiesAnchor > div:nth-child(even) {
+  padding-left: 12px;
+ } 
+}
 
 #amenitiesAnchor > div:first-of-type, 
 #amenitiesAnchor > div:nth-of-type(2), 
@@ -1209,12 +1247,12 @@
   padding: 24px;
   font-size: 20px !important;
   text-align: left;
-  display: grid;
+  display:-webkit-box;display:-ms-flexbox;display:flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  grid-template-columns: auto auto;
+  /*grid-template-columns: auto auto;*/
   margin: 0;
   cursor: pointer;
 }
@@ -1351,7 +1389,8 @@
     font-weight: 400;
     margin: 0;
     padding: 24px;
-    display: grid;
+    /*display: grid;*/
+    display:-webkit-box;display:-ms-flexbox;display:flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -1413,28 +1452,5 @@
 
 @media (max-width: 991px) {
     #testCompare { display: none; }   
-}
-
-/* Test Use Flex over Grid */
-
-.overlayTwoColumn, .overlayColumn { display: block; }
-
-@media (min-width: 768px) {
- .overlayTwoColumn main {
-  width: 720px;
- } 
-}
-
-@media (min-width: 1092px) {
-.overlayTwoColumn {
-  display: flex;
-}
-.overlayTwoColumn main {
-  width: 680px;
-  margin-right: 24px;
- }
-.overlayColumn {
-  width: 100%; 
- }
 }
   
