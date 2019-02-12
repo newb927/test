@@ -219,8 +219,8 @@
 
 /* end Photo Gallery */
 
-.overlayColumn #is-b-contactform, 
-.overlayColumn .b-contactform__contactinfo {
+.overlayTwoColumn #is-b-contactform, 
+.overlayTwoColumn .b-contactform__contactinfo {
   flex-direction: column;
   align-items: center;
   align-content: center;
@@ -230,7 +230,7 @@
   width: 100%;
 }
 
-.overlayColumn .b-contactform__reasons {
+.overlayTwoColumn .b-contactform__reasons {
   min-width: auto;
   display: block;
   width: 100%;
@@ -245,7 +245,7 @@
   margin-bottom: 0;
 }
 
-.overlayColumn .b-contactform__reasons>* {
+.overlayTwoColumn .b-contactform__reasons>* {
   display: block;
   text-align: left;
   padding: 0;
@@ -255,11 +255,10 @@
 /* if hide checkboxes */
 /*.overlayColumn .b-contactform__reason {
     display: none;
-}
+}*/
 .overlayTwoColumn .b-contactform__reason {
     display: none;
 }
-*/
 /* end if hide checkboxes */
 
 /*.overlayColumn .b-contactform__prompt h3 {
@@ -378,14 +377,14 @@
 }
 
 @media (max-width: 1023px) {
-    .overlayColumn .b-contactform__prompt h3 {
+    .overlayTwoColumn .b-contactform__prompt h3 {
       font-size: 19px; 
     }
-    .overlayColumn .control { font-size: 12px; }
+    .overlayTwoColumn .control { font-size: 12px; }
   }
 
 @media (max-width: 320px) {
-    .overlayColumn .b-contactform__prompt h3 {
+    .overlayTwoColumn .b-contactform__prompt h3 {
       font-size: 17px; 
     }
   }
