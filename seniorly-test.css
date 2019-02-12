@@ -1594,13 +1594,12 @@
 
 @media (min-width: 421px) and (max-width: 1091px) {
     .overlayTwoColumn .b-contactform__response-steps {
-      align-items: center;
+      align-items: center !important;
     }
 }
 
 @media (max-width: 420px) {
-  .overlayTwoColumn .b-contactform__response-icon--headset, 
-  .overlayTwoColumn .b-contactform__response-icon--computer, 
+  .overlayTwoColumn .b-contactform__response-icon--headset,  
   .overlayTwoColumn .b-contactform__response-icon--phone {
     display: none;
   }
