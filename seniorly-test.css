@@ -1462,9 +1462,8 @@
 }
 
 @media (max-width: 1091px) {
-  .QanVJ #is-b-contactform {
+  .QanVJ .b-contactform {
     margin: 0 0 24px 0;
-    padding-top: 0;
     border-bottom: 1px solid #e4e4e4;
   }
   .QanVJ .b-contactform__prompt {
@@ -1473,9 +1472,6 @@
   .QanVJ .b-contactform__reasons {
     min-height: initial;
     margin-bottom: 10px
-  }
-  .x {
-    x: 100%;
   }
 }
   
