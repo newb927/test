@@ -56,8 +56,7 @@
 
 @media screen and (min-width: 1200px) {
     .overlayWrapper {
-        /*width: 64.500rem;
-        width: 1152px;*/
+        width: 1170px;
     }
 } 
 
@@ -70,7 +69,7 @@
 
 @media screen and (min-width: 1092px) {
 .overlayTwoColumn {
-    width: auto;
+    width: 100%;
     display:-webkit-box;display:-ms-flexbox;display:flex;
     /*display: grid;
     grid-template-columns: 42.500rem auto;
@@ -93,6 +92,7 @@
 @media screen and (min-width: 1092px) {
 .overlayTwoColumn main {
    /*grid-column: 1 / 2;*/
+   width: 100%;
    margin-right: 24px;
  }
 }
@@ -103,7 +103,9 @@
 
 @media screen and (min-width: 1092px) {
 .overlayColumn {
-   width: 355px;
+   /*width: 355px;*/
+  /*width: 100%;*/
+  width: 340px;
  }
 }
 
@@ -1042,7 +1044,7 @@
   display: none;
 }
 
-.overlayTwoColumn .title-wrapper .title span {
+.overlayTwoColumn .title-wrapper .title .headline2 + span {
   display: none;
 }
 
@@ -1079,6 +1081,10 @@
   -webkit-transition: box-shadow 0.2s ease-out,opacity 0.2s ease-out,-webkit-transform 0.2s ease-out;
   -webkit-transition: box-shadow 0.2s ease-out,opacity 0.2s ease-out,transform 0.2s ease-out;
   transition: box-shadow 0.2s ease-out,opacity 0.2s ease-out,transform 0.2s ease-out;
+}
+
+.overlayTwoColumn .closest-communities__item:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -1490,6 +1496,7 @@
    margin: 0;   
 }*/
 
+.collapsed .kPVXRx, 
 .collapsed .eTPbqk, 
 .collapsed .schedule, 
 .collapsed .no-reviews, 
