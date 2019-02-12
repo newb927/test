@@ -92,7 +92,7 @@
 @media screen and (min-width: 1092px) {
 .overlayTwoColumn main {
    /*grid-column: 1 / 2;*/
-   width: 100%;
+   width: 805px;
    margin-right: 24px;
  }
 }
