@@ -1417,7 +1417,7 @@
 
 /* Test Use Flex over Grid */
 
-.overlayColumn { display: block; }
+.overlayTwoColumn, .overlayColumn { display: block; }
 
 @media (min-width: 768px) {
  .overlayTwoColumn main {
@@ -1428,7 +1428,6 @@
 @media (min-width: 1092px)
 .overlayTwoColumn {
   display: flex;
-  flex-direction: flex-direction: row;
 }
 .overlayTwoColumn main {
   width 680px;
