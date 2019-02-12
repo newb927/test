@@ -352,7 +352,7 @@
     margin: 0;
 }*/
 
-.overlayTwoColumn .b-contactform__compliance { 
+.overlayTwoColumn #is-b-contactform .b-contactform__compliance { 
     width: 100%; 
     /*color: #fff;*/
     text-align: left; 
@@ -365,7 +365,7 @@
     margin-bottom: 0;
 }*/
 
-.overlayTwoColumn .b-contactform__compliance p { 
+.overlayTwoColumn #is-b-contactform .b-contactform__compliance p { 
     width: 100%; 
     line-height: 1.5;
     margin-bottom: 0;
