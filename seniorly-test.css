@@ -1550,10 +1550,18 @@
 }
 
 .overlayTwoColumn .b-contactform__response-stepbubble {
-    padding: 0;
-    border: 0;
+    padding: 0 !important;
+    border: 0 !important;
     margin-left: -5px;
 }
+
+.overlayTwoColumn .b-contactform__response-icon .b-contactform__response-icon--headset {
+    margin-right: 0;
+}
+
+.overlayTwoColumn .b-contactform__response-steps {
+    align-items: flex-start;
+  }
 
 @media (min-width: 1092px) {
   .overlayTwoColumn .b-contactform__response-stepbubble {
@@ -1585,14 +1593,15 @@
 }
 
 @media (min-width: 421px) and (max-width: 1091px) {
-    .overlayTwoColumn .element {
-        justify-content: center;
+    .overlayTwoColumn .b-contactform__response-steps {
+      align-items: center;
     }
 }
 
 @media (max-width: 420px) {
   .overlayTwoColumn .b-contactform__response-icon--headset, 
-  .overlayTwoColumn .b-contactform__response-icon--computer {
+  .overlayTwoColumn .b-contactform__response-icon--computer, 
+  .overlayTwoColumn .b-contactform__response-icon--phone {
     display: none;
   }
 }
