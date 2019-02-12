@@ -1431,7 +1431,7 @@
  border-radius: 4px;   
 }
 
-.collapsed .kPVXRx,
+/*.collapsed .kPVXRx,
 .collapsed .eTPbqk, 
 .collapsed .schedule, 
 .collapsed .no-reviews, 
@@ -1453,6 +1453,16 @@
 .overlayTwoColumn .full-width-text .ctcore-util-content.collapsed p, 
 .overlayTwoColumn .full-width-text .ctcore-util-content.collapsed h3 {
    margin: 0;   
+}*/
+
+.collapsed .eTPbqk, 
+.collapsed .schedule, 
+.collapsed .no-reviews, 
+.collapsed + .reviews-community-wrapper #js-bkdRatings, 
+.collapsed + .closest-communities__list,  
+.overlayTwoColumn .full-width-text .ctcore-util-content.collapsed p, 
+.overlayTwoColumn .full-width-text .ctcore-util-content.collapsed h3 {
+  display: none;
 }
 
 .overlayTwoColumn .license>.license { padding-left: 0; }
