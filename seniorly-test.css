@@ -219,6 +219,12 @@
 
 /* end Photo Gallery */
 
+.overlayTwoColumn .b-contactform {
+  padding: 0;
+  margin: 0;
+  background: 0;
+}
+
 .overlayTwoColumn #is-b-contactform, 
 .overlayTwoColumn .b-contactform__contactinfo {
   flex-direction: column;
