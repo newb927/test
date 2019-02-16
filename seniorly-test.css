@@ -1,5 +1,3 @@
-/*#pricingInfo, #pricingIngo + .raw_html { display: none; }*/
-
 #loadDetails, 
 #nav-stripe .community-options, 
 .contentBreak, 
@@ -960,12 +958,19 @@
 }
 
 #formLoad .modal-header .close {
-  font-weight: 100;
-  font-size: 40px;
-  margin-left: -100px;
-  opacity: 1;
-  color: #7d7d7d;
-  line-height: .6;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: -100px;
+    opacity: 1;
+    color: #7d7d7d;
+    height: 38px;
+    overflow: hidden;
+    /* line-height: .6; */
+}
+
+#formLoad .modal-header .close span {
+	position: relative;
+	top: -5px;
 }
 
 @media (min-width: 768px) {
