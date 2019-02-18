@@ -1041,10 +1041,15 @@ body {
     font-size: 30px
 }
 .overlayTwoColumn .schedule .schedule-header span {
-    padding-left: 0
+    padding-left: 0;
+    font-weight: 400;
 }
 .overlayTwoColumn .schedule .schedule-content h3 {
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 400;
+}
+.overlayTwoColumn .schedule dl dt, .overlayTwoColumn .schedule dl dd {
+   font-weight: 400;
 }
 .overlayTwoColumn .schedule-content .row {
     -webkit-box-orient: vertical;
