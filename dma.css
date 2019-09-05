@@ -167,3 +167,9 @@
     display: none !important;
 }
 }
+
+@media (max-width: 991px) {
+.modal-open {
+    position: static !important;
+}
+}
