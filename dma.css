@@ -63,17 +63,9 @@
 #atMobileHero.houston {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/houston/houston-hero-mobile.jpg);
 }
-#atMobileHero.houston #atMobileHeroTint {
-	opacity: 0.27;
-}
-    
 #atMobileHero.austin {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/austin/austin-hero-mobile.jpg);
 }
-#atMobileHero.austin #atMobileHeroTint {
-	opacity: 0.26;
-}
-
 #atMobileHero.bayarea {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/bay-area/bay-area-hero-mobile.jpg);
 }
@@ -122,6 +114,10 @@
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/st-louis/st-louis-hero-mobile.jpg);
 }
 
+#atMobileHero.denver {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/denver/denver-hero-mobile.jpg);
+}
+
 #atMobileHero.coloradosprings {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/colorado-springs/colorado-springs-hero-mobile.jpg);
 }
@@ -138,16 +134,28 @@
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/detroit/detroit-hero-mobile.jpg);
 }
 
-#atMobileHero.dallasfortworth #atMobileHeroTint,
+#atMobileHero.houston #atMobileHeroTint {
+	opacity: 0.27;
+}
+#atMobileHero.austin #atMobileHeroTint {
+	opacity: 0.26;
+}
+#atMobileHero.tampa #atMobileHeroTint, 
+#atMobileHero.jacksonville #atMobileHeroTint, 
+#atMobileHero.dallasfortworth #atMobileHeroTint, 
 #atMobileHero.chicago #atMobileHeroTint, 
 #atMobileHero.charlotte #atMobileHeroTint,  
+#atMobileHero.philadelphia #atMobileHeroTint, 
+#atMobileHero.cleveland #atMobileHeroTint, 
+#atMobileHero.stlouis #atMobileHeroTint, 
+#atMobileHero.hartford #atMobileHeroTint, 
+#atMobileHero.coloradosprings #atMobileHeroTint, 
+#atMobileHero.seattle #atMobileHeroTint, 
+#atMobileHero.portland #atMobileHeroTint,  
 #atMobileHero.boston #atMobileHeroTint {
 	opacity: 0.35;
 }
 
-/*#atMobileHero.bayarea:after {
-  opacity: 0.025;
-}*/
 
 #atMobileHeroModalForm .contactform-lp__prompt > p {
 	margin-top: 20px;
@@ -188,4 +196,9 @@
 .modal-open {
     position: static !important;
 }
+}
+
+.modal-backdrop.in {
+    opacity: .8;
+    filter: alpha(opacity=80);
 }
