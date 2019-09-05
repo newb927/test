@@ -62,7 +62,7 @@
 #atMobileHero.houston {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/houston/houston-hero-mobile.jpg);
 }
-#atMobileHero.houston:after {
+#atMobileHero.houston #atMobileHeroTint {
 	opacity: 0.27;
 }
     
@@ -74,13 +74,90 @@
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/bay-area/bay-area-hero-mobile.jpg);
 }
 
+#atMobileHero.chicago {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/chicago/chicago-hero-mobile.jpg);
+}
+
+#atMobileHero.tampa {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/tampa/tampa-hero-mobile.jpg);
+}
+
+#atMobileHero.jacksonville {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/jacksonville/jacksonville-hero-mobile.jpg);
+}
+
+#atMobileHero.losangeles {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/los-angeles/los-angeles-hero-mobile.jpg);
+}
+
+#atMobileHero.charlotte {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/charlotte/charlotte-hero-mobile.jpg);
+}
+
+#atMobileHero.boston {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/boston/boston-hero-mobile.jpg);
+}
+
+#atMobileHero.cleveland {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/cleveland/cleveland-hero-mobile.jpg);
+}
+
+#atMobileHero.hartford {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/hartford/hartford-hero-mobile.jpg);
+}
+
+#atMobileHero.phoenix {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/phoenix/phoenix-hero-mobile.jpg);
+}
+
+#atMobileHero.seattle {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/seattle/seattle-hero-mobile.jpg);
+}
+
+#atMobileHero.stlouis {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/st-louis/st-louis-hero-mobile.jpg);
+}
+
+#atMobileHero.coloradosprings {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/colorado-springs/colorado-springs-hero-mobile.jpg);
+}
+
+#atMobileHero.philadelphia {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/philadelphia/philadelphia-hero-mobile.jpg);
+}
+
+#atMobileHero.portland {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/portland/portland-hero-mobile.jpg);
+}
+
 /*#atMobileHero.bayarea:after {
   opacity: 0.025;
 }*/
 
-@media (max-width: 480px) {
-.heroBannerWithText, 
-.richtext h1  {
-  display: none;
+#atMobileHeroModalForm .contactform-lp__prompt > p {
+	margin-top: 20px;
 }
+
+#atMobileHeroModalForm .js-sneakpeek-cap, 
+#atMobileHeroModalForm .btn-continue__action {
+	display: none;
+}
+
+#atMobileHeroModalForm .has-float-label > span {
+    opacity: 1;
+    font-weight: 400;
+    color: #777;
+}
+
+/* Add This Class to Body Through Launch via LocationsDMA Direct Call Rule */
+/* And anchor user to search results after successful submission */
+.atHeroModalFormSubmitted #atHeroShowDmaModal {
+	display: none;
+}
+
+@media (max-width: 480px) {
+	.heroBannerWithText, 
+	.richtext h1  {
+		display: none;
+	}
 }
