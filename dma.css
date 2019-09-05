@@ -1,53 +1,86 @@
 #atMobileHero {
+  height: 480px;
+  overflow: visible;
   position: relative;
-  height: 506px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#atMobileHero:after {
+#atMobileHeroTint {
   content: "";
+  display: block;
   width: 100%;
   height: 100%;
-  top: 0;
   position: absolute;
+  top: 0;
+  left: 0;
   background-color: #000;
   opacity: 0.2;
 }
+
+#atMobileHeroText {
+	height: 100%;
+    padding: 10px 10px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    margin: 0 5%;
+    position: relative;
+    text-align: center;
+}
+#atMobileHeroHeadline {
+	text-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	color: #fff;
+    font-size: 44px;
+    margin: 0 -14px 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+#atMobileHeroDma {
+	text-transform: capitalize;
+}
+#atMobileHeroLogo {
+	z-index: 1;
+    position: absolute;
+    width: 60px;
+    bottom: -30px;
+    left: calc(50% - 30px);
+}
 #atMobileHero.dallasfortworth {
-	background-image: url(/content/dam/brookdale/en/images/locations/dma/dallas/dallas-hero-mobile.jpg);
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/dallas/dallas-hero-mobile.jpg);
 }
+
 #atMobileHero.houston {
-	background-image: url(/content/dam/brookdale/en/images/locations/dma/houston/houston-hero-mobile.jpg);
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/houston/houston-hero-mobile.jpg);
 }
+#atMobileHero.houston:after {
+	opacity: 0.27;
+}
+    
 #atMobileHero.austin {
-	background-image: url(/content/dam/brookdale/en/images/locations/dma/austin/austin-hero-mobile.jpg);
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/austin/austin-hero-mobile.jpg);
 }
+
 #atMobileHero.bayarea {
-	background-image: url(/content/dam/brookdale/en/images/locations/dma/bay-area/bay-area-hero-mobile.jpg);
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/bay-area/bay-area-hero-mobile.jpg);
 }
 
 /*#atMobileHero.bayarea:after {
   opacity: 0.025;
 }*/
-#atHeroHeadline {
-  text-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    color: #fff;
-    z-index: 1;
-    font-size: 44px;
-    transform: translate(-50%, 0);
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    padding: 15px;
-    padding-right: 15px;
-}
-#atHeroDma {
-	text-transform: capitalize;
-}
+
 @media (max-width: 480px) {
-  .heroBannerWithText, 
-  .richtext h1  {
-    display: none;
-  }
+.heroBannerWithText, 
+.richtext h1  {
+  display: none;
+}
 }
