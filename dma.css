@@ -55,6 +55,7 @@
     bottom: -30px;
     left: calc(50% - 30px);
 }
+
 #atMobileHero.dallasfortworth {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/dallas/dallas-hero-mobile.jpg);
 }
@@ -68,6 +69,9 @@
     
 #atMobileHero.austin {
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/austin/austin-hero-mobile.jpg);
+}
+#atMobileHero.austin #atMobileHeroTint {
+	opacity: 0.26;
 }
 
 #atMobileHero.bayarea {
@@ -130,6 +134,17 @@
 	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/portland/portland-hero-mobile.jpg);
 }
 
+#atMobileHero.detroit {
+	background-image: url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/detroit/detroit-hero-mobile.jpg);
+}
+
+#atMobileHero.dallasfortworth #atMobileHeroTint,
+#atMobileHero.chicago #atMobileHeroTint, 
+#atMobileHero.charlotte #atMobileHeroTint,  
+#atMobileHero.boston #atMobileHeroTint {
+	opacity: 0.35;
+}
+
 /*#atMobileHero.bayarea:after {
   opacity: 0.025;
 }*/
@@ -161,6 +176,7 @@
 		display: none;
 	}
 }
+
 
 @media (max-width: 1091px) {
 .breadcrumb {
