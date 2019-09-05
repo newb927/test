@@ -27,3 +27,8 @@
   top: 50%;
   text-align: center;
 }
+@media (max-width: 480px) {
+	.heroBannerWithText {
+		display: none;
+	}
+}
