@@ -43,4 +43,11 @@ body{opacity:0;visibility:hidden;}
 #atMobileHero + .container + .breadcrumb + .richtext{margin-top:-20px;margin-bottom:-45px}
 
 .sneakpeek__wrap {-webkit-transform:translateY(60px);transform:translateY(60px);}
-.dmaHeroShowRibbon .sneakpeek__wrap {-webkit-transform:translateY(-60px);transform:translateY(-60px);}
+.dmaHeroShowRibbon .sneakpeek__wrap {
+	-webkit-transform:translateY(-60px);
+	transform:translateY(-60px);
+	-webkit-transition: -webkit-transform .5s ease-out !important;
+  transition: -webkit-transform .5s ease-out !important;
+  transition: transform .5s ease-out !important;
+  transition: transform .5s ease-out,-webkit-transform .5s ease-out !important;
+}
