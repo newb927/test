@@ -12,4 +12,5 @@ body{opacity:0}
 .atFormSubmittedContainerClass #frm-sneakpeek, 
 .atFormSubmittedContainerClass .contactform-lp__prompt,
 .atFormSubmittedContainerClass #atDmaHeroModalCompliance, 
+.contact-form-modal__form #atCustomCompliance,
 .contact-form-modal__form .sneakpeek-form-compliance{display:none}
