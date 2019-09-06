@@ -27,7 +27,7 @@ body{opacity:0;visibility:hidden;}
   #atMobileHero.seattle{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/seattle/seattle-hero-mobile.jpg)}
   #atMobileHero.stlouis{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/st-louis/st-louis-hero-mobile.jpg)}
   #atMobileHero.denver{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/denver/denver-hero-mobile.jpg)}
-  #atMobileHero.coloradosprings{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/colorado-springs/colorado-springs-hero-mobile.jpg)background-position:0% 100%}
+  #atMobileHero.coloradosprings{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/colorado-springs/colorado-springs-hero-mobile.jpg);background-position:50% 100%}
   #atMobileHero.philadelphia{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/philadelphia/philadelphia-hero-mobile.jpg)}
   #atMobileHero.portland{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/portland/portland-hero-mobile.jpg);background-position:50% 100%}
   #atMobileHero.detroit{background-image:url(https://www.brookdale.com/content/dam/brookdale/en/images/locations/dma/detroit/detroit-hero-mobile.jpg);background-position:50% 100%}
@@ -42,12 +42,5 @@ body{opacity:0;visibility:hidden;}
 #atMobileHero + .container + .breadcrumb + #customPromo{margin-bottom:-30px}
 #atMobileHero + .container + .breadcrumb + .richtext{margin-top:-20px;margin-bottom:-45px}
 
-.sneakpeek__wrap {
-	-webkit-transform: translateY(60px);
-  transform: translateY(60px);
-}
-
-.dmaHeroShowRibbon .sneakpeek__wrap { 
-  -webkit-transform: translateY(-60px);
-  transform: translateY(-60px);
-}
+.sneakpeek__wrap {-webkit-transform:translateY(60px);transform:translateY(60px);}
+.dmaHeroShowRibbon .sneakpeek__wrap {-webkit-transform:translateY(-60px);transform:translateY(-60px);}
